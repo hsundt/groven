@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 460.0, 44.0, 883.0, 509.0 ],
+		"rect" : [ 774.0, 44.0, 883.0, 509.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -208,8 +208,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 614.0, 794.0, 162.0, 27.0 ],
-					"text" : "Groven+Sampler"
+					"patching_rect" : [ 614.0, 794.0, 200.0, 27.0 ],
+					"text" : "Groven+Sampler.app"
 				}
 
 			}
@@ -324,6 +324,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1845,7 +1846,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 79.0, 50.0, 1495.0, 980.0 ],
+										"rect" : [ 181.0, 167.0, 1495.0, 980.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1868,6 +1869,143 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-46",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1181.0, 434.0, 37.0, 18.0 ],
+													"text" : "clear"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-43",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1318.0, 397.0, 51.0, 18.0 ],
+													"text" : "1 1, 2 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-35",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1229.460449, 137.502304, 213.0, 20.0 ],
+													"text" : "sprintf write ./%s/Contents/kolletest.txt"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"hidden" : 1,
+													"id" : "obj-146",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1370.941162, 110.429527, 59.0, 17.0 ],
+													"text" : "r +appname"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-32",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1183.499146, 44.496368, 96.0, 15.0 ],
+													"text" : "Groven+Sampler.app"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"hidden" : 1,
+													"id" : "obj-29",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 1276.75, 72.751419, 60.0, 17.0 ],
+													"text" : "s +appname"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-25",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 499.740845, 488.992188, 89.0, 20.0 ],
+													"text" : "print from_pref"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-22",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 342.0, 200.626938, 63.0, 20.0 ],
+													"text" : "print write"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-19",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 386.0, 295.997101, 89.0, 20.0 ],
+													"text" : "print writeopen"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-7",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 299.0, 153.0, 58.0, 20.0 ],
+													"text" : "print pref"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-10",
 													"maxclass" : "message",
@@ -1875,7 +2013,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1156.126953, 646.0, 301.246216, 15.0 ],
-													"presentation_rect" : [ 1141.125122, 682.999756, 0.0, 0.0 ],
 													"text" : "read ./Groven+Sampler/Contents/sa-prefskoll"
 												}
 
@@ -1889,9 +2026,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 1171.499146, 398.496368, 196.0, 15.0 ],
-													"presentation_rect" : [ 1171.499146, 400.126343, 0.0, 0.0 ],
-													"text" : "write ./Groven+Sampler.app/Contents/sa-trr.txt"
+													"patching_rect" : [ 1231.960449, 312.252411, 207.0, 15.0 ],
+													"text" : "write ./Groven+Sampler.app/Contents/kolletest.txt"
 												}
 
 											}
@@ -2433,7 +2569,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 325.744263, 355.627869, 76.0, 17.0 ],
+													"patching_rect" : [ 364.0, 343.501923, 76.0, 17.0 ],
 													"text" : "r +dump-prefs"
 												}
 
@@ -3074,8 +3210,8 @@
 													"id" : "obj-66",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"numoutlets" : 2,
+													"outlettype" : [ "", "bang" ],
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
@@ -3105,6 +3241,17 @@
 														"digest" : "",
 														"tags" : "",
 														"boxes" : [ 															{
+																"box" : 																{
+																	"comment" : "write",
+																	"id" : "obj-83",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 528.5, 331.998871, 15.0, 15.0 ]
+																}
+
+															}
+, 															{
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
@@ -3375,7 +3522,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 97.0, 254.0, 105.0, 46.0 ],
-																					"text" : "write ./Groven+Sampler/Contents/sa-prefskoll"
+																					"text" : "write ./Groven+Sampler.app/Contents/sa-prefskoll"
 																				}
 
 																			}
@@ -4007,7 +4154,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 97.0, 254.0, 105.0, 46.0 ],
-																					"text" : "write ./Groven+Sampler/Contents/sa-prefskoll"
+																					"text" : "write ./Groven+Sampler.app/Contents/sa-prefskoll"
 																				}
 
 																			}
@@ -5250,21 +5397,6 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 9.0,
-																	"id" : "obj-66",
-																	"linecount" : 3,
-																	"maxclass" : "message",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 338.0, 332.0, 93.0, 46.0 ],
-																	"text" : "write ./Groven+Sampler/Contents/sa-prefskoll"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
 																	"id" : "obj-67",
 																	"maxclass" : "newobj",
 																	"numinlets" : 2,
@@ -5491,15 +5623,6 @@
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-10", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-66", 1 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-107", 0 ]
 																}
 
 															}
@@ -6108,16 +6231,7 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-65", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-66", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-66", 0 ],
+																	"destination" : [ "obj-83", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-67", 0 ]
@@ -6274,6 +6388,15 @@
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-73", 10 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-40", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-73", 9 ]
 																}
 
 															}
@@ -6512,7 +6635,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 34.0, 411.0, 121.0, 15.0 ],
-													"text" : "symbol audio-output"
+													"text" : "symbol autopreset"
 												}
 
 											}
@@ -6568,7 +6691,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 191.499146, 230.126343, 294.246216, 15.0 ],
-													"text" : "write ./Groven+Sampler/Contents/sa-prefskoll"
+													"text" : "write ./Groven+Sampler.app/Contents/sa-prefskoll"
 												}
 
 											}
@@ -6660,20 +6783,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-94",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 325.744263, 260.622833, 30.0, 15.0 ],
-													"text" : "read"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
 													"id" : "obj-95",
 													"maxclass" : "newobj",
 													"numinlets" : 8,
@@ -6735,7 +6844,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 322.36908, 381.501648, 33.0, 15.0 ],
+													"patching_rect" : [ 360.624817, 369.375702, 33.0, 15.0 ],
 													"text" : "dump"
 												}
 
@@ -6750,7 +6859,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 22.125149, 252.999741, 301.246216, 15.0 ],
-													"text" : "read ./Groven+Sampler/Contents/sa-prefskoll"
+													"text" : "read ./Groven+Sampler.app/Contents/sa-prefskoll"
 												}
 
 											}
@@ -6947,6 +7056,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-35", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-146", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-20", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -6984,6 +7102,15 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-115", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-7", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-2", 0 ]
@@ -7082,6 +7209,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-35", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-32", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-137", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -7100,6 +7236,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-9", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-35", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-139", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -7109,10 +7254,37 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-19", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-6", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-43", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-46", 0 ]
 												}
 
 											}
@@ -7230,6 +7402,24 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-66", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-25", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-66", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-66", 1 ]
 												}
 
 											}
@@ -7433,6 +7623,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-22", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-81", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-84", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -7491,15 +7690,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-93", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-106", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-94", 0 ]
 												}
 
 											}
@@ -7832,7 +8022,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 19.0, 103.0, 405.0, 564.0 ],
+										"rect" : [ 19.0, 103.0, 405.0, 538.0 ],
 										"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
@@ -7853,6 +8043,34 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"handoff" : "",
+													"hilite" : 0,
+													"id" : "obj-79",
+													"maxclass" : "ubutton",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "bang", "bang", "", "int" ],
+													"patching_rect" : [ 123.0, 80.0, 216.0, 26.0 ],
+													"varname" : "'qwerty-midi-mask2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
+													"bordercolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
+													"id" : "obj-78",
+													"maxclass" : "panel",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 127.0, 68.0, 211.0, 37.0 ],
+													"rounded" : 0,
+													"varname" : "'qwerty-midi-mask"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
@@ -16116,34 +16334,6 @@
 												}
 
 											}
-, 											{
-												"box" : 												{
-													"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
-													"bordercolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
-													"id" : "obj-78",
-													"maxclass" : "panel",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 127.0, 68.0, 211.0, 37.0 ],
-													"rounded" : 0,
-													"varname" : "'qwerty-midi-mask"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"handoff" : "",
-													"hilite" : 0,
-													"id" : "obj-79",
-													"maxclass" : "ubutton",
-													"numinlets" : 1,
-													"numoutlets" : 4,
-													"outlettype" : [ "bang", "bang", "", "int" ],
-													"patching_rect" : [ 123.0, 80.0, 216.0, 26.0 ],
-													"varname" : "'qwerty-midi-mask2"
-												}
-
-											}
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
@@ -16804,7 +16994,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 71.0, 91.0, 405.0, 624.0 ],
+										"rect" : [ 71.0, 91.0, 850.0, 598.0 ],
 										"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
@@ -18004,7 +18194,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-70",
-													"items" : [ "None", ",", "Core Audio", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire", ",", "Live" ],
+													"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire", ",", "Live" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -25244,6 +25434,19 @@
 													}
 ,
 													"text" : "p"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-329",
+													"lockeddragscroll" : 1,
+													"maxclass" : "bpatcher",
+													"name" : "+h-help",
+													"numinlets" : 0,
+													"numoutlets" : 0,
+													"patching_rect" : [ 400.0, 10.0, 410.0, 509.0 ],
+													"varname" : "'setuphelp"
 												}
 
 											}
@@ -33676,7 +33879,7 @@
 													"framecolor" : [ 0.882353, 0.87451, 0.756863, 1.0 ],
 													"hltcolor" : [ 0.882353, 0.87451, 0.756863, 1.0 ],
 													"id" : "obj-41",
-													"items" : [ "GolbergAriaFormat0.mid", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)" ],
+													"items" : [ "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -42874,7 +43077,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 100.0, 100.0, 630.0, 656.0 ],
+										"rect" : [ 100.0, 100.0, 630.0, 630.0 ],
 										"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
@@ -43411,7 +43614,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 32.0, 28.0, 104.0, 34.0 ],
+													"patching_rect" : [ 32.0, 28.0, 104.0, 33.0 ],
 													"text" : "Click a button to view a topic:"
 												}
 
@@ -43437,11 +43640,11 @@
 											}
 , 											{
 												"box" : 												{
-													"id" : "obj-37",
+													"id" : "obj-46",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "+tuning",
-													"numinlets" : 1,
+													"name" : "+ad-just",
+													"numinlets" : 0,
 													"numoutlets" : 0,
 													"offset" : [ 0.0, -20.0 ],
 													"patching_rect" : [ 211.0, 27.0, 400.0, 530.0 ],
@@ -72561,7 +72764,7 @@
 					"framecolor" : [ 0.368627, 0.517647, 0.0, 1.0 ],
 					"hltcolor" : [ 0.698039, 0.854902, 0.501961, 1.0 ],
 					"id" : "obj-71",
-					"items" : [ "load font...", ",", "(- or: load recent font:)", ",", "1-M3R Jazz Organ.SF2", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)" ],
+					"items" : [ "load font...", ",", "(- or: load recent font:)", ",", "english organ_102.sf2", ",", "VintageDreamsWaves-v2.sf2", ",", "Gort's_MiniPiano.SF2", ",", "VintageDreamsWaves-v2.sf2", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -72586,7 +72789,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 					"id" : "obj-72",
-					"items" : "<empty>",
+					"items" : "VintageDreamsWaves-v2.sf2",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -72665,7 +72868,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.117647, 1.0 ],
 					"id" : "obj-75",
-					"items" : "1-M3R Jazz Organ.SF2",
+					"items" : "VintageDreamsWaves-v2.sf2",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -72694,7 +72897,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 					"id" : "obj-76",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88551,7 +88754,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-130",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88576,7 +88779,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-131",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88601,7 +88804,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 					"id" : "obj-132",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88626,7 +88829,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-133",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88651,7 +88854,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-134",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88676,7 +88879,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-135",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88701,7 +88904,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-136",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88726,7 +88929,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-137",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88751,7 +88954,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-138",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88776,7 +88979,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-139",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88801,7 +89004,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-140",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88826,7 +89029,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-141",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88851,7 +89054,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-142",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88876,7 +89079,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-143",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88901,7 +89104,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-144",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88926,7 +89129,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-145",
-					"items" : "<empty>",
+					"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -89084,6 +89287,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -89108,7 +89312,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 8.0, 473.0, 80.0, 36.0 ],
+									"patching_rect" : [ 8.0, 473.0, 80.0, 35.0 ],
 									"text" : "load Gort's-Midget.SF2"
 								}
 
@@ -89178,7 +89382,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 655.0, 106.0, 239.0, 15.0 ],
-									"text" : "load \"1-M3R Jazz Organ.SF2\""
+									"text" : "load VintageDreamsWaves-v2.sf2"
 								}
 
 							}
@@ -90120,7 +90324,7 @@
 																	"maxclass" : "comment",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 48.0, 67.0, 259.0, 41.0 ],
+																	"patching_rect" : [ 48.0, 67.0, 259.0, 40.0 ],
 																	"text" : "To load a soundfont, either drag a soundfont from the Finder into the \"s-font\" area, or click and release the \"load font...\" menu in the upper right corner."
 																}
 
@@ -90188,7 +90392,7 @@
 																	"maxclass" : "comment",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 47.0, 121.0, 239.0, 38.0 ],
+																	"patching_rect" : [ 47.0, 121.0, 239.0, 37.0 ],
 																	"text" : "(*) The reason may be that the soundfont may have been moved to a different location on the harddisk since last time the soundfont was used."
 																}
 
@@ -90203,7 +90407,7 @@
 																	"maxclass" : "comment",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 48.0, 25.0, 240.0, 39.0 ],
+																	"patching_rect" : [ 48.0, 25.0, 240.0, 38.0 ],
 																	"text" : "No soundfont was loaded (*). Please load a soundfont manually."
 																}
 
@@ -90839,7 +91043,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 425.0, 135.0, 164.0, 32.0 ],
+									"patching_rect" : [ 425.0, 135.0, 164.0, 31.0 ],
 									"text" : ";\rmax fileformat .sf2 sfnt"
 								}
 
@@ -90867,7 +91071,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 732.0, 592.0, 123.0, 100.0 ],
+									"patching_rect" : [ 732.0, 592.0, 123.0, 97.0 ],
 									"text" : "- clear fontmeny og alle slots;\r- skriv inn sist innlasta folder;\r- send symbol fontnamn fra sist innlasta font inn i fontmeny. om ikkje treff, clear menyen, skriv og send ut av fontmeny"
 								}
 
@@ -91057,7 +91261,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 801.0, 460.0, 15.0, 15.0 ]
+									"patching_rect" : [ 801.0, 461.0, 15.0, 15.0 ]
 								}
 
 							}
@@ -91091,7 +91295,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 76.0, 44.0, 1366.0, 980.0 ],
+										"rect" : [ 151.0, 44.0, 1525.0, 980.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -91110,7 +91314,335 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-143",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1107.0, 742.0, 59.0, 20.0 ],
+													"text" : "tosymbol"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-142",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1107.0, 701.0, 63.0, 20.0 ],
+													"text" : "sprintf %s"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-141",
+													"linecount" : 5,
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1258.0, 863.0, 264.0, 72.0 ],
+													"text" : "Gort's_MiniPiano.SF2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-139",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1049.0, 919.0, 74.0, 20.0 ],
+													"text" : "prepend set"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-138",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 748.0, 824.0, 32.5, 18.0 ],
+													"text" : "set"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-136",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1197.0, 842.0, 35.0, 18.0 ],
+													"text" : "erter"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-128",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1436.0, 712.0, 22.0, 15.0 ],
+													"text" : "set"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-129",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1436.0, 635.0, 51.0, 17.0 ],
+													"text" : "r +reset!"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-130",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 1436.0, 660.0, 47.0, 47.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-131",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 1186.0, 689.0, 79.0, 17.0 ],
+													"text" : "s +loading_font"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-132",
+													"linecount" : 8,
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1063.5, 790.5, 94.0, 85.0 ],
+													"text" : "VintageDreamsWaves-v2.sf2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-133",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "bang", "", "int" ],
+													"patching_rect" : [ 1040.5, 653.0, 40.0, 17.0 ],
+													"text" : "t b s 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-134",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 1040.5, 701.0, 44.0, 17.0 ],
+													"text" : "del 100"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-127",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 358.0, 856.0, 674.0, 18.0 ],
+													"text" : "VintageDreamsWaves-v2.sf2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-120",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 108.0, 845.0, 59.0, 20.0 ],
+													"presentation_rect" : [ 103.0, 845.0, 0.0, 0.0 ],
+													"text" : "tosymbol"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-119",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 131.0, 919.0, 89.0, 17.0 ],
+													"text" : "print fontsakoll-inn5"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-118",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 216.0, 787.0, 59.0, 20.0 ],
+													"text" : "tosymbol"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-117",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 87.0, 879.0, 113.0, 20.0 ],
+													"text" : "sprintf store %s %s"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-116",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 254.0, 907.0, 89.0, 17.0 ],
+													"text" : "print fontsakoll-inn4"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-115",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 358.0, 907.0, 89.0, 17.0 ],
+													"text" : "print fontsakoll-inn3"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-114",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 453.5, 907.0, 89.0, 17.0 ],
+													"text" : "print fontsakoll-inn2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-113",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 542.5, 907.0, 84.0, 17.0 ],
+													"text" : "print fontsakoll-inn"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-112",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 987.0, 205.0, 47.0, 47.0 ],
+													"presentation_rect" : [ 988.0, 201.0, 0.0, 0.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-111",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 987.0, 268.0, 45.0, 17.0 ],
+													"text" : "s +reset!"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -92069,7 +92601,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 438.0, 169.0, 22.0, 15.0 ],
+																	"patching_rect" : [ 484.0, 157.0, 22.0, 15.0 ],
 																	"text" : "set"
 																}
 
@@ -92083,7 +92615,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 438.0, 37.0, 51.0, 17.0 ],
+																	"patching_rect" : [ 484.0, 80.0, 51.0, 17.0 ],
 																	"text" : "r +reset!"
 																}
 
@@ -92095,21 +92627,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "bang" ],
-																	"patching_rect" : [ 438.0, 117.0, 47.0, 47.0 ]
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-4",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "int" ],
-																	"patching_rect" : [ 216.0, 86.0, 21.0, 17.0 ],
-																	"text" : "t 1"
+																	"patching_rect" : [ 484.0, 105.0, 47.0, 47.0 ]
 																}
 
 															}
@@ -92121,7 +92639,7 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 230.0, 128.0, 79.0, 17.0 ],
+																	"patching_rect" : [ 234.0, 134.0, 79.0, 17.0 ],
 																	"text" : "s +loading_font"
 																}
 
@@ -92131,13 +92649,11 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 9.0,
 																	"id" : "obj-6",
-																	"linecount" : 6,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 121.0, 194.0, 33.0, 67.0 ],
-																	"text" : "\"1-M3R Jazz Organ.SF2\""
+																	"patching_rect" : [ 88.5, 245.0, 498.0, 15.0 ]
 																}
 
 															}
@@ -92150,7 +92666,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "bang", "", "int" ],
-																	"patching_rect" : [ 100.0, 98.0, 40.0, 17.0 ],
+																	"patching_rect" : [ 88.5, 98.0, 40.0, 17.0 ],
 																	"text" : "t b s 1"
 																}
 
@@ -92164,7 +92680,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "bang" ],
-																	"patching_rect" : [ 60.0, 130.0, 44.0, 17.0 ],
+																	"patching_rect" : [ 88.5, 146.0, 44.0, 17.0 ],
 																	"text" : "del 100"
 																}
 
@@ -92176,7 +92692,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 89.0, 257.0, 15.0, 15.0 ]
+																	"patching_rect" : [ 89.0, 308.0, 15.0, 15.0 ]
 																}
 
 															}
@@ -92188,21 +92704,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 103.0, 70.0, 15.0, 15.0 ]
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-11",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 119.0, 137.0, 62.0, 17.0 ],
-																	"text" : "prepend set"
+																	"patching_rect" : [ 89.0, 62.0, 15.0, 15.0 ]
 																}
 
 															}
@@ -92222,15 +92724,6 @@
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-10", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-6", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-11", 0 ]
 																}
 
 															}
@@ -92263,19 +92756,19 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-11", 0 ],
+																	"destination" : [ "obj-5", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"source" : [ "obj-7", 1 ]
+																	"source" : [ "obj-7", 2 ]
 																}
 
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-5", 0 ],
+																	"destination" : [ "obj-6", 1 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"source" : [ "obj-7", 2 ]
+																	"source" : [ "obj-7", 1 ]
 																}
 
 															}
@@ -92300,7 +92793,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 423.0, 452.0, 78.0, 17.0 ],
+													"patching_rect" : [ 423.0, 418.0, 78.0, 17.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
@@ -92360,12 +92853,37 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 9.0,
 																	"id" : "obj-1",
+																	"maxclass" : "message",
+																	"numinlets" : 2,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 453.0, 116.0, 22.0, 15.0 ],
+																	"text" : "set"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-9",
 																	"maxclass" : "newobj",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 453.0, 30.0, 51.0, 17.0 ],
+																	"text" : "r +reset!"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-10",
+																	"maxclass" : "button",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
-																	"outlettype" : [ "int" ],
-																	"patching_rect" : [ 216.0, 86.0, 21.0, 17.0 ],
-																	"text" : "t 1"
+																	"outlettype" : [ "bang" ],
+																	"patching_rect" : [ 453.0, 64.0, 47.0, 47.0 ]
 																}
 
 															}
@@ -92391,8 +92909,8 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 121.0, 194.0, 394.0, 15.0 ],
-																	"text" : "\"1-M3R Jazz Organ.SF2\""
+																	"patching_rect" : [ 100.0, 219.0, 461.0, 15.0 ],
+																	"text" : "\"english organ_102.sf2\""
 																}
 
 															}
@@ -92419,7 +92937,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "bang" ],
-																	"patching_rect" : [ 60.0, 130.0, 44.0, 17.0 ],
+																	"patching_rect" : [ 100.0, 148.0, 44.0, 17.0 ],
 																	"text" : "del 100"
 																}
 
@@ -92431,7 +92949,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 89.0, 257.0, 15.0, 15.0 ]
+																	"patching_rect" : [ 100.5, 339.0, 15.0, 15.0 ]
 																}
 
 															}
@@ -92443,26 +92961,30 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 103.0, 70.0, 15.0, 15.0 ]
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-8",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 119.0, 137.0, 62.0, 17.0 ],
-																	"text" : "prepend set"
+																	"patching_rect" : [ 100.5, 64.0, 15.0, 15.0 ]
 																}
 
 															}
  ],
 														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-3", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-1", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-1", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-6", 0 ],
 																	"disabled" : 0,
@@ -92482,19 +93004,19 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-5", 0 ],
+																	"destination" : [ "obj-3", 1 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"source" : [ "obj-4", 0 ]
+																	"source" : [ "obj-4", 1 ]
 																}
 
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-8", 0 ],
+																	"destination" : [ "obj-5", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"source" : [ "obj-4", 1 ]
+																	"source" : [ "obj-4", 0 ]
 																}
 
 															}
@@ -92518,10 +93040,10 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-3", 0 ],
+																	"destination" : [ "obj-10", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"source" : [ "obj-8", 0 ]
+																	"source" : [ "obj-9", 0 ]
 																}
 
 															}
@@ -92556,7 +93078,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 417.0, 742.0, 300.0, 48.0 ],
+													"patching_rect" : [ 417.0, 742.0, 300.0, 47.0 ],
 													"text" : "bug-reproduksjon: spør koll om data (som har filepath), UTAN kopling til fluid. sjekk print tofluid... gjer det samme MED kopling... ! (og sjekk gjerne koll etterpå - data (path) er fjerna... sjølv med alle koplingar til koll fjerna!"
 												}
 
@@ -92571,7 +93093,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 576.0, 625.0, 168.0, 38.0 ],
+													"patching_rect" : [ 576.0, 625.0, 168.0, 37.0 ],
 													"text" : "--- nytt 030106: buggen gjeld også umotivert sletting av path i message-objekt"
 												}
 
@@ -92758,7 +93280,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 94.0, 390.0, 72.0, 56.0 ],
-																	"text" : "read ./Groven+Sampler/Contents/fontskoll"
+																	"text" : "read ./Groven+Sampler.app/Contents/fontskoll"
 																}
 
 															}
@@ -92798,7 +93320,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 149.0, 297.0, 77.0, 56.0 ],
-																	"text" : "write ./Groven+Sampler/Contents/fontskoll"
+																	"text" : "write ./Groven+Sampler.app/Contents/fontskoll"
 																}
 
 															}
@@ -92879,7 +93401,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 115.0, 354.0, 72.0, 56.0 ],
-																	"text" : "read ./Groven+Sampler/Contents/fontskoll"
+																	"text" : "read ./Groven+Sampler.app/Contents/fontskoll"
 																}
 
 															}
@@ -93033,8 +93555,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 358.0, 345.0, 219.0, 15.0 ],
-																	"text" : "\"english organ_102.sf2\""
+																	"patching_rect" : [ 358.0, 345.0, 219.0, 15.0 ]
 																}
 
 															}
@@ -93442,7 +93963,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 212.0, 439.0, 100.0, 48.0 ],
+													"patching_rect" : [ 212.0, 439.0, 100.0, 47.0 ],
 													"text" : "(deaktivert fordi den øydelegg lagring av fontskoll via folderinnlasting)"
 												}
 
@@ -93480,22 +94001,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 536.0, 501.0, 217.0, 21.0 ],
-													"text" : "2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-22",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 536.0, 478.0, 62.0, 17.0 ],
-													"text" : "prepend set"
+													"patching_rect" : [ 970.0, 470.0, 217.0, 20.0 ],
+													"text" : "0"
 												}
 
 											}
@@ -93508,22 +94015,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 621.0, 460.0, 319.0, 21.0 ],
-													"text" : "\"1-M3R Jazz Organ.SF2\""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-24",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 621.0, 437.0, 62.0, 17.0 ],
-													"text" : "prepend set"
+													"patching_rect" : [ 970.0, 418.0, 319.0, 20.0 ],
+													"text" : "\"english organ_102.sf2\""
 												}
 
 											}
@@ -93537,7 +94030,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 102.0, 640.0, 130.0, 38.0 ],
+													"patching_rect" : [ 115.0, 687.0, 130.0, 37.0 ],
 													"text" : "oppdaterande sentral oversikt over brukte fontar og plasseringa deira"
 												}
 
@@ -94381,7 +94874,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 56.0, 575.0, 30.0, 17.0 ],
+													"patching_rect" : [ 13.0, 564.0, 30.0, 17.0 ],
 													"text" : "t b s"
 												}
 
@@ -94412,7 +94905,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "int", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 710.0, 185.0, 35.0, 17.0 ],
+													"patching_rect" : [ 718.0, 230.0, 35.0, 17.0 ],
 													"triscale" : 0.9
 												}
 
@@ -94426,7 +94919,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 718.0, 227.0, 17.0, 15.0 ],
+													"patching_rect" : [ 754.0, 439.0, 17.0, 15.0 ],
 													"text" : "1"
 												}
 
@@ -94455,7 +94948,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 746.0, 660.0, 240.0, 38.0 ],
+													"patching_rect" : [ 746.0, 660.0, 240.0, 37.0 ],
 													"text" : "(... idiotisk tungvint løysing: skrive coll-fil til disk før lesing, hente inn igjen etterpå... håper dette funker med \"usynleg\" coll i standalone!)"
 												}
 
@@ -94470,7 +94963,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 337.915955, 608.614502, 268.958679, 15.0 ],
-													"text" : "read ./Groven+Sampler/Contents/fontskoll"
+													"text" : "read ./Groven+Sampler.app/Contents/fontskoll"
 												}
 
 											}
@@ -94484,7 +94977,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 347.0, 576.0, 242.531143, 15.0 ],
-													"text" : "write ./Groven+Sampler/Contents/fontskoll"
+													"text" : "write ./Groven+Sampler.app/Contents/fontskoll"
 												}
 
 											}
@@ -94526,7 +95019,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 746.0, 619.0, 240.0, 38.0 ],
+													"patching_rect" : [ 746.0, 619.0, 240.0, 37.0 ],
 													"text" : "ARRRGH! v.2: ...dette kan unngås ved bruk av sprintf, MEN: delte namn (f eks english organ) blir da ikkje kalla opp"
 												}
 
@@ -94541,7 +95034,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 726.0, 533.0, 266.0, 79.0 ],
+													"patching_rect" : [ 726.0, 533.0, 266.0, 77.0 ],
 													"text" : "ARRRGH! ...full path blir ved recall (= sende inn symbol som er indeks for å få ut path) gjort om til kun filnamn! (\"strippath\"-aktig);\r;\r... PUSSIG nok BERRE dersom eg sender ut-beskjeden vidare til fluidsynth! (det hjelp ikkje å isolere coll fullstendig ved å plugge ut alle in- og utput fra den! den forandrer seg åkkesom!)"
 												}
 
@@ -94569,7 +95062,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 45.0, 686.0, 69.0, 17.0 ],
+													"patching_rect" : [ 58.0, 733.0, 69.0, 17.0 ],
 													"text" : "route symbol"
 												}
 
@@ -94596,7 +95089,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 68.0, 754.0, 52.0, 17.0 ],
+													"patching_rect" : [ 81.0, 801.0, 52.0, 17.0 ],
 													"text" : "print fold"
 												}
 
@@ -94610,7 +95103,7 @@
 													"numinlets" : 3,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 45.0, 604.0, 73.0, 17.0 ],
+													"patching_rect" : [ 13.0, 617.0, 73.0, 17.0 ],
 													"text" : "pack store s s"
 												}
 
@@ -94624,7 +95117,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 7.0, 575.0, 33.0, 15.0 ],
+													"patching_rect" : [ 181.0, 595.0, 33.0, 15.0 ],
 													"text" : "clear"
 												}
 
@@ -94708,7 +95201,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 56.0, 529.0, 30.0, 17.0 ],
+													"patching_rect" : [ 13.0, 509.0, 30.0, 17.0 ],
 													"text" : "t s s"
 												}
 
@@ -94722,7 +95215,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "int" ],
-													"patching_rect" : [ 56.0, 552.0, 51.0, 17.0 ],
+													"patching_rect" : [ 13.0, 541.0, 51.0, 17.0 ],
 													"text" : "strippath"
 												}
 
@@ -94744,7 +95237,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 13.0, 463.0, 194.0, 23.0 ],
+													"patching_rect" : [ 13.0, 463.0, 194.0, 22.0 ],
 													"pattrmode" : 1,
 													"prefix" : "Macintosh HD:/Users/dhk/Desktop/soundfonts-2/",
 													"textcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
@@ -94764,7 +95257,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 45.0, 646.0, 53.0, 17.0 ],
+													"patching_rect" : [ 58.0, 693.0, 53.0, 17.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0
 													}
@@ -94838,7 +95331,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 363.0, 390.0, 80.0, 17.0 ],
+													"patching_rect" : [ 519.0, 418.0, 80.0, 17.0 ],
 													"text" : "prepend symbol"
 												}
 
@@ -95810,7 +96303,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 92.531738, 260.302338, 195.751587, 36.0 ],
-																	"text" : "read ./Groven+Sampler/Contents/fontkoll"
+																	"text" : "read ./Groven+Sampler.app/Contents/fontkoll"
 																}
 
 															}
@@ -95824,7 +96317,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 142.77562, 214.268356, 200.751587, 36.0 ],
-																	"text" : "write ./Groven+Sampler/Contents/fontkoll"
+																	"text" : "write ./Groven+Sampler.app/Contents/fontkoll"
 																}
 
 															}
@@ -96052,7 +96545,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 317.0, 601.0, 163.0, 15.0 ],
-																	"text" : "\"1-M3R Jazz Organ.SF2\""
+																	"text" : "\"english organ_102.sf2\""
 																}
 
 															}
@@ -97386,7 +97879,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "clear" ],
-													"patching_rect" : [ 76.0, 228.0, 48.0, 17.0 ],
+													"patching_rect" : [ 32.0, 256.0, 48.0, 17.0 ],
 													"text" : "t s clear"
 												}
 
@@ -97400,7 +97893,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 76.0, 252.0, 78.0, 17.0 ],
+													"patching_rect" : [ 32.0, 280.0, 78.0, 17.0 ],
 													"text" : "prepend append"
 												}
 
@@ -97438,7 +97931,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 529.0, 182.0, 15.0, 15.0 ]
+													"patching_rect" : [ 508.0, 179.0, 15.0, 15.0 ]
 												}
 
 											}
@@ -97451,7 +97944,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 529.0, 205.0, 86.0, 15.0 ],
+													"patching_rect" : [ 508.0, 202.0, 86.0, 15.0 ],
 													"text" : "frgb 100 133 67"
 												}
 
@@ -97465,7 +97958,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 432.0, 238.0, 74.0, 17.0 ],
+													"patching_rect" : [ 448.0, 268.0, 74.0, 17.0 ],
 													"text" : "prepend prefix"
 												}
 
@@ -97511,7 +98004,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 331.0, 755.0, 15.0, 15.0 ]
+													"patching_rect" : [ 347.0, 811.0, 15.0, 15.0 ]
 												}
 
 											}
@@ -99104,7 +99597,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 94.0, 390.0, 72.0, 56.0 ],
-																					"text" : "read ./Groven+Sampler/Contents/fontskoll"
+																					"text" : "read ./Groven+Sampler.app/Contents/fontskoll"
 																				}
 
 																			}
@@ -99144,7 +99637,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 149.0, 297.0, 77.0, 56.0 ],
-																					"text" : "write ./Groven+Sampler/Contents/fontskoll"
+																					"text" : "write ./Groven+Sampler.app/Contents/fontskoll"
 																				}
 
 																			}
@@ -100464,7 +100957,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 9.708215, 228.877472, 200.0, 36.0 ],
-																	"text" : "read ./Groven+Sampler/Contents/folderkoll"
+																	"text" : "read ./Groven+Sampler.app/Contents/folderkoll"
 																}
 
 															}
@@ -100478,7 +100971,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 16.376347, 202.129166, 205.0, 36.0 ],
-																	"text" : "write ./Groven+Sampler/Contents/folderkoll"
+																	"text" : "write ./Groven+Sampler.app/Contents/folderkoll"
 																}
 
 															}
@@ -101731,27 +102224,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-93",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 76.0, 192.0, 108.0, 25.0 ],
-													"text" : "\"1-M3R Jazz Organ.SF2\""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-94",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 740.0, 268.0, 62.0, 17.0 ],
-													"text" : "prepend set"
+													"patching_rect" : [ 32.0, 230.0, 562.0, 15.0 ],
+													"text" : "\"english organ_102.sf2\""
 												}
 
 											}
@@ -101904,19 +102382,6 @@
 											}
 , 											{
 												"box" : 												{
-													"bgcolor" : [ 0.917647, 0.694118, 0.376471, 1.0 ],
-													"border" : 1,
-													"id" : "obj-107",
-													"maxclass" : "panel",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 28.0, 634.0, 203.0, 48.0 ],
-													"rounded" : 0
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"bgcolor" : [ 0.823529, 0.956863, 0.658824, 1.0 ],
 													"border" : 1,
 													"id" : "obj-108",
@@ -101937,8 +102402,21 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 818.0, 325.0, 100.0, 23.0 ],
+													"patching_rect" : [ 818.0, 325.0, 100.0, 22.0 ],
 													"text" : "reset menyar"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.917647, 0.694118, 0.376471, 1.0 ],
+													"border" : 1,
+													"id" : "obj-107",
+													"maxclass" : "panel",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 41.0, 681.0, 203.0, 48.0 ],
+													"rounded" : 0
 												}
 
 											}
@@ -101954,7 +102432,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-41", 0 ],
+													"destination" : [ "obj-127", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-10", 0 ]
@@ -102035,6 +102513,159 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-111", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-112", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-119", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-117", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-116", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-118", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-117", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-118", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-117", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-120", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-132", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-128", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-130", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-129", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-128", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-130", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-139", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-132", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-41", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-132", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-131", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-133", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-134", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-133", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-142", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-133", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-132", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-134", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-127", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-136", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-127", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-138", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-127", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-139", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-66", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -102048,6 +102679,33 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-14", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-139", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-141", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-143", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-142", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-132", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-143", 0 ]
 												}
 
 											}
@@ -102147,24 +102805,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-20", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-21", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-22", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-24", 0 ]
 												}
 
 											}
@@ -102323,6 +102963,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-120", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-40", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -102345,6 +102994,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-40", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-113", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-41", 3 ]
 												}
 
 											}
@@ -102521,6 +103179,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-115", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-56", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-66", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -102638,6 +103305,24 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-114", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-63", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-118", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-63", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-56", 2 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -102683,15 +103368,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-63", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-65", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-53", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -102719,7 +103395,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-94", 0 ],
+													"destination" : [ "obj-93", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-67", 1 ]
@@ -102782,7 +103458,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-22", 0 ],
+													"destination" : [ "obj-21", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-73", 0 ]
@@ -102791,7 +103467,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-24", 0 ],
+													"destination" : [ "obj-23", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-73", 1 ]
@@ -103052,7 +103728,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-10", 0 ],
+													"destination" : [ "obj-133", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-90", 3 ]
@@ -103124,7 +103800,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-94", 0 ],
+													"destination" : [ "obj-93", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-90", 3 ]
@@ -103173,15 +103849,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-93", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-93", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-94", 0 ]
 												}
 
 											}
@@ -104657,7 +105324,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 694.0, 473.0, 140.0, 15.0 ],
-													"text" : "\"Op Diapn 16\""
+													"text" : "\"FM Bells 1\""
 												}
 
 											}
@@ -105137,7 +105804,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-16",
-																	"items" : "<empty>",
+																	"items" : [ "FM Bells 1", ",", "FM Carillion", ",", "Simple Square Floot", ",", "Grungy Ramp Bass", ",", "Detuned Saws", ",", "El Cheapo Organ", ",", "Dragon Sweep", ",", "Sheet Bass", ",", "Resonating Pad", ",", "Hard Grunge Bass", ",", "FM Christmas Bells", ",", "Meat Grinder", ",", "Church Organ", ",", "Classic FM Bass", ",", "Thin Sawtooth", ",", "Triangle Dream Flute", ",", "Triangle Simple", ",", "Smooth Flute", ",", "Smooth Strings 1", ",", "FM Electric Bass", ",", "TX81Z Lately Bass", ",", "Pop Bass 1", ",", "Distorted Sweep Bass", ",", "Square Flute", ",", "Chorale", ",", "Breezy Calliope", ",", "D50-ish Bells", ",", "Bingo Bells", ",", "Electric Slap Bass", ",", "Fantasy", ",", "Vatican Pipes", ",", "Bass Dragon Choir", ",", "Cosmic Vibraphone", ",", "Water Triangle", ",", "Square Pop Flute", ",", "Phasing Strings", ",", "Vatican Bell", ",", "Sine Whistle", ",", "Sine Bongos", ",", "Space Warp", ",", "Aluminium Plate", ",", "Lead Synth 1", ",", "Lead Synth 2", ",", "Lead Synth 3", ",", "Casio VL-1 Pops", ",", "Wailing Hit", ",", "Oink Grind", ",", "Metallic Clink", ",", "Faerie Chorale", ",", "FM Bass Hit", ",", "Dream Hit", ",", "Gated FM Bass", ",", "Harsh FM Bass", ",", "Singing Bells", ",", "Phasing Choir", ",", "FM Clang", ",", "China Voices", ",", "Rubber Bass", ",", "Polysynth Warp", ",", "Wavepad", ",", "Pop Bass 2", ",", "Stacked Mega-Phaser", ",", "Screaming Wavepad", ",", "Melodic Vibrato", ",", "Twips Ring", ",", "Wah", ",", "Blistering Bells", ",", "Click Pops", ",", "Xylophone", ",", "New Life", ",", "Long Bass", ",", "Banshee Pad", ",", "Undulating Pad", ",", "Spudge Bass", ",", "Warble Pad", ",", "Yazoo Blips", ",", "TX81Z Sqncr Bass", ",", "Acid Sub Bass", ",", "Echo Pop Bass", ",", "Acid Bass 2", ",", "Monster Stack Lead", ",", "Panned Stack", ",", "Ethnic Bow", ",", "Noisy Pops", ",", "House Organ", ",", "Bonky Organ", ",", "Sustained Harp", ",", "Awesome Strings", ",", "Rough Strings", ",", "Techno Bells", ",", "Dreamy Pad", ",", "Breath Pad", ",", "Warehouse Percussion", ",", "Sawtooth Hit", ",", "Oingo-Boingo", ",", "Yazoo Zips", ",", "Yazoo Bass Hit", ",", "Zippy Bass", ",", "Thunder", ",", "Killer Bass", ",", "Stab Bass Strings", ",", "Monster Strings", ",", "Cheesy Pad", ",", "New Life 2", ",", "Mono Analog Bass", ",", "Polysynth Hit", ",", "Venus Violin Hit", ",", "Ping-Pong", ",", "Polysynth 2", ",", "Cheap Synth", ",", "Heavy Square", ",", "Distorted Lead", ",", "Singing Strings", ",", "Warble", ",", "Wind Blast", ",", "Laser Pops", ",", "Warbling Bird 1", ",", "Warbling Bird 2", ",", "Wind Down", ",", "Delicate Bells", ",", "Delicate Marimba", ",", "Woody Bass", ",", "Filtered Stack", ",", "TX81Z Sqncr Bass 2", ",", "New Age Organ", ",", "Gated Screamer", ",", "Wonderland Xylo", ",", "Space Flute" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -108446,7 +109113,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 58.0, 234.0, 170.0, 15.0 ],
-													"text" : "select \"1-M3R Jazz Organ\""
+													"text" : "select VintageDreamsWaves-v2"
 												}
 
 											}
@@ -117727,7 +118394,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 7.0, 146.0, 428.0, 264.0 ],
+						"rect" : [ 37.0, 82.0, 428.0, 264.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -117879,7 +118546,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 55.0, 44.0, 1542.0, 980.0 ],
+										"rect" : [ 35.0, 119.0, 1530.0, 872.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -117899,6 +118566,28 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-94",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 237.0, 592.0, 20.0, 20.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-84",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 154.0, 614.0, 20.0, 20.0 ]
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -117931,12 +118620,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-150",
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 487.487671, 449.456848, 267.953491, 15.0 ],
-													"text" : "read ./Groven+Sampler/Contents/"
+													"patching_rect" : [ 487.487671, 449.456848, 267.953491, 35.0 ],
+													"text" : "read ./Groven+Sampler.app/Contents/preset-VintageDreamsWaves-v2.sf2"
 												}
 
 											}
@@ -118016,12 +118706,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-136",
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 483.550323, 615.612976, 267.953491, 15.0 ],
-													"text" : "write ./Groven+Sampler/Contents/"
+													"patching_rect" : [ 483.550323, 615.612976, 267.953491, 35.0 ],
+													"text" : "write ./Groven+Sampler.app/Contents/preset-VintageDreamsWaves-v2.sf2"
 												}
 
 											}
@@ -118128,7 +118819,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 987.0, 171.0, 62.0, 17.0 ],
+													"patching_rect" : [ 1156.0, 160.0, 62.0, 17.0 ],
 													"text" : "route error"
 												}
 
@@ -118212,7 +118903,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 366.0, 381.0, 44.0, 17.0 ],
+													"patching_rect" : [ 371.0, 396.0, 44.0, 17.0 ],
 													"text" : "del 500"
 												}
 
@@ -118843,7 +119534,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "bang" ],
-													"patching_rect" : [ 838.0, 194.0, 30.0, 17.0 ],
+													"patching_rect" : [ 977.0, 208.0, 30.0, 17.0 ],
 													"text" : "t b b"
 												}
 
@@ -118871,7 +119562,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 838.0, 170.0, 57.0, 17.0 ],
+													"patching_rect" : [ 977.0, 184.0, 57.0, 17.0 ],
 													"text" : "r +no-load"
 												}
 
@@ -118899,7 +119590,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 946.0, 260.0, 28.0, 17.0 ],
+													"patching_rect" : [ 1115.0, 249.0, 28.0, 17.0 ],
 													"text" : "init"
 												}
 
@@ -118983,7 +119674,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "int" ],
-													"patching_rect" : [ 946.0, 217.0, 31.0, 17.0 ],
+													"patching_rect" : [ 1115.0, 206.0, 31.0, 17.0 ],
 													"text" : "t b 0"
 												}
 
@@ -118997,7 +119688,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "bang" ],
-													"patching_rect" : [ 946.0, 195.0, 45.0, 17.0 ],
+													"patching_rect" : [ 1115.0, 184.0, 45.0, 17.0 ],
 													"text" : "onebang"
 												}
 
@@ -119012,8 +119703,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 946.0, 243.0, 114.0, 35.0 ],
-													"text" : "read ./Groven+Sampler/Contents/default-presetkoll"
+													"patching_rect" : [ 1115.0, 232.0, 114.0, 35.0 ],
+													"text" : "read ./Groven+Sampler.app/Contents/default-presetkoll"
 												}
 
 											}
@@ -119024,7 +119715,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 946.0, 161.0, 15.0, 15.0 ]
+													"patching_rect" : [ 1115.0, 150.0, 15.0, 15.0 ]
 												}
 
 											}
@@ -119046,14 +119737,14 @@
 , 											{
 												"box" : 												{
 													"fontname" : "Arial",
-													"fontsize" : 9.0,
+													"fontsize" : 12.0,
 													"frgb" : 0.0,
 													"id" : "obj-74",
-													"linecount" : 13,
+													"linecount" : 10,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 749.0, 510.0, 172.0, 137.0 ],
+													"patching_rect" : [ 1236.0, 465.0, 256.0, 141.0 ],
 													"text" : "PROSEDYRE, over:;\r- på ved innlasting = vent på readbang fra koll, (hindre uzi 99), deretter bange alle parametre til slotoffset, og slett 30 (comment);\r- skru på = bang alle parametre, deretter skru på auto (evt utan uzi 99 og les alle 1);\r- bytte slot = hindre uzi 99, deretter bange alle parametre. Slett 30 (comment) - eller kopiere fra forrige? (...nei - ikkje fornuftig når instrument er ullikt)"
 												}
 
@@ -119061,14 +119752,14 @@
 , 											{
 												"box" : 												{
 													"fontname" : "Arial",
-													"fontsize" : 9.0,
+													"fontsize" : 12.0,
 													"frgb" : 0.0,
 													"id" : "obj-75",
-													"linecount" : 4,
+													"linecount" : 3,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 749.0, 335.0, 170.0, 47.0 ],
+													"patching_rect" : [ 1236.0, 175.0, 236.0, 47.0 ],
 													"text" : "PROSEDYRE, innlasting:;\r- read preset. om det ikkje finst, last inn default-preset og lagre som preset-filnamn"
 												}
 
@@ -119076,14 +119767,14 @@
 , 											{
 												"box" : 												{
 													"fontname" : "Arial",
-													"fontsize" : 9.0,
+													"fontsize" : 12.0,
 													"frgb" : 0.0,
 													"id" : "obj-76",
 													"linecount" : 9,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 749.0, 393.0, 173.0, 97.0 ],
+													"patching_rect" : [ 1236.0, 280.0, 238.0, 127.0 ],
 													"text" : "PROSEDYRE, auto:;\r- på ved innlasting = vent på readbang fra koll, deretter uzi 99. les også alle 1 til slotins#;\r- skru på = uzi 99 (- ins# i slot? nei...) + les alle 1;\r- bytte slot = les slotoffset unntatt 1 (fordi slot kan byttast ved å velge ins i slottet direkte)"
 												}
 
@@ -119133,7 +119824,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 946.0, 136.0, 151.0, 17.0 ],
+													"patching_rect" : [ 1115.0, 125.0, 151.0, 17.0 ],
 													"text" : "match error coll: can't find file"
 												}
 
@@ -119147,7 +119838,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 946.0, 91.0, 16.0, 15.0 ],
+													"patching_rect" : [ 1115.0, 80.0, 16.0, 15.0 ],
 													"text" : "1"
 												}
 
@@ -119161,7 +119852,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 946.0, 112.0, 35.0, 17.0 ],
+													"patching_rect" : [ 1115.0, 101.0, 35.0, 17.0 ],
 													"text" : "error"
 												}
 
@@ -119175,7 +119866,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 475.0, 415.0, 44.0, 17.0 ],
+													"patching_rect" : [ 541.74939, 481.0, 44.0, 17.0 ],
 													"text" : "del 700"
 												}
 
@@ -119189,22 +119880,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 542.74939, 520.436157, 195.0, 15.0 ],
-													"text" : "\"preset-1-M3R Jazz Organ.SF2\""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-86",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 542.74939, 496.436157, 62.0, 17.0 ],
-													"text" : "prepend set"
+													"patching_rect" : [ 541.74939, 509.0, 195.0, 15.0 ],
+													"text" : "preset-VintageDreamsWaves-v2.sf2"
 												}
 
 											}
@@ -119232,7 +119909,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 798.0, 89.0, 160.0, 15.0 ],
-													"text" : "\"1-M3R Jazz Organ.SF2\""
+													"text" : "VintageDreamsWaves-v2.sf2"
 												}
 
 											}
@@ -124710,13 +125387,12 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 9.0,
 																	"id" : "obj-8",
-																	"linecount" : 2,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 372.0, 156.0, 189.0, 36.0 ],
-																	"text" : "error coll: can't find file ./Groven+Sampler/Contents/sa-prefskoll"
+																	"text" : "error fluidsynth~: cannot find file 'dhk'"
 																}
 
 															}
@@ -125045,7 +125721,7 @@
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 927.0, 235.0, 59.0, 40.0 ],
+													"patching_rect" : [ 1096.0, 224.0, 59.0, 40.0 ],
 													"rounded" : 0
 												}
 
@@ -125969,7 +126645,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 677.0, 455.0, 600.0, 426.0 ],
+														"rect" : [ 0.0, 430.0, 600.0, 426.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -126053,7 +126729,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 4,
 																	"outlettype" : [ "", "", "", "" ],
-																	"patching_rect" : [ 50.0, 47.0, 72.0, 23.0 ],
+																	"patching_rect" : [ 50.0, 47.0, 72.0, 22.0 ],
 																	"saved_object_attributes" : 																	{
 																		"embed" : 0
 																	}
@@ -126183,7 +126859,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 260.0, 329.0, 116.0, 27.0 ],
+													"patching_rect" : [ 274.0, 328.0, 116.0, 27.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
@@ -126403,6 +127079,15 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-104", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-107", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-94", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-107", 0 ]
@@ -127365,7 +128050,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-86", 0 ],
+													"destination" : [ "obj-85", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-60", 0 ]
@@ -127644,19 +128329,19 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-7", 0 ],
+													"destination" : [ "obj-107", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-85", 0 ]
+													"source" : [ "obj-84", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-85", 0 ],
+													"destination" : [ "obj-7", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-86", 0 ]
+													"source" : [ "obj-85", 0 ]
 												}
 
 											}
@@ -127752,7 +128437,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-86", 0 ],
+													"destination" : [ "obj-85", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-93", 0 ]
@@ -130276,6 +130961,20 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
+					"bordercolor" : [ 0.454902, 0.454902, 0.454902, 1.0 ],
+					"id" : "obj-171",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 371.0, 362.0, 100.0, 178.0 ],
+					"rounded" : 0,
+					"varname" : "'green_dekkpanel"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"frames" : 2,
 					"id" : "obj-170",
 					"maxclass" : "pictctrl",
@@ -130291,20 +130990,6 @@
 					"snap" : 1,
 					"tracking" : 1,
 					"varname" : "'overblink"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
-					"bordercolor" : [ 0.454902, 0.454902, 0.454902, 1.0 ],
-					"id" : "obj-171",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 371.0, 362.0, 100.0, 178.0 ],
-					"rounded" : 0,
-					"varname" : "'green_dekkpanel"
 				}
 
 			}
@@ -132238,6 +132923,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "fontskoll",
+				"bootpath" : "/Applications/Max 6.1/Groven+Sampler.app/Contents",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Groven+Sampler.app/Contents",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bipolar slider+.pct",
 				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
@@ -132319,13 +133011,6 @@
 				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"type" : "PICT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "+tuning",
-				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
-				"patcherrelativepath" : "./Abstractions",
-				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
