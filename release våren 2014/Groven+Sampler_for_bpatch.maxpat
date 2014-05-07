@@ -1865,6 +1865,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -72763,7 +72764,7 @@
 					"framecolor" : [ 0.368627, 0.517647, 0.0, 1.0 ],
 					"hltcolor" : [ 0.698039, 0.854902, 0.501961, 1.0 ],
 					"id" : "obj-71",
-					"items" : [ "load font...", ",", "(- or: load recent font:)", ",", "english organ_102.sf2", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)" ],
+					"items" : [ "load font...", ",", "(- or: load recent font:)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -72788,7 +72789,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 					"id" : "obj-72",
-					"items" : "english organ_102.sf2",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -72867,7 +72868,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.117647, 1.0 ],
 					"id" : "obj-75",
-					"items" : "english organ_102.sf2",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -72896,7 +72897,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 					"id" : "obj-76",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88753,7 +88754,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-130",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88778,7 +88779,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-131",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88803,7 +88804,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 					"id" : "obj-132",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88828,7 +88829,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-133",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88853,7 +88854,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-134",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88878,7 +88879,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-135",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88903,7 +88904,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-136",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88928,7 +88929,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-137",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88953,7 +88954,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-138",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -88978,7 +88979,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-139",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -89003,7 +89004,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-140",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -89028,7 +89029,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-141",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -89053,7 +89054,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-142",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -89078,7 +89079,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-143",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -89103,7 +89104,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-144",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -89128,7 +89129,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-145",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -89380,7 +89381,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 655.0, 106.0, 239.0, 15.0 ],
-									"text" : "load \"english organ_102.sf2\""
+									"text" : "load VintageDreamsWaves-v2.sf2"
 								}
 
 							}
@@ -91337,7 +91338,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 45.0, 598.0, 59.0, 20.0 ],
-													"presentation_rect" : [ 12.0, 573.0, 0.0, 0.0 ],
 													"text" : "tosymbol"
 												}
 
@@ -91365,7 +91365,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 28.0, 696.0, 59.0, 20.0 ],
-													"presentation_rect" : [ 32.0, 694.0, 0.0, 0.0 ],
 													"text" : "tosymbol"
 												}
 
@@ -91393,7 +91392,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 83.0, 843.0, 59.0, 20.0 ],
-													"presentation_rect" : [ 76.0, 855.0, 0.0, 0.0 ],
 													"text" : "tosymbol"
 												}
 
@@ -91435,7 +91433,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1350.0, 289.0, 144.0, 18.0 ],
-													"presentation_rect" : [ 1273.0, 309.0, 0.0, 0.0 ],
 													"text" : "noi"
 												}
 
@@ -91450,7 +91447,6 @@
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
 													"patching_rect" : [ 1321.5, 245.0, 127.0, 20.0 ],
-													"presentation_rect" : [ 1247.5, 242.0, 0.0, 0.0 ],
 													"text" : "regexp : @substitute /"
 												}
 
@@ -91535,7 +91531,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1350.0, 593.0, 113.0, 20.0 ],
-													"presentation_rect" : [ 17.0, 912.0, 0.0, 0.0 ],
 													"text" : "sprintf store %s %s"
 												}
 
@@ -91564,7 +91559,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1350.0, 510.0, 81.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"filename" : "convert_fix.js",
+														"filename" : "convert_fix",
 														"parameter_enable" : 0
 													}
 ,
@@ -91713,13 +91708,11 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-132",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 1123.0, 790.0, 374.0, 25.0 ],
-													"text" : "\"english organ_102.sf2\""
+													"patching_rect" : [ 1123.0, 790.0, 102.0, 15.0 ]
 												}
 
 											}
@@ -91761,7 +91754,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 432.0, 859.0, 674.0, 18.0 ],
-													"text" : "\"english organ_102.sf2\""
+													"text" : "VintageDreamsWaves-v2.sf2"
 												}
 
 											}
@@ -92871,7 +92864,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 41.0, 266.0, 81.0, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"filename" : "convert_fix.js",
+																		"filename" : "convert_fix",
 																		"parameter_enable" : 0
 																	}
 ,
@@ -94111,7 +94104,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1068.0, 387.0, 258.0, 20.0 ],
-													"text" : "\"english organ_102.sf2\""
+													"text" : "VintageDreamsWaves-v2.sf2"
 												}
 
 											}
@@ -102309,8 +102302,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 106.0, 233.0, 562.0, 15.0 ],
-													"text" : "\"english organ_102.sf2\""
+													"patching_rect" : [ 106.0, 233.0, 562.0, 15.0 ]
 												}
 
 											}
@@ -106020,7 +106012,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-16",
-																	"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+																	"items" : "<empty>",
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -109329,7 +109321,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 58.0, 234.0, 170.0, 15.0 ],
-													"text" : "select \"english organ_102\""
+													"text" : "select VintageDreamsWaves-v2"
 												}
 
 											}
@@ -118572,8 +118564,8 @@
 					"id" : "obj-166",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
-					"name" : "groven_for_bpatch-apr07->aug13--.maxpat",
-					"numinlets" : 0,
+					"name" : "groven_for_bpatch.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ -319.0, -44.0 ],
 					"patching_rect" : [ -12.0, -57.0, 915.0, 572.0 ]
@@ -118629,6 +118621,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -118762,7 +118755,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 48.0, 116.0, 1530.0, 872.0 ],
+										"rect" : [ 31.0, 103.0, 1530.0, 872.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -118842,7 +118835,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 487.487671, 449.456848, 477.953491, 15.0 ],
-													"text" : "read ./Groven+Sampler.app/Contents/preset-english organ_102.sf2"
+													"text" : "read ./Groven+Sampler.app/Contents/preset-VintageDreamsWaves-v2.sf2"
 												}
 
 											}
@@ -118922,13 +118915,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-136",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 483.550323, 615.612976, 267.953491, 25.0 ],
-													"text" : "write ./Groven+Sampler.app/Contents/preset-english organ_102.sf2"
+													"patching_rect" : [ 483.550323, 615.612976, 267.953491, 35.0 ],
+													"text" : "write ./Groven+Sampler.app/Contents/preset-VintageDreamsWaves-v2.sf2"
 												}
 
 											}
@@ -120097,7 +120090,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 541.74939, 509.0, 195.0, 15.0 ],
-													"text" : "\"preset-english organ_102.sf2\""
+													"text" : "preset-VintageDreamsWaves-v2.sf2"
 												}
 
 											}
@@ -120125,7 +120118,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 798.0, 89.0, 160.0, 15.0 ],
-													"text" : "\"english organ_102.sf2\""
+													"text" : "VintageDreamsWaves-v2.sf2"
 												}
 
 											}
@@ -125669,12 +125662,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 9.0,
 																	"id" : "obj-8",
+																	"linecount" : 2,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 372.0, 156.0, 279.0, 15.0 ],
-																	"text" : "error sprintf: patchcord inlet out of range: deleting patchcord"
+																	"text" : "error coll: can't find file ./GrovenTune-aug13.app/Contents/GrovenMax-CurrentScaleSet"
 																}
 
 															}
@@ -132953,6 +132947,685 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "groven_for_bpatch.maxpat",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gul_alle.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scale-#-b-convert",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "klaviatur.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grovenboxes++manNY.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grovenboxes++adjNY.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grovenboxes++tmp2NY.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "show",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tX+",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LB",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/usikre",
+				"patcherrelativepath" : "./usikre",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "groven-adjust",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "groven_gold_coll+.txt",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Necessarities to put inside sampler-app foler (originals)",
+				"patcherrelativepath" : "./Necessarities to put inside sampler-app foler (originals)",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "key-bang",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Externals",
+				"patcherrelativepath" : "./Externals",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-delete3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ubutton-ctrl.pat",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Externals",
+				"patcherrelativepath" : "./Externals",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-cancel3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-export3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-restore3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-load3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dhk-split",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-save3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-ok3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "knappermaske.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O F2.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O G.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O E.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O C2.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O D.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O A.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O H.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O Des.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O B.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O Fiss.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O As.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O Es.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O F3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O G3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O Py.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O C3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O St.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O Z.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-close.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f0.miniseq2.pat",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f0.makenote.pat",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f0.flush.pat",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "qwerty-encrypt-NI-no",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Necessarities to put inside sampler-app foler (originals)",
+				"patcherrelativepath" : "./Necessarities to put inside sampler-app foler (originals)",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bestkeys.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "autotune3l.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "manualtuning.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "equaltuning.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "blackkey5.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "whitkey5.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reset!!.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GrovenTune-logo3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "setnow.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "help?.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reset!.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "help??.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "+b",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-1.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-2.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-37-38-39.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-40.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-4.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-5.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-6.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-7.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-8.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-9.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-10.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-11.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-12.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-13.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-14.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-15.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-16.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-17.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-18.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-19.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-20.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-21.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-22.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-23.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-24.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-25.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-26.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-27.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-28.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-29.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-30.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-31.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-32.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-33.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-34.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-35.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-36.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "samplerpanel--.pct",
 				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
@@ -132964,13 +133637,6 @@
 				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"type" : "PICT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "groven_gold_coll+.txt",
-				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Necessarities to put inside sampler-app foler (originals)",
-				"patcherrelativepath" : "./Necessarities to put inside sampler-app foler (originals)",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -133041,13 +133707,6 @@
 				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"type" : "PICT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "key-bang",
-				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Externals",
-				"patcherrelativepath" : "./Externals",
-				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
@@ -133122,13 +133781,6 @@
 			}
 , 			{
 				"name" : "h-pitbx.pct",
-				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
-				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
-				"type" : "PICT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k-close.pct",
 				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"type" : "PICT",
@@ -133238,6 +133890,26 @@
 				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"type" : "PICT",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "Lswap.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mygrov-dhk.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "keyfindKS-dhk.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "keyfindA-dhk.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rs.floatbox.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "fluidsynth~.mxo",
