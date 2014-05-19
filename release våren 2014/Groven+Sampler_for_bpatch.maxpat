@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 489.0, 225.0, 883.0, 509.0 ],
+		"rect" : [ 172.0, 169.0, 883.0, 509.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -6514,7 +6514,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 34.0, 411.0, 121.0, 15.0 ],
-													"text" : "symbol overdrive"
+													"text" : "symbol breakp"
 												}
 
 											}
@@ -42445,7 +42445,7 @@
 									"numoutlets" : 6,
 									"outlettype" : [ "int", "int", "int", "int", "int", "int" ],
 									"patching_rect" : [ 819.111755, 144.296051, 87.0, 20.0 ],
-									"save" : [ "#N", "menubar", 6, 7, ";", "#X", "about", "About", "Groven+sämpler…", ";", "#X", "closeitem", ";", "#X", "file", 1, "Load", "Soundfont…", ";", "#X", "file", 2, "Load", "Soundfont", "Folder…", ";", "#X", "menutitle", 5, "Setup", ";", "#X", "item", 5, 1, "Show", "GrovenTune", "/1", ";", "#X", "item", 5, 2, "Show", "Groven+sämpler", "/2", ";", "#X", "item", 5, 3, "Show", "sämpler", "/3", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "Show", "Sequencer", "/4", ";", "#X", "item", 5, 6, "Show", "Keyfinder", "/5", ";", "#X", "item", 5, 7, "Show", "Organ", "buttons", "/6", ";", "#X", "item", 5, 8, "Show", "Large", "Best", "keys", "/7", ";", "#X", "item", 5, 9, "-", ";", "#X", "item", 5, 10, "Audio", "and", "MIDI", "Setup...", "/", ";", ";", "#X", "item", 5, 11, "Preferences...", "/", ",", ";", "#X", "menutitle", 6, "Documentation", ";", "#X", "item", 6, 1, "Groven+sämpler", "documentation...", "/?", ";", "#X", "end", ";" ],
+									"save" : [ "#N", "menubar", 6, 7, ";", "#X", "about", "About", "Groven+sämpler…", ";", "#X", "closeitem", ";", "#X", "file", 1, "Load", "Soundfont…", ";", "#X", "file", 2, "Load", "Soundfont", "Folder…", ";", "#X", "menutitle", 5, "Setup", ";", "#X", "item", 5, 1, "Show", "GrovenTune", "/1", ";", "#X", "item", 5, 2, "Show", "Groven+sämpler", "/2", ";", "#X", "item", 5, 3, "Show", "sämpler", "/3", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "Show", "Sequencer", "/4", ";", "#X", "item", 5, 6, "Show", "Keyfinder", "/5", ";", "#X", "item", 5, 7, "Show", "Organ", "buttons", "/6", ";", "#X", "item", 5, 8, "Show", "Large", "Best", "keys", "/7", ";", "#X", "item", 5, 9, "-", ";", "#X", "item", 5, 10, "Audio", "and", "MIDI", "Setup...", "/", ";", "#X", "item", 5, 11, "Preferences...", "/", ";", "#X", "menutitle", 6, "Documentation", ";", "#X", "item", 6, 1, "Groven+sämpler", "documentation...", "/?", ";", "#X", "end", ";" ],
 									"text" : "menubar 6 7"
 								}
 
@@ -72295,8 +72295,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 837.0, 327.0, 31.0, 20.0 ],
+					"patching_rect" : [ 836.0, 326.0, 31.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"textcolor2" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -72614,8 +72615,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 798.0, 63.0, 63.0, 17.0 ],
+					"patching_rect" : [ 797.0, 62.0, 63.0, 17.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textcolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ]
@@ -72640,8 +72642,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 798.0, 42.0, 63.0, 17.0 ],
+					"patching_rect" : [ 797.0, 41.0, 63.0, 17.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textcolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ]
@@ -72665,10 +72668,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 557.0, 42.0, 214.0, 22.0 ],
+					"patching_rect" : [ 556.0, 41.0, 214.0, 22.0 ],
 					"pattrmode" : 1,
 					"prefix" : "dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven fra gamle diskar/cpPan~ objectX/GrovenSynth_inkl3/soundfonts-2/",
 					"prefix_mode" : 2,
+					"rounded" : 0,
 					"textcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"textcolor2" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88630,8 +88634,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 695.0, 263.0, 166.0, 20.0 ],
+					"patching_rect" : [ 694.0, 262.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88655,8 +88660,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 695.0, 238.0, 166.0, 20.0 ],
+					"patching_rect" : [ 694.0, 237.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88680,8 +88686,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 695.0, 213.0, 166.0, 20.0 ],
+					"patching_rect" : [ 694.0, 212.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88705,8 +88712,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 695.0, 188.0, 166.0, 20.0 ],
+					"patching_rect" : [ 694.0, 187.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88730,8 +88738,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 695.0, 163.0, 166.0, 20.0 ],
+					"patching_rect" : [ 694.0, 162.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88755,8 +88764,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 695.0, 138.0, 166.0, 20.0 ],
+					"patching_rect" : [ 694.0, 137.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88780,8 +88790,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 695.0, 113.0, 166.0, 20.0 ],
+					"patching_rect" : [ 694.0, 112.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88805,8 +88816,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 695.0, 88.0, 166.0, 20.0 ],
+					"patching_rect" : [ 694.0, 87.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88830,8 +88842,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 481.0, 264.0, 166.0, 20.0 ],
+					"patching_rect" : [ 480.0, 263.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88855,8 +88868,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 481.0, 239.0, 166.0, 20.0 ],
+					"patching_rect" : [ 480.0, 238.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88880,8 +88894,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 481.0, 214.0, 166.0, 20.0 ],
+					"patching_rect" : [ 480.0, 213.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88905,8 +88920,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 481.0, 189.0, 166.0, 20.0 ],
+					"patching_rect" : [ 480.0, 188.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88930,8 +88946,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 481.0, 164.0, 166.0, 20.0 ],
+					"patching_rect" : [ 480.0, 163.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88941,7 +88958,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"bgcolor2" : [ 0.87451, 1.0, 0.615686, 1.0 ],
 					"discolor" : [ 0.439216, 0.439216, 0.439216, 1.0 ],
 					"fontname" : "Arial",
@@ -88955,9 +88972,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 481.0, 139.0, 166.0, 20.0 ],
+					"patching_rect" : [ 480.0, 138.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
-					"textcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
+					"rounded" : 0,
+					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
 					"varname" : "'s3"
@@ -88980,8 +88998,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 481.0, 114.0, 166.0, 20.0 ],
+					"patching_rect" : [ 480.0, 113.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
+					"rounded" : 0,
 					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -88991,7 +89010,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
+					"bgcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 					"bgcolor2" : [ 0.87451, 1.0, 0.615686, 1.0 ],
 					"discolor" : [ 0.439216, 0.439216, 0.439216, 1.0 ],
 					"fontname" : "Arial",
@@ -89005,9 +89024,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 481.0, 89.0, 166.0, 20.0 ],
+					"patching_rect" : [ 480.0, 88.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
-					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
+					"rounded" : 0,
+					"textcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
 					"varname" : "'s1"
@@ -92313,7 +92333,7 @@
 																	"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 																	"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 																	"id" : "obj-14",
-																	"items" : "<empty>",
+																	"items" : [ "Accord1.SF2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "FluidR3 GM.SF2", ",", "German8.sf2", ",", "langsin.sf2", ",", "Rhodes_73.SF2", ",", "saz.sf2", ",", "Steinway Grand Piano 1.2.SF2" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -118029,7 +118049,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 366.0, 0.0, 545.0, 513.0 ],
-					"pic" : "dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct specifically for Groven+Sampler/samplerpanel-mindre-fyll.jpg"
+					"pic" : "samplerpanel--.pct"
 				}
 
 			}
@@ -125135,7 +125155,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 372.0, 156.0, 279.0, 15.0 ],
-																	"text" : "error bpatcher: bpatcher: error loading patcher +h-help"
+																	"text" : "error read: no such object"
 																}
 
 															}
@@ -133162,10 +133182,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "samplerpanel-mindre-fyll.jpg",
-				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct specifically for Groven+Sampler",
-				"patcherrelativepath" : "./Graphics/Quickdraw-pct specifically for Groven+Sampler",
-				"type" : "JPEG",
+				"name" : "samplerpanel--.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
 				"implicit" : 1
 			}
 , 			{
