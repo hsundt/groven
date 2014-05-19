@@ -305,7 +305,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 353.0, 154.0, 1280.0, 637.0 ],
+						"rect" : [ 329.0, 324.0, 1280.0, 637.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1814,7 +1814,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 40.0, 105.0, 1495.0, 954.0 ],
+										"rect" : [ 161.0, 201.0, 1495.0, 954.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -7286,15 +7286,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-25", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-66", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-6", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -8327,7 +8318,7 @@
 													"outlettype" : [ "int", "bang" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 297.0, 336.0, 34.0, 18.0 ],
-													"textcolor" : [ 0.078431, 0.129412, 0.05098, 1.0 ],
+													"textcolor" : [ 0.392157, 0.521569, 0.262745, 1.0 ],
 													"triangle" : 0,
 													"triscale" : 0.9
 												}
@@ -16873,7 +16864,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 71.0, 91.0, 850.0, 598.0 ],
+										"rect" : [ 71.0, 91.0, 405.0, 598.0 ],
 										"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
@@ -17009,7 +17000,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-7",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to GrovenTune-mar14-4 1", ",", "to GrovenTune-mar14-4 2" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -17099,7 +17090,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-12",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to GrovenTune-mar14-4 1", ",", "to GrovenTune-mar14-4 2" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -17228,7 +17219,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-19",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to GrovenTune-mar14-4 1", ",", "to GrovenTune-mar14-4 2" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -17317,7 +17308,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-24",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to GrovenTune-mar14-4 1", ",", "to GrovenTune-mar14-4 2" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -17941,7 +17932,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-64",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to GrovenTune-mar14-4 1", ",", "to GrovenTune-mar14-4 2", ",", "none" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "none" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -18020,7 +18011,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-69",
-													"items" : [ "to Max 1", ",", "to Max 2", ",", "from GrovenTune-mar14-4 1", ",", "from GrovenTune-mar14-4 2" ],
+													"items" : [ "to Max 1", ",", "to Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -18045,7 +18036,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-70",
-													"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire", ",", "Live" ],
+													"items" : [ "None", ",", "Core Audio", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire", ",", "Live" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -25290,19 +25281,6 @@
 											}
 , 											{
 												"box" : 												{
-													"id" : "obj-329",
-													"lockeddragscroll" : 1,
-													"maxclass" : "bpatcher",
-													"name" : "+h-help",
-													"numinlets" : 0,
-													"numoutlets" : 0,
-													"patching_rect" : [ 400.0, 10.0, 410.0, 509.0 ],
-													"varname" : "'setuphelp"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
 													"bordercolor" : [ 0.815686, 0.815686, 0.768627, 1.0 ],
 													"id" : "obj-2",
@@ -26880,7 +26858,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 100.0, 109.0, 192.0, 221.0 ],
+										"rect" : [ 162.0, 160.0, 192.0, 221.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -42467,7 +42445,7 @@
 									"numoutlets" : 6,
 									"outlettype" : [ "int", "int", "int", "int", "int", "int" ],
 									"patching_rect" : [ 819.111755, 144.296051, 87.0, 20.0 ],
-									"save" : [ "#N", "menubar", 6, 7, ";", "#X", "about", "About", "Groven+sämpler...", ";", "#X", "closeitem", ";", "#X", "file", 1, "Load", "Soundfont...", ";", "#X", "file", 2, "Load", "Soundfont", "Folder...", ";", "#X", "menutitle", 5, "Setup", ";", "#X", "item", 5, 1, "Show", "GrovenTune", ";", "#X", "item", 5, 2, "Show", "Groven+sämpler", ";", "#X", "item", 5, 3, "Show", "sämpler", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "Show", "Sequencer", ";", "#X", "item", 5, 6, "Show", "Keyfinder", ";", "#X", "item", 5, 7, "Show", "Organ", "buttons", ";", "#X", "item", 5, 8, "Show", "Large", "Best", "keys", ";", "#X", "item", 5, 9, "-", ";", "#X", "item", 5, 10, "Audio", "and", "MIDI", "Setup...", ";", "#X", "item", 5, 11, "Preferences...", ";", "#X", "menutitle", 6, "Help", ";", "#X", "item", 6, 1, "Groven+sämpler", "help...", "/?", ";", "#X", "end", ";" ],
+									"save" : [ "#N", "menubar", 6, 7, ";", "#X", "about", "About", "Groven+sämpler…", ";", "#X", "closeitem", ";", "#X", "file", 1, "Load", "Soundfont…", ";", "#X", "file", 2, "Load", "Soundfont", "Folder…", ";", "#X", "menutitle", 5, "Setup", ";", "#X", "item", 5, 1, "Show", "GrovenTune", "/1", ";", "#X", "item", 5, 2, "Show", "Groven+sämpler", "/2", ";", "#X", "item", 5, 3, "Show", "sämpler", "/3", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "Show", "Sequencer", "/4", ";", "#X", "item", 5, 6, "Show", "Keyfinder", "/5", ";", "#X", "item", 5, 7, "Show", "Organ", "buttons", "/6", ";", "#X", "item", 5, 8, "Show", "Large", "Best", "keys", "/7", ";", "#X", "item", 5, 9, "-", ";", "#X", "item", 5, 10, "Audio", "and", "MIDI", "Setup...", "/", ";", ";", "#X", "item", 5, 11, "Preferences...", "/", ",", ";", "#X", "menutitle", 6, "Documentation", ";", "#X", "item", 6, 1, "Groven+sämpler", "documentation...", "/?", ";", "#X", "end", ";" ],
 									"text" : "menubar 6 7"
 								}
 
@@ -44084,7 +44062,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 201.0, 372.0, 103.0, 17.0 ],
+									"patching_rect" : [ 201.0, 372.0, 137.0, 17.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -44098,7 +44076,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p \"GrovenTune Help\""
+									"text" : "p \"GrovenTune Documentation\""
 								}
 
 							}
@@ -49505,7 +49483,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 330.0, 44.0, 896.0, 556.0 ],
+										"rect" : [ 330.0, 44.0, 914.0, 893.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -49525,6 +49503,21 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"frgb" : 0.0,
+													"id" : "obj-9",
+													"linecount" : 20,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 211.0, 368.0, 229.0, 275.0 ],
+													"text" : "#X about About Groven+sämpler...;\r#X closeitem;\r#X file 1 Load Soundfont... /L;\r#X file 2 Load Soundfont Folder... /K;\r#X menutitle 5 Setup;\r#X item 5 1 Show GrovenTune /1;\r#X item 5 2 Show Groven+sämpler /2;\r#X item 5 3 Show sämpler /3;\r#X item 5 4 -;\r#X item 5 5 Show Sequencer /4;\r#X item 5 6 Show Keyfinder /5;\r#X item 5 7 Show Organ buttons /6;\r#X item 5 8 Show Large Best keys /7;\r#X item 5 9 -;\r#X item 5 10 Audio and MIDI Setup... /\\;;\r#X item 5 11 Preferences... /\\,;\r#X menutitle 6 Documentation;\r#X item 6 1 Groven+sämpler documentation... /?;\r#X end;\r"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
@@ -49548,7 +49541,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 462.0, 152.0, 223.0, 265.0 ],
+													"patching_rect" : [ 462.0, 152.0, 223.0, 258.0 ],
 													"text" : "#X about About Groven+sünth...;\r#X closeitem;\r#X file 1 Load Preset Bank...;\r#X file 2 Save Preset Bank...;\r#X file 3 Restore Factory Presets...;\r#X file 4 -;\r#X file 5 Load Controller Layout...;\r#X file 6 Save Controller Layout...;\r#X menutitle 5 Setup;\r#X item 5 1 Show GrovenTune;\r#X item 5 2 Show Groven+sünth;\r#X item 5 3 Show sünth;\r#X item 5 4 -;\r#X item 5 5 Controller Learn /L;\r#X item 5 6 -;\r#X item 5 7 Show Sequencer;\r#X item 5 8 Show Keyfinder;\r#X item 5 9 Show Organ buttons;\r#X item 5 10 Show Large Best keys;\r#X item 5 11 -;\r#X item 5 12 Audio and MIDI Setup...;\r#X item 5 13 Preferences...;\r#X menutitle 6 Help;\r#X item 6 1 Groven+sünth help... /?;\r#X end;\r"
 												}
 
@@ -49591,7 +49584,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 237.0, 152.0, 203.0, 203.0 ],
+													"patching_rect" : [ 237.0, 152.0, 203.0, 198.0 ],
 													"text" : "#X about About Groven+sämpler...;\r#X closeitem;\r#X file 1 Load Soundfont...;\r#X file 2 Load Soundfont Folder...;\r#X menutitle 5 Setup;\r#X item 5 1 Show GrovenTune;\r#X item 5 2 Show Groven+sämpler;\r#X item 5 3 Show sämpler;\r#X item 5 4 -;\r#X item 5 5 Show Sequencer;\r#X item 5 6 Show Keyfinder;\r#X item 5 7 Show Organ buttons;\r#X item 5 8 Show Large Best keys;\r#X item 5 9 -;\r#X item 5 10 Audio and MIDI Setup...;\r#X item 5 11 Preferences...;\r#X menutitle 6 Help;\r#X item 6 1 Groven+sämpler help... /?;\r#X end;\r"
 												}
 
@@ -49606,7 +49599,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 273.0, 45.0, 236.0, 38.0 ],
+													"patching_rect" : [ 273.0, 45.0, 236.0, 37.0 ],
 													"text" : "OBS! pga \"hjelpsom\" formatering i menubar blir backslash/ føkka opp. kopier herfra, og sjekk om det blir ok ved kompilering:"
 												}
 
@@ -49621,7 +49614,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 26.0, 153.0, 197.0, 141.0 ],
+													"patching_rect" : [ 26.0, 153.0, 197.0, 137.0 ],
 													"text" : "#X about About GrovenTune...;\r#X closeitem;\r#X menutitle 5 Setup;\r#X item 5 1 Show Sequencer;\r#X item 5 2 Show Keyfinder;\r#X item 5 3 Show Organ buttons;\r#X item 5 4 Show Large Best keys;\r#X item 5 5 -;\r#X item 5 6 Audio and MIDI Setup...;\r#X item 5 7 Preferences...;\r#X menutitle 6 Help;\r#X item 6 1 GrovenTune help... /?;\r#X end;\r"
 												}
 
@@ -88948,7 +88941,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
+					"bgcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 					"bgcolor2" : [ 0.87451, 1.0, 0.615686, 1.0 ],
 					"discolor" : [ 0.439216, 0.439216, 0.439216, 1.0 ],
 					"fontname" : "Arial",
@@ -88964,7 +88957,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 481.0, 139.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
-					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
+					"textcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
 					"varname" : "'s3"
@@ -88998,7 +88991,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"bgcolor2" : [ 0.87451, 1.0, 0.615686, 1.0 ],
 					"discolor" : [ 0.439216, 0.439216, 0.439216, 1.0 ],
 					"fontname" : "Arial",
@@ -89014,7 +89007,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 481.0, 89.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
-					"textcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
+					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
 					"varname" : "'s1"
@@ -92320,7 +92313,7 @@
 																	"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 																	"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 																	"id" : "obj-14",
-																	"items" : [ "Accord1.SF2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "FluidR3 GM.SF2", ",", "German8.sf2", ",", "langsin.sf2", ",", "Rhodes_73.SF2", ",", "saz.sf2", ",", "Steinway Grand Piano 1.2.SF2" ],
+																	"items" : "<empty>",
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -118102,7 +118095,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -118263,7 +118255,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 146.0, 102.0, 1530.0, 872.0 ],
+										"rect" : [ 146.0, 178.0, 1530.0, 872.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -118282,7 +118274,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -118328,19 +118319,6 @@
 , 											{
 												"box" : 												{
 													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-144",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 294.0, 750.060242, 61.0, 17.0 ],
-													"text" : "print dump-1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-142",
 													"maxclass" : "newobj",
@@ -118371,64 +118349,12 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-138",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 396.0, 801.060242, 97.0, 17.0 ],
-													"text" : "print wwwwwwwww-3"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-137",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 374.223114, 774.060242, 97.0, 17.0 ],
-													"text" : "print wwwwwwwww-2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-134",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 360.509369, 752.060242, 97.0, 17.0 ],
-													"text" : "print wwwwwwwww-1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
 													"id" : "obj-133",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 590.74939, 503.0, 97.0, 17.0 ],
 													"text" : "print slotpresetREAD."
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-2",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 526.779297, 770.060242, 109.0, 17.0 ],
-													"text" : "print slotpresetWRITE!!!!"
 												}
 
 											}
@@ -118457,28 +118383,6 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 798.0, 188.5, 59.0, 20.0 ],
 													"text" : "tosymbol"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-94",
-													"maxclass" : "button",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 185.666672, 701.060242, 20.0, 20.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-84",
-													"maxclass" : "button",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 102.666672, 723.060242, 20.0, 20.0 ]
 												}
 
 											}
@@ -118835,34 +118739,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-17",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 964.5, 728.060242, 38.0, 17.0 ],
-													"text" : "sel 39"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-18",
-													"maxclass" : "newobj",
-													"numinlets" : 0,
-													"numoutlets" : 4,
-													"outlettype" : [ "int", "int", "int", "int" ],
-													"patching_rect" : [ 964.5, 705.060242, 40.0, 17.0 ],
-													"text" : "key"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
 													"id" : "obj-19",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
@@ -118898,33 +118774,6 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 37.0, 54.0, 86.0, 17.0 ],
 													"text" : "r +message-gate"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-22",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 964.5, 750.060242, 270.0, 15.0 ],
-													"text" : "----------------------------------------------------"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-23",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 964.5, 770.060242, 130.0, 17.0 ],
-													"text" : "print -------------------"
 												}
 
 											}
@@ -125286,7 +125135,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 372.0, 156.0, 279.0, 15.0 ],
-																	"text" : "error pictctrl: can't find file meter17-u-maske.jpg"
+																	"text" : "error bpatcher: bpatcher: error loading patcher +h-help"
 																}
 
 															}
@@ -126659,15 +126508,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-137", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-103", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-24", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -126750,15 +126590,6 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-104", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-107", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-94", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-107", 0 ]
@@ -126987,15 +126818,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-132", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-2", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-136", 0 ]
 												}
 
 											}
@@ -127244,24 +127066,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-22", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-17", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-17", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-18", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-20", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -127293,15 +127097,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-21", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-22", 0 ]
 												}
 
 											}
@@ -127775,15 +127570,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-138", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-65", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-64", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -128036,15 +127822,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-107", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-84", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-7", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -128091,15 +127868,6 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-14", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-86", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-144", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-86", 2 ]
@@ -128238,15 +128006,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-134", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-96", 0 ]
 												}
 
 											}
@@ -132735,6 +132494,13 @@
 				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
 				"patcherrelativepath" : "./Abstractions",
 				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "adv+tufru4NY.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
 				"implicit" : 1
 			}
 , 			{
