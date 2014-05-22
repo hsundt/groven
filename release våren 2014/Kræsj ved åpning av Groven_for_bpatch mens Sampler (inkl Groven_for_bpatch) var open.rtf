@@ -1,0 +1,44 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf190
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 rashed Thread:  0  Dispatch queue: com.apple.main-thread\
+\
+Exception Type:  EXC_BAD_ACCESS (SIGSEGV)\
+Exception Codes: KERN_INVALID_ADDRESS at 0x0000000068cebd9b\
+\
+VM Regions Near 0x68cebd9b:\
+    __LINKEDIT             00000000495af000-000000004960e000 [  380K] r--/rwx SM=COW  /System/Library/Extensions/GeForceTeslaGLDriver.bundle/Contents/MacOS/GeForceTeslaGLDriver\
+--> \
+    __TEXT                 000000008feb3000-000000008fee6000 [  204K] r-x/rwx SM=COW  /usr/lib/dyld\
+\
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread\
+0   com.cycling74.Max             	0x00039c90 error_dispatch + 188\
+1   com.cycling74.Max             	0x0003052e object_error + 107\
+2   com.cycling74.coll            	0x0eadf365 coll_doread + 508\
+3   com.cycling74.Max             	0x000394e7 defer_exec + 84\
+4   com.cycling74.Max             	0x00031763 sched_dequeue + 284\
+5   com.cycling74.Max             	0x0001243e max_tick + 91\
+6   com.cycling74.Max             	0x003803d9 juce::InternalTimerThread::callTimers() + 133\
+7   com.cycling74.Max             	0x00380180 non-virtual thunk to juce::InternalTimerThread::handleMessage(juce::Message const&) + 20\
+8   com.cycling74.Max             	0x0037f237 juce::MessageManager::deliverMessage(juce::Message*) + 137\
+9   com.cycling74.Max             	0x0047734a juce::AppDelegateRedirector::runLoopCallback() + 116\
+10  com.apple.CoreFoundation      	0x9b811b6f __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 15\
+11  com.apple.CoreFoundation      	0x9b80296b __CFRunLoopDoSources0 + 235\
+12  com.apple.CoreFoundation      	0x9b80206e __CFRunLoopRun + 1022\
+13  com.apple.CoreFoundation      	0x9b8019fa CFRunLoopRunSpecific + 394\
+14  com.apple.CoreFoundation      	0x9b80185b CFRunLoopRunInMode + 123\
+15  com.apple.HIToolbox           	0x9691eb7d RunCurrentEventLoopInMode + 259\
+16  com.apple.HIToolbox           	0x9691e902 ReceiveNextEventCommon + 526\
+17  com.apple.HIToolbox           	0x9691e6dd _BlockUntilNextEventMatchingListInModeWithFilter + 92\
+18  com.apple.AppKit              	0x999de389 _DPSNextEvent + 1602\
+19  com.apple.AppKit              	0x999dd8b0 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 119\
+20  com.apple.AppKit              	0x999d019c -[NSApplication run] + 727\
+21  com.cycling74.Max             	0x0046808b juce::MessageManager::runDispatchLoop() + 731\
+22  com.cycling74.Max             	0x00329a78 juce::JUCEApplication::main(juce::StringArray const&) + 68\
+23  com.cycling74.Max             	0x00329b9b juce::JUCEApplication::main(int, char const**) + 73\
+24  com.cycling74.Max             	0x00252486 main + 486\
+25  com.cycling74.Max             	0x00002ef9 _start + 208\
+26  com.cycling74.Max             	0x00002e28 start + 40}

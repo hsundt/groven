@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 788.0, 44.0, 882.0, 509.0 ],
+		"rect" : [ 489.0, 225.0, 883.0, 509.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -746,20 +746,6 @@
 													"outlettype" : [ "bang" ],
 													"patching_rect" : [ 810.564941, 53.102886, 44.0, 17.0 ],
 													"text" : "del 500"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-43",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 781.06012, 29.252403, 48.0, 17.0 ],
-													"text" : "loadbang"
 												}
 
 											}
@@ -1529,24 +1515,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-42", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-43", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-44", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-43", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-66", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -1846,7 +1814,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 54.0, 70.0, 1495.0, 954.0 ],
+										"rect" : [ 40.0, 105.0, 1495.0, 954.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1865,6 +1833,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -3210,7 +3179,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "bang" ],
+													"outlettype" : [ "bang", "" ],
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
@@ -3220,7 +3189,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 11.0, 70.0, 1147.0, 710.0 ],
+														"rect" : [ 463.0, 44.0, 1147.0, 710.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -3246,36 +3215,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 528.5, 331.998871, 15.0, 15.0 ]
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-107",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 681.490417, 329.498871, 215.0, 20.0 ],
-																	"text" : "sprintf write ./%s/Contents/sa-prefskoll"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"hidden" : 1,
-																	"id" : "obj-186",
-																	"maxclass" : "newobj",
-																	"numinlets" : 0,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 673.740845, 302.499664, 59.0, 17.0 ],
-																	"text" : "r +appname"
+																	"patching_rect" : [ 336.5, 374.998871, 15.0, 15.0 ]
 																}
 
 															}
@@ -3808,8 +3748,8 @@
 																	"id" : "obj-2",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
+																	"numoutlets" : 2,
+																	"outlettype" : [ "bang", "" ],
 																	"patcher" : 																	{
 																		"fileversion" : 1,
 																		"appversion" : 																		{
@@ -3840,30 +3780,12 @@
 																		"tags" : "",
 																		"boxes" : [ 																			{
 																				"box" : 																				{
-																					"fontname" : "Arial",
-																					"fontsize" : 12.0,
-																					"id" : "obj-107",
-																					"maxclass" : "newobj",
+																					"comment" : "write",
+																					"id" : "obj-27",
+																					"maxclass" : "outlet",
 																					"numinlets" : 1,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 232.490417, 327.498871, 215.0, 20.0 ],
-																					"text" : "sprintf write ./%s/Contents/sa-prefskoll"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Arial",
-																					"fontsize" : 9.0,
-																					"hidden" : 1,
-																					"id" : "obj-186",
-																					"maxclass" : "newobj",
-																					"numinlets" : 0,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 224.740845, 300.499664, 59.0, 17.0 ],
-																					"text" : "r +appname"
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 97.5, 296.0, 15.0, 15.0 ]
 																				}
 
 																			}
@@ -4146,21 +4068,6 @@
 																				"box" : 																				{
 																					"fontname" : "Arial",
 																					"fontsize" : 9.0,
-																					"id" : "obj-21",
-																					"linecount" : 3,
-																					"maxclass" : "message",
-																					"numinlets" : 2,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 97.0, 254.0, 105.0, 35.0 ],
-																					"text" : "write ./Groven+Sampler.app/Contents/sa-prefskoll"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Arial",
-																					"fontsize" : 9.0,
 																					"id" : "obj-22",
 																					"maxclass" : "newobj",
 																					"numinlets" : 2,
@@ -4252,15 +4159,6 @@
 																			}
 , 																			{
 																				"patchline" : 																				{
-																					"destination" : [ "obj-21", 1 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"source" : [ "obj-107", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
 																					"destination" : [ "obj-1", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
@@ -4297,15 +4195,6 @@
 																			}
 , 																			{
 																				"patchline" : 																				{
-																					"destination" : [ "obj-107", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"source" : [ "obj-186", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
 																					"destination" : [ "obj-23", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
@@ -4324,16 +4213,7 @@
 																			}
 , 																			{
 																				"patchline" : 																				{
-																					"destination" : [ "obj-25", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"source" : [ "obj-21", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-21", 0 ],
+																					"destination" : [ "obj-27", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-22", 0 ]
@@ -5699,15 +5579,6 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-107", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-186", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
 																	"destination" : [ "obj-20", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
@@ -5718,6 +5589,15 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-65", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-2", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-83", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-2", 0 ]
@@ -6634,7 +6514,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 34.0, 411.0, 121.0, 15.0 ],
-													"text" : "symbol autopreset"
+													"text" : "symbol overdrive"
 												}
 
 											}
@@ -6926,7 +6806,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 259.374908, 283.375183, 53.0, 22.0 ],
+													"patching_rect" : [ 191.499146, 302.747742, 53.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0
 													}
@@ -7400,7 +7280,7 @@
 													"destination" : [ "obj-106", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-66", 0 ]
+													"source" : [ "obj-66", 1 ]
 												}
 
 											}
@@ -7409,7 +7289,7 @@
 													"destination" : [ "obj-25", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-66", 0 ]
+													"source" : [ "obj-66", 1 ]
 												}
 
 											}
@@ -7418,7 +7298,7 @@
 													"destination" : [ "obj-6", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-66", 1 ]
+													"source" : [ "obj-66", 0 ]
 												}
 
 											}
@@ -8042,34 +7922,6 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
-												"box" : 												{
-													"handoff" : "",
-													"hilite" : 0,
-													"id" : "obj-79",
-													"maxclass" : "ubutton",
-													"numinlets" : 1,
-													"numoutlets" : 4,
-													"outlettype" : [ "bang", "bang", "", "int" ],
-													"patching_rect" : [ 123.0, 80.0, 216.0, 26.0 ],
-													"varname" : "'qwerty-midi-mask2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
-													"bordercolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
-													"id" : "obj-78",
-													"maxclass" : "panel",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 127.0, 68.0, 211.0, 37.0 ],
-													"rounded" : 0,
-													"varname" : "'qwerty-midi-mask"
-												}
-
-											}
-, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
@@ -16333,6 +16185,34 @@
 												}
 
 											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
+													"bordercolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
+													"id" : "obj-78",
+													"maxclass" : "panel",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 127.0, 68.0, 211.0, 37.0 ],
+													"rounded" : 0,
+													"varname" : "'qwerty-midi-mask"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"handoff" : "",
+													"hilite" : 0,
+													"id" : "obj-79",
+													"maxclass" : "ubutton",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "bang", "bang", "", "int" ],
+													"patching_rect" : [ 123.0, 80.0, 216.0, 26.0 ],
+													"varname" : "'qwerty-midi-mask2"
+												}
+
+											}
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
@@ -17017,34 +16897,6 @@
 												"box" : 												{
 													"handoff" : "",
 													"hilite" : 0,
-													"id" : "obj-1",
-													"maxclass" : "ubutton",
-													"numinlets" : 1,
-													"numoutlets" : 4,
-													"outlettype" : [ "bang", "bang", "", "int" ],
-													"patching_rect" : [ 44.0, 229.0, 314.0, 177.0 ],
-													"varname" : "'ch123mask2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
-													"bordercolor" : [ 0.815686, 0.815686, 0.768627, 1.0 ],
-													"id" : "obj-2",
-													"maxclass" : "panel",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 43.0, 228.0, 316.0, 179.0 ],
-													"rounded" : 0,
-													"varname" : "'ch1+2+3mask"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"handoff" : "",
-													"hilite" : 0,
 													"id" : "obj-82",
 													"maxclass" : "ubutton",
 													"numinlets" : 1,
@@ -17157,7 +17009,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-7",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to GrovenTune-mar14-4 1", ",", "to GrovenTune-mar14-4 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -17247,7 +17099,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-12",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to GrovenTune-mar14-4 1", ",", "to GrovenTune-mar14-4 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -17376,7 +17228,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-19",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to GrovenTune-mar14-4 1", ",", "to GrovenTune-mar14-4 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -17465,7 +17317,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-24",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to GrovenTune-mar14-4 1", ",", "to GrovenTune-mar14-4 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -18089,7 +17941,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-64",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "none" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "to GrovenTune-mar14-4 1", ",", "to GrovenTune-mar14-4 2", ",", "none" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -18168,7 +18020,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-69",
-													"items" : [ "to Max 1", ",", "to Max 2" ],
+													"items" : [ "to Max 1", ",", "to Max 2", ",", "from GrovenTune-mar14-4 1", ",", "from GrovenTune-mar14-4 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -25446,6 +25298,34 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 400.0, 10.0, 410.0, 509.0 ],
 													"varname" : "'setuphelp"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
+													"bordercolor" : [ 0.815686, 0.815686, 0.768627, 1.0 ],
+													"id" : "obj-2",
+													"maxclass" : "panel",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 43.0, 228.0, 316.0, 179.0 ],
+													"rounded" : 0,
+													"varname" : "'ch1+2+3mask"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"handoff" : "",
+													"hilite" : 0,
+													"id" : "obj-1",
+													"maxclass" : "ubutton",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "bang", "bang", "", "int" ],
+													"patching_rect" : [ 44.0, 229.0, 314.0, 177.0 ],
+													"varname" : "'ch123mask2"
 												}
 
 											}
@@ -51939,17 +51819,16 @@
 				"box" : 				{
 					"frames" : 17,
 					"id" : "obj-30",
-					"imagemask" : 1,
 					"maxclass" : "pictctrl",
 					"mode" : 2,
 					"multiplier" : 1,
-					"name" : "meter17.pct",
+					"name" : "meter17-u-maske.jpg",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 430.0, 131.0, 2.0, 47.0 ],
-					"range" : 16,
+					"range" : 17,
 					"snap" : 1,
 					"tracking" : 1
 				}
@@ -51959,17 +51838,16 @@
 				"box" : 				{
 					"frames" : 17,
 					"id" : "obj-31",
-					"imagemask" : 1,
 					"maxclass" : "pictctrl",
 					"mode" : 2,
 					"multiplier" : 1,
-					"name" : "meter17.pct",
+					"name" : "meter17-u-maske.jpg",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 377.0, 131.0, 2.0, 47.0 ],
-					"range" : 16,
+					"range" : 17,
 					"snap" : 1,
 					"tracking" : 1
 				}
@@ -72737,7 +72615,7 @@
 					"framecolor" : [ 0.368627, 0.517647, 0.0, 1.0 ],
 					"hltcolor" : [ 0.698039, 0.854902, 0.501961, 1.0 ],
 					"id" : "obj-70",
-					"items" : [ "load folder...", ",", "(- or: load recent folder:)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)" ],
+					"items" : [ "load folder...", ",", "(- or: load recent folder:)", ",", "dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven fra gamle diskar/cpPan~ objectX/GrovenSynth_inkl3/soundfonts-2/", ",", "dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven fra gamle diskar/Groven+Sampler-beta1_pk/Instrumenter/", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -72763,7 +72641,7 @@
 					"framecolor" : [ 0.368627, 0.517647, 0.0, 1.0 ],
 					"hltcolor" : [ 0.698039, 0.854902, 0.501961, 1.0 ],
 					"id" : "obj-71",
-					"items" : [ "load font...", ",", "(- or: load recent font:)", ",", "english organ_102.sf2", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)" ],
+					"items" : [ "load font...", ",", "(- or: load recent font:)", ",", "english organ_102.sf2", ",", "VintageDreamsWaves-v2.sf2", ",", "Gort's_MiniPiano.SF2", ",", "langsin.sf2", ",", "english organ_102.sf2", ",", "langsin.sf2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "Gort's_MiniPiano.SF2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -72788,7 +72666,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 					"id" : "obj-72",
-					"items" : "english organ_102.sf2",
+					"items" : [ "Accord1.SF2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "FluidR3 GM.SF2", ",", "German8.sf2", ",", "langsin.sf2", ",", "Rhodes_73.SF2", ",", "saz.sf2", ",", "Steinway Grand Piano 1.2.SF2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -72796,7 +72674,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 557.0, 42.0, 214.0, 22.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/dhk/Desktop/soundfonts-2/",
+					"prefix" : "dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven fra gamle diskar/cpPan~ objectX/GrovenSynth_inkl3/soundfonts-2/",
 					"prefix_mode" : 2,
 					"textcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"textcolor2" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
@@ -72867,7 +72745,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.117647, 1.0 ],
 					"id" : "obj-75",
-					"items" : "english organ_102.sf2",
+					"items" : [ "Accord1.SF2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "FluidR3 GM.SF2", ",", "German8.sf2", ",", "langsin.sf2", ",", "Rhodes_73.SF2", ",", "saz.sf2", ",", "Steinway Grand Piano 1.2.SF2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -72875,7 +72753,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 376.0, 395.0, 57.0, 17.0 ],
 					"pattrmode" : 1,
-					"prefix" : "Macintosh HD:/Users/dhk/Desktop/soundfonts-2/",
+					"prefix" : "dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven fra gamle diskar/cpPan~ objectX/GrovenSynth_inkl3/soundfonts-2/",
 					"prefix_mode" : 2,
 					"textcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"textcolor2" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
@@ -91293,7 +91171,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 58.0, 44.0, 1590.0, 980.0 ],
+										"rect" : [ 33.0, 61.0, 1590.0, 980.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -91316,14 +91194,29 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
+													"fontsize" : 20.0,
+													"id" : "obj-24",
+													"linecount" : 2,
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1181.0, 48.0, 406.0, 50.0 ],
+													"text" : "•Ωé†µüıœπ˙ß∂ƒ¸˛√ªﬁªö√ªªªª'ä÷≈ç‹›‘‘’‚…–•••••°°°°werrr_°˝É‡†‡"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-168",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
-													"patching_rect" : [ 45.0, 576.5, 139.0, 20.0 ],
-													"text" : "regexp \" \" @substitute ?"
+													"patching_rect" : [ 66.0, 631.0, 139.0, 20.0 ],
+													"text" : "regexp \" \" @substitute ‡"
 												}
 
 											}
@@ -91336,22 +91229,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 45.0, 598.0, 59.0, 20.0 ],
-													"presentation_rect" : [ 12.0, 573.0, 0.0, 0.0 ],
+													"patching_rect" : [ 66.0, 664.5, 59.0, 20.0 ],
 													"text" : "tosymbol"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-152",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 17.0, 631.0, 44.0, 20.0 ],
-													"text" : "print ?"
 												}
 
 											}
@@ -91364,8 +91243,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 28.0, 696.0, 59.0, 20.0 ],
-													"presentation_rect" : [ 32.0, 694.0, 0.0, 0.0 ],
+													"patching_rect" : [ 347.0, 883.0, 59.0, 20.0 ],
 													"text" : "tosymbol"
 												}
 
@@ -91392,22 +91270,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 83.0, 843.0, 59.0, 20.0 ],
-													"presentation_rect" : [ 76.0, 855.0, 0.0, 0.0 ],
+													"patching_rect" : [ 172.0, 733.5, 59.0, 20.0 ],
 													"text" : "tosymbol"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-148",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 17.0, 814.0, 89.0, 17.0 ],
-													"text" : "print fontsakoll-inn6"
 												}
 
 											}
@@ -91435,7 +91299,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1350.0, 289.0, 144.0, 18.0 ],
-													"presentation_rect" : [ 1273.0, 309.0, 0.0, 0.0 ],
 													"text" : "noi"
 												}
 
@@ -91450,7 +91313,6 @@
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
 													"patching_rect" : [ 1321.5, 245.0, 127.0, 20.0 ],
-													"presentation_rect" : [ 1247.5, 242.0, 0.0, 0.0 ],
 													"text" : "regexp : @substitute /"
 												}
 
@@ -91464,7 +91326,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
-													"patching_rect" : [ 161.0, 910.0, 127.0, 20.0 ],
+													"patching_rect" : [ 79.0, 800.0, 127.0, 20.0 ],
 													"text" : "regexp : @substitute /"
 												}
 
@@ -91478,7 +91340,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
-													"patching_rect" : [ 11.0, 755.0, 127.0, 20.0 ],
+													"patching_rect" : [ 172.0, 705.5, 127.0, 20.0 ],
 													"text" : "regexp / @substitute :"
 												}
 
@@ -91535,7 +91397,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1350.0, 593.0, 113.0, 20.0 ],
-													"presentation_rect" : [ 17.0, 912.0, 0.0, 0.0 ],
 													"text" : "sprintf store %s %s"
 												}
 
@@ -91564,7 +91425,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1350.0, 510.0, 81.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"filename" : "convert_fix.js",
+														"filename" : "convert_fix",
 														"parameter_enable" : 0
 													}
 ,
@@ -91597,62 +91458,6 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1181.0, 704.0, 63.0, 20.0 ],
 													"text" : "sprintf %s"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-141",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 1332.0, 866.0, 200.0, 18.0 ],
-													"text" : "Gort's_MiniPiano.SF2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-139",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 1123.0, 922.0, 74.0, 20.0 ],
-													"text" : "prepend set"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-138",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 822.0, 827.0, 32.5, 18.0 ],
-													"text" : "set"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-136",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 1271.0, 845.0, 35.0, 18.0 ],
-													"text" : "erter"
 												}
 
 											}
@@ -91718,7 +91523,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 1123.0, 790.0, 374.0, 25.0 ],
+													"patching_rect" : [ 1123.0, 790.0, 101.0, 25.0 ],
 													"text" : "\"english organ_102.sf2\""
 												}
 
@@ -91755,40 +91560,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
-													"id" : "obj-127",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 432.0, 859.0, 674.0, 18.0 ],
-													"text" : "\"english organ_102.sf2\""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
 													"id" : "obj-120",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 172.0, 843.0, 59.0, 20.0 ],
+													"patching_rect" : [ 79.0, 740.0, 59.0, 20.0 ],
 													"text" : "tosymbol"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-119",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 391.0, 945.0, 89.0, 17.0 ],
-													"text" : "print fontsakoll-inn5"
 												}
 
 											}
@@ -91801,7 +91579,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 290.0, 790.0, 59.0, 20.0 ],
+													"patching_rect" : [ 172.0, 676.5, 59.0, 20.0 ],
 													"text" : "tosymbol"
 												}
 
@@ -91815,60 +91593,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 172.0, 882.0, 113.0, 20.0 ],
+													"patching_rect" : [ 79.0, 771.0, 113.0, 20.0 ],
 													"text" : "sprintf store %s %s"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-116",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 328.0, 910.0, 89.0, 17.0 ],
-													"text" : "print fontsakoll-inn4"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-115",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 432.0, 910.0, 89.0, 17.0 ],
-													"text" : "print fontsakoll-inn3"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-114",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 527.5, 910.0, 89.0, 17.0 ],
-													"text" : "print fontsakoll-inn2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-113",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 616.5, 910.0, 84.0, 17.0 ],
-													"text" : "print fontsakoll-inn"
 												}
 
 											}
@@ -92205,7 +91931,7 @@
 																	"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 																	"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 																	"id" : "obj-13",
-																	"items" : [ "Accord1.SF2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "German8.sf2", ",", "Rhodes_73.SF2", ",", "saz.sf2", ",", "Steinway Grand Piano 1.2.SF2" ],
+																	"items" : [ "Accord1.SF2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "FluidR3 GM.SF2", ",", "German8.sf2", ",", "langsin.sf2", ",", "Rhodes_73.SF2", ",", "saz.sf2", ",", "Steinway Grand Piano 1.2.SF2" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -92486,7 +92212,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 64.0, 340.0, 515.0, 15.0 ],
-																	"text" : "\"Macintosh HD:/Users/dhk/Desktop/soundfonts-2/\""
+																	"text" : "\"dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven fra gamle diskar/cpPan~ objectX/GrovenSynth_inkl3/soundfonts-2/\""
 																}
 
 															}
@@ -92594,7 +92320,7 @@
 																	"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 																	"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 																	"id" : "obj-14",
-																	"items" : [ "Accord1.SF2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "German8.sf2", ",", "Rhodes_73.SF2", ",", "saz.sf2", ",", "Steinway Grand Piano 1.2.SF2" ],
+																	"items" : [ "Accord1.SF2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "FluidR3 GM.SF2", ",", "German8.sf2", ",", "langsin.sf2", ",", "Rhodes_73.SF2", ",", "saz.sf2", ",", "Steinway Grand Piano 1.2.SF2" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -92602,7 +92328,7 @@
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 144.0, 210.0, 194.0, 23.0 ],
 																	"pattrmode" : 1,
-																	"prefix" : "Macintosh HD:/Users/dhk/Desktop/soundfonts-2/",
+																	"prefix" : "dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven fra gamle diskar/cpPan~ objectX/GrovenSynth_inkl3/soundfonts-2/",
 																	"textcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 																	"textcolor2" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 																	"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -92776,22 +92502,8 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 363.0, 726.0, 80.0, 17.0 ],
+													"patching_rect" : [ 271.0, 611.614502, 80.0, 17.0 ],
 													"text" : "s delete-folder!"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-8",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 493.0, 720.0, 78.0, 17.0 ],
-													"text" : "prepend append"
 												}
 
 											}
@@ -92804,7 +92516,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 363.0, 704.0, 32.0, 17.0 ],
+													"patching_rect" : [ 271.0, 589.614502, 32.0, 17.0 ],
 													"text" : "sel 0"
 												}
 
@@ -92827,7 +92539,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 0.0, 59.0, 600.0, 426.0 ],
+														"rect" : [ 0.0, 44.0, 600.0, 426.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -92846,17 +92558,31 @@
 														"description" : "",
 														"digest" : "",
 														"tags" : "",
-														"visible" : 1,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
-																	"id" : "obj-14",
+																	"id" : "obj-168",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 25.0, 374.0, 77.0, 20.0 ],
-																	"text" : "print hhhhhh"
+																	"numoutlets" : 5,
+																	"outlettype" : [ "", "", "", "", "" ],
+																	"patching_rect" : [ 416.0, 155.0, 139.0, 20.0 ],
+																	"text" : "regexp \" \" @substitute ‡"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-153",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 416.0, 188.5, 59.0, 20.0 ],
+																	"text" : "tosymbol"
 																}
 
 															}
@@ -92869,41 +92595,13 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 41.0, 266.0, 81.0, 20.0 ],
+																	"patching_rect" : [ 100.0, 265.0, 81.0, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"filename" : "convert_fix.js",
+																		"filename" : "convert_fix",
 																		"parameter_enable" : 0
 																	}
 ,
 																	"text" : "js convert_fix"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-13",
-																	"maxclass" : "message",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 260.0, 305.0, 137.0, 18.0 ],
-																	"text" : "\"english organ_102.sf2\""
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-11",
-																	"maxclass" : "message",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 260.0, 278.0, 165.0, 18.0 ],
-																	"text" : "VintageDreamsWaves-v2.sf2"
 																}
 
 															}
@@ -92954,7 +92652,7 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 230.0, 128.0, 79.0, 17.0 ],
+																	"patching_rect" : [ 183.0, 155.0, 79.0, 17.0 ],
 																	"text" : "s +loading_font"
 																}
 
@@ -92968,7 +92666,8 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 100.0, 219.0, 461.0, 15.0 ]
+																	"patching_rect" : [ 100.0, 219.0, 461.0, 15.0 ],
+																	"text" : "english‡organ_102.sf2"
 																}
 
 															}
@@ -93044,28 +92743,28 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-6", 0 ],
+																	"destination" : [ "obj-3", 1 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"source" : [ "obj-11", 0 ]
+																	"source" : [ "obj-153", 0 ]
 																}
 
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-6", 0 ],
+																	"destination" : [ "obj-153", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"source" : [ "obj-13", 0 ]
+																	"source" : [ "obj-168", 3 ]
 																}
 
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-14", 0 ],
+																	"destination" : [ "obj-153", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"source" : [ "obj-22", 0 ]
+																	"source" : [ "obj-168", 0 ]
 																}
 
 															}
@@ -93089,19 +92788,19 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-2", 0 ],
+																	"destination" : [ "obj-168", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"source" : [ "obj-4", 2 ]
+																	"source" : [ "obj-4", 1 ]
 																}
 
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-3", 1 ],
+																	"destination" : [ "obj-2", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"source" : [ "obj-4", 1 ]
+																	"source" : [ "obj-4", 2 ]
 																}
 
 															}
@@ -93159,21 +92858,6 @@
 													}
 ,
 													"text" : "p symbolbuffer"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"frgb" : 0.0,
-													"id" : "obj-12",
-													"linecount" : 4,
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 491.0, 745.0, 300.0, 47.0 ],
-													"text" : "bug-reproduksjon: spør koll om data (som har filepath), UTAN kopling til fluid. sjekk print tofluid... gjer det samme MED kopling... ! (og sjekk gjerne koll etterpå - data (path) er fjerna... sjølv med alle koplingar til koll fjerna!"
 												}
 
 											}
@@ -93649,7 +93333,8 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 452.0, 477.0, 219.0, 15.0 ]
+																	"patching_rect" : [ 452.0, 477.0, 219.0, 15.0 ],
+																	"text" : "langsin.sf2"
 																}
 
 															}
@@ -93988,7 +93673,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 482.0, 631.0, 162.0, 20.0 ],
+													"patching_rect" : [ 411.915955, 676.5, 162.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
@@ -94091,13 +93776,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 14.0,
 													"id" : "obj-21",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 1044.0, 473.0, 217.0, 36.0 ],
-													"text" : "setitem 1 \"(- or: load recent font:)\""
+													"patching_rect" : [ 1044.0, 473.0, 217.0, 20.0 ],
+													"text" : "0"
 												}
 
 											}
@@ -94125,7 +93809,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 189.0, 690.0, 130.0, 37.0 ],
+													"patching_rect" : [ 404.0, 850.0, 130.0, 37.0 ],
 													"text" : "oppdaterande sentral oversikt over brukte fontar og plasseringa deira"
 												}
 
@@ -94148,14 +93832,14 @@
 , 											{
 												"box" : 												{
 													"fontname" : "Arial",
-													"fontsize" : 9.0,
+													"fontsize" : 16.0,
 													"frgb" : 0.0,
 													"id" : "obj-27",
 													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 829.0, 733.0, 240.0, 27.0 ],
+													"patching_rect" : [ 829.0, 733.0, 334.0, 42.0 ],
 													"text" : "PROBLEM: oransj coll fontskoll blir ikkje skrive til når lastinga skjer via load folder..."
 												}
 
@@ -94220,7 +93904,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 10.0, 59.0, 544.0, 404.0 ],
+														"rect" : [ 15.0, 145.0, 544.0, 404.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -94242,13 +93926,26 @@
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-6",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 96.0, 156.0, 44.0, 20.0 ],
+																	"text" : "print g"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
 																	"fontsize" : 9.0,
 																	"id" : "obj-1",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "bang", "int" ],
-																	"patching_rect" : [ 251.0, 111.0, 27.0, 17.0 ],
+																	"patching_rect" : [ 247.5, 65.0, 27.0, 17.0 ],
 																	"text" : "t b i"
 																}
 
@@ -94260,7 +93957,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 327.0, 265.0, 15.0, 15.0 ]
+																	"patching_rect" : [ 317.5, 327.0, 15.0, 15.0 ]
 																}
 
 															}
@@ -94271,7 +93968,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 241.0, 278.0, 15.0, 15.0 ]
+																	"patching_rect" : [ 231.5, 340.0, 15.0, 15.0 ]
 																}
 
 															}
@@ -94284,7 +93981,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "bang", "" ],
-																	"patching_rect" : [ 223.0, 195.0, 32.0, 17.0 ],
+																	"patching_rect" : [ 231.0, 296.0, 32.0, 17.0 ],
 																	"text" : "sel 0"
 																}
 
@@ -94298,19 +93995,8 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "bang" ],
-																	"patching_rect" : [ 342.0, 83.0, 48.0, 17.0 ],
+																	"patching_rect" : [ 377.0, 181.0, 48.0, 17.0 ],
 																	"text" : "loadbang"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-6",
-																	"maxclass" : "button",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "bang" ],
-																	"patching_rect" : [ 300.0, 35.0, 15.0, 15.0 ]
 																}
 
 															}
@@ -94323,7 +94009,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 300.0, 69.0, 16.0, 15.0 ],
+																	"patching_rect" : [ 254.5, 192.0, 16.0, 15.0 ],
 																	"text" : "0"
 																}
 
@@ -94337,7 +94023,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 323.0, 113.0, 16.0, 15.0 ],
+																	"patching_rect" : [ 358.0, 211.0, 16.0, 15.0 ],
 																	"text" : "1"
 																}
 
@@ -94351,7 +94037,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 280.0, 160.0, 29.0, 17.0 ],
+																	"patching_rect" : [ 317.0, 273.0, 29.0, 17.0 ],
 																	"text" : "gate"
 																}
 
@@ -94365,7 +94051,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "bang" ],
-																	"patching_rect" : [ 326.0, 60.0, 38.0, 17.0 ],
+																	"patching_rect" : [ 354.5, 135.0, 38.0, 17.0 ],
 																	"text" : "del 50"
 																}
 
@@ -94378,7 +94064,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "int" ],
-																	"patching_rect" : [ 237.0, 72.0, 15.0, 15.0 ]
+																	"patching_rect" : [ 248.0, 26.0, 15.0, 15.0 ]
 																}
 
 															}
@@ -94443,24 +94129,6 @@
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-5", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-10", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-6", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-7", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-6", 0 ]
 																}
 
 															}
@@ -94969,7 +94637,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 87.0, 628.0, 30.0, 17.0 ],
+													"patching_rect" : [ 66.0, 694.5, 30.0, 17.0 ],
 													"text" : "t b s"
 												}
 
@@ -95080,34 +94748,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-48",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 493.0, 701.0, 378.0, 15.0 ],
-													"text" : "VintageDreamsWaves-v2.sf2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-49",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 493.0, 678.0, 62.0, 17.0 ],
-													"text" : "prepend set"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
 													"frgb" : 0.0,
 													"id" : "obj-50",
 													"linecount" : 3,
@@ -95152,40 +94792,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-53",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 132.0, 736.0, 69.0, 17.0 ],
-													"text" : "route symbol"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
 													"id" : "obj-54",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 391.0, 499.0, 51.0, 17.0 ],
+													"patching_rect" : [ 391.0, 501.0, 51.0, 17.0 ],
 													"text" : "tosymbol"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-55",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 198.5, 814.0, 52.0, 17.0 ],
-													"text" : "print fold"
 												}
 
 											}
@@ -95198,7 +94811,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 255.0, 598.0, 33.0, 15.0 ],
+													"patching_rect" : [ 616.5, 733.0, 33.0, 15.0 ],
 													"text" : "clear"
 												}
 
@@ -95282,7 +94895,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 87.0, 512.0, 30.0, 17.0 ],
+													"patching_rect" : [ 66.0, 573.5, 30.0, 17.0 ],
 													"text" : "t s s"
 												}
 
@@ -95296,7 +94909,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "int" ],
-													"patching_rect" : [ 87.0, 544.0, 51.0, 17.0 ],
+													"patching_rect" : [ 66.0, 610.5, 51.0, 17.0 ],
 													"text" : "strippath"
 												}
 
@@ -95312,7 +94925,7 @@
 													"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 													"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 													"id" : "obj-65",
-													"items" : "<empty>",
+													"items" : [ "Accord1.SF2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "FluidR3 GM.SF2", ",", "German8.sf2", ",", "langsin.sf2", ",", "Rhodes_73.SF2", ",", "saz.sf2", ",", "Steinway Grand Piano 1.2.SF2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -95320,7 +94933,7 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 87.0, 466.0, 194.0, 22.0 ],
 													"pattrmode" : 1,
-													"prefix" : "Macintosh HD:/Users/dhk/Desktop/soundfonts-2/",
+													"prefix" : "dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven fra gamle diskar/cpPan~ objectX/GrovenSynth_inkl3/soundfonts-2/",
 													"textcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 													"textcolor2" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 													"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
@@ -95338,7 +94951,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 132.0, 696.0, 53.0, 17.0 ],
+													"patching_rect" : [ 347.0, 856.0, 53.0, 17.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0
 													}
@@ -96625,7 +96238,8 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 317.0, 601.0, 163.0, 15.0 ]
+																	"patching_rect" : [ 317.0, 601.0, 163.0, 15.0 ],
+																	"text" : "\"english organ_102.sf2\""
 																}
 
 															}
@@ -97892,7 +97506,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 182.0, 69.0, 16.0, 15.0 ],
+													"patching_rect" : [ 135.5, 90.560905, 16.0, 15.0 ],
 													"text" : "0"
 												}
 
@@ -97906,7 +97520,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 172.0, 48.0, 50.0, 17.0 ],
+													"patching_rect" : [ 134.5, 67.0, 50.0, 17.0 ],
 													"text" : "del 3000"
 												}
 
@@ -97931,7 +97545,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 162.0, 69.0, 17.0, 15.0 ],
+													"patching_rect" : [ 115.5, 90.560905, 17.0, 15.0 ],
 													"text" : "1"
 												}
 
@@ -97945,7 +97559,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 205.0, 122.0, 29.0, 17.0 ],
+													"patching_rect" : [ 106.0, 163.0, 29.0, 17.0 ],
 													"text" : "gate"
 												}
 
@@ -98084,7 +97698,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 411.915955, 827.0, 15.0, 15.0 ]
+													"patching_rect" : [ 437.915955, 938.0, 15.0, 15.0 ]
 												}
 
 											}
@@ -98106,7 +97720,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 1009.0, 116.0, 644.0, 543.0 ],
+														"rect" : [ 1020.0, 116.0, 649.0, 699.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -98536,7 +98150,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 151.0, 478.0, 15.0, 15.0 ]
+																	"patching_rect" : [ 223.0, 570.0, 15.0, 15.0 ]
 																}
 
 															}
@@ -98610,7 +98224,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 43.0, 276.0, 15.0, 15.0 ]
+																	"patching_rect" : [ 14.0, 486.0, 15.0, 15.0 ]
 																}
 
 															}
@@ -98622,7 +98236,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 92.0, 238.0, 15.0, 15.0 ]
+																	"patching_rect" : [ 92.5, 72.0, 15.0, 15.0 ]
 																}
 
 															}
@@ -98686,7 +98300,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 511.0, 450.0, 15.0, 15.0 ]
+																	"patching_rect" : [ 511.5, 557.0, 15.0, 15.0 ]
 																}
 
 															}
@@ -98699,7 +98313,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 335.0, 420.0, 78.0, 17.0 ],
+																	"patching_rect" : [ 256.0, 399.0, 78.0, 17.0 ],
 																	"text" : "prepend append"
 																}
 
@@ -98940,7 +98554,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 432.0, 449.0, 15.0, 15.0 ]
+																	"patching_rect" : [ 392.166656, 557.0, 15.0, 15.0 ]
 																}
 
 															}
@@ -98951,7 +98565,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 92.0, 460.0, 15.0, 15.0 ]
+																	"patching_rect" : [ 55.5, 564.0, 15.0, 15.0 ]
 																}
 
 															}
@@ -99373,7 +98987,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 651.0, 176.0, 103.0, 17.0 ],
+													"patching_rect" : [ 628.0, 146.0, 103.0, 17.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
@@ -99420,7 +99034,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 67.0, 86.0, 1266.0, 938.0 ],
+														"rect" : [ 20.0, 86.0, 1103.0, 792.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -99439,6 +99053,7 @@
 														"description" : "",
 														"digest" : "",
 														"tags" : "",
+														"visible" : 1,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"fontname" : "Arial",
@@ -99677,7 +99292,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 94.0, 390.0, 72.0, 56.0 ],
+																					"patching_rect" : [ 94.0, 390.0, 72.0, 45.0 ],
 																					"text" : "read ./Groven+Sampler.app/Contents/fontskoll"
 																				}
 
@@ -99717,7 +99332,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 149.0, 297.0, 77.0, 56.0 ],
+																					"patching_rect" : [ 149.0, 297.0, 77.0, 45.0 ],
 																					"text" : "write ./Groven+Sampler.app/Contents/fontskoll"
 																				}
 
@@ -99906,7 +99521,7 @@
 																					"numinlets" : 1,
 																					"numoutlets" : 4,
 																					"outlettype" : [ "", "", "", "" ],
-																					"patching_rect" : [ 275.0, 244.0, 53.0, 23.0 ],
+																					"patching_rect" : [ 275.0, 244.0, 53.0, 22.0 ],
 																					"saved_object_attributes" : 																					{
 																						"embed" : 0
 																					}
@@ -100469,7 +100084,7 @@
 																					"maxclass" : "comment",
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
-																					"patching_rect" : [ 45.0, 171.0, 100.0, 58.0 ],
+																					"patching_rect" : [ 45.0, 171.0, 100.0, 57.0 ],
 																					"text" : "- må sende eitt element av gangen, vente på ny dump fra menykoll, som trigger neste"
 																				}
 
@@ -100498,7 +100113,7 @@
 																					"maxclass" : "comment",
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
-																					"patching_rect" : [ 236.0, 68.0, 100.0, 38.0 ],
+																					"patching_rect" : [ 236.0, 68.0, 100.0, 37.0 ],
 																					"text" : "utsatt sending av eventuelt fleire element"
 																				}
 
@@ -101219,11 +100834,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 9.0,
 																	"id" : "obj-38",
+																	"linecount" : 6,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 373.0, 607.0, 140.0, 15.0 ]
+																	"patching_rect" : [ 373.0, 607.0, 140.0, 65.0 ],
+																	"text" : "\"dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven fra gamle diskar/cpPan~ objectX/GrovenSynth_inkl3/soundfonts-2/\""
 																}
 
 															}
@@ -102309,8 +101926,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 106.0, 233.0, 562.0, 15.0 ],
-													"text" : "\"english organ_102.sf2\""
+													"patching_rect" : [ 106.0, 233.0, 102.0, 15.0 ],
+													"text" : "Gort's_MiniPiano.SF2"
 												}
 
 											}
@@ -102442,7 +102059,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 651.0, 136.0, 15.0, 15.0 ]
+													"patching_rect" : [ 626.5, 106.0, 15.0, 15.0 ]
 												}
 
 											}
@@ -102496,7 +102113,7 @@
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 115.0, 684.0, 203.0, 48.0 ],
+													"patching_rect" : [ 330.0, 844.0, 203.0, 48.0 ],
 													"rounded" : 0
 												}
 
@@ -102603,15 +102220,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-116", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-118", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-135", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -102684,15 +102292,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-139", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-132", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-41", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -102706,6 +102305,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-133", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-132", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-133", 1 ]
 												}
 
 											}
@@ -102747,24 +102355,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-148", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-135", 3 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-148", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-135", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-149", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -102783,19 +102373,10 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-127", 1 ],
+													"destination" : [ "obj-66", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-136", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-119", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-137", 0 ]
+													"source" : [ "obj-137", 3 ]
 												}
 
 											}
@@ -102805,24 +102386,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-137", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-127", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-138", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-127", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-139", 0 ]
 												}
 
 											}
@@ -102864,28 +102427,10 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-139", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-141", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-143", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-142", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-132", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-143", 0 ]
 												}
 
 											}
@@ -102940,6 +102485,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-16", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-153", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-168", 3 ]
 												}
 
 											}
@@ -103107,6 +102661,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-150", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-31", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-73", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -103233,15 +102796,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-113", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-41", 3 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-3", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -103314,37 +102868,10 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-55", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-47", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-66", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-47", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-8", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-48", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-48", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-49", 0 ]
 												}
 
 											}
@@ -103381,24 +102908,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-52", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-150", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-53", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-49", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-53", 0 ]
 												}
 
 											}
@@ -103521,15 +103030,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-114", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-63", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-118", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -103566,15 +103066,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-55", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-65", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-60", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -103585,15 +103076,6 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-151", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-66", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-53", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-66", 0 ]
@@ -103921,15 +103403,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-86", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-48", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-9", 0 ]
 												}
 
 											}
@@ -118563,7 +118036,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 366.0, 0.0, 545.0, 513.0 ],
-					"pic" : "samplerpanel--.pct"
+					"pic" : "dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct specifically for Groven+Sampler/samplerpanel-mindre-fyll.jpg"
 				}
 
 			}
@@ -118572,8 +118045,8 @@
 					"id" : "obj-166",
 					"lockeddragscroll" : 1,
 					"maxclass" : "bpatcher",
-					"name" : "groven_for_bpatch-apr07->aug13--.maxpat",
-					"numinlets" : 0,
+					"name" : "groven_for_bpatch.maxpat",
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ -319.0, -44.0 ],
 					"patching_rect" : [ -12.0, -57.0, 915.0, 572.0 ]
@@ -118610,7 +118083,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 37.0, 82.0, 428.0, 264.0 ],
+						"rect" : [ 524.0, 67.0, 428.0, 264.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -118629,7 +118102,35 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-43",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 327.0, 19.0, 48.0, 17.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 176.0, 35.0, 64.0, 20.0 ],
+									"text" : "print over!"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -118638,7 +118139,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 8.0, 158.0, 87.0, 17.0 ],
+									"patching_rect" : [ 61.0, 222.0, 87.0, 17.0 ],
 									"text" : "r +to_autopreset"
 								}
 
@@ -118762,7 +118263,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 48.0, 116.0, 1530.0, 872.0 ],
+										"rect" : [ 146.0, 102.0, 1530.0, 872.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -118783,6 +118284,183 @@
 										"tags" : "",
 										"visible" : 1,
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-156",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 625.0, 666.060242, 24.0, 20.0 ],
+													"text" : "t 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-152",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 625.0, 639.850098, 66.0, 17.0 ],
+													"text" : "r +load_font"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-151",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 526.779297, 656.0, 34.0, 20.0 ],
+													"text" : "gate"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-144",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 294.0, 750.060242, 61.0, 17.0 ],
+													"text" : "print dump-1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-142",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "int", "" ],
+													"patching_rect" : [ 580.0, 472.0, 33.0, 20.0 ],
+													"text" : "t 1 s"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"frgb" : 0.0,
+													"id" : "obj-141",
+													"linecount" : 7,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 673.0, 731.850098, 155.0, 100.0 ],
+													"text" : "ny prosedyre, innlasting?:;\n- sidan default-preset alltid blir lasta inn ved oppstart: ingen write før etter at vanlig preset blir (forsøkt) lasta inn. Sperr write ved load_font"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-138",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 396.0, 801.060242, 97.0, 17.0 ],
+													"text" : "print wwwwwwwww-3"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-137",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 374.223114, 774.060242, 97.0, 17.0 ],
+													"text" : "print wwwwwwwww-2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-134",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 360.509369, 752.060242, 97.0, 17.0 ],
+													"text" : "print wwwwwwwww-1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-133",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 590.74939, 503.0, 97.0, 17.0 ],
+													"text" : "print slotpresetREAD."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 526.779297, 770.060242, 109.0, 17.0 ],
+													"text" : "print slotpresetWRITE!!!!"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-168",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 5,
+													"outlettype" : [ "", "", "", "", "" ],
+													"patching_rect" : [ 798.0, 155.0, 139.0, 20.0 ],
+													"text" : "regexp \" \" @substitute ‡"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-153",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 798.0, 188.5, 59.0, 20.0 ],
+													"text" : "tosymbol"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-94",
 													"maxclass" : "button",
@@ -118841,8 +118519,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 487.487671, 449.456848, 477.953491, 15.0 ],
-													"text" : "read ./Groven+Sampler.app/Contents/preset-english organ_102.sf2"
+													"patching_rect" : [ 545.716614, 451.456848, 477.953491, 15.0 ],
+													"text" : "read ./Groven+Sampler.app/Contents/preset-english‡organ_102.sf2"
 												}
 
 											}
@@ -118898,7 +118576,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "bang", "bang", "" ],
-													"patching_rect" : [ 541.779297, 559.891113, 46.0, 20.0 ],
+													"patching_rect" : [ 541.779297, 604.891113, 46.0, 20.0 ],
 													"text" : "t b b s"
 												}
 
@@ -118912,7 +118590,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 561.023254, 586.781311, 170.0, 20.0 ],
+													"patching_rect" : [ 790.732788, 612.986511, 170.0, 20.0 ],
 													"text" : "sprintf write ./%s/Contents/%s"
 												}
 
@@ -118927,8 +118605,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 483.550323, 615.612976, 267.953491, 25.0 ],
-													"text" : "write ./Groven+Sampler.app/Contents/preset-english organ_102.sf2"
+													"patching_rect" : [ 526.779297, 693.060242, 267.953491, 25.0 ],
+													"text" : "write ./Groven+Sampler.app/Contents/preset-english‡organ_102.sf2"
 												}
 
 											}
@@ -118953,7 +118631,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 930.0, 354.0, 15.0, 15.0 ]
+													"patching_rect" : [ 987.0, 342.0, 15.0, 15.0 ]
 												}
 
 											}
@@ -118965,7 +118643,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 930.0, 396.0, 85.0, 17.0 ],
+													"patching_rect" : [ 987.0, 384.0, 85.0, 17.0 ],
 													"text" : "s +panelmessage"
 												}
 
@@ -118979,7 +118657,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 930.0, 373.0, 228.0, 15.0 ],
+													"patching_rect" : [ 987.0, 361.0, 228.0, 15.0 ],
 													"text" : "error writing preset (soundfont name problem?)"
 												}
 
@@ -119007,7 +118685,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 955.0, 287.0, 185.0, 17.0 ],
+													"patching_rect" : [ 987.0, 292.0, 185.0, 17.0 ],
 													"text" : "sprintf set %s: error -37 creating file"
 												}
 
@@ -119021,7 +118699,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 541.74939, 538.436157, 30.0, 17.0 ],
+													"patching_rect" : [ 541.74939, 583.436157, 30.0, 17.0 ],
 													"text" : "t s s"
 												}
 
@@ -119077,7 +118755,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 305.333344, 570.986511, 43.0, 17.0 ],
+													"patching_rect" : [ 235.0, 631.986511, 43.0, 17.0 ],
 													"text" : "pack i f"
 												}
 
@@ -119162,7 +118840,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 484.33783, 666.060242, 38.0, 17.0 ],
+													"patching_rect" : [ 964.5, 728.060242, 38.0, 17.0 ],
 													"text" : "sel 39"
 												}
 
@@ -119176,7 +118854,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 4,
 													"outlettype" : [ "int", "int", "int", "int" ],
-													"patching_rect" : [ 484.33783, 643.060242, 40.0, 17.0 ],
+													"patching_rect" : [ 964.5, 705.060242, 40.0, 17.0 ],
 													"text" : "key"
 												}
 
@@ -119232,7 +118910,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 484.33783, 688.060242, 270.0, 15.0 ],
+													"patching_rect" : [ 964.5, 750.060242, 270.0, 15.0 ],
 													"text" : "----------------------------------------------------"
 												}
 
@@ -119245,7 +118923,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 484.33783, 708.060242, 130.0, 17.0 ],
+													"patching_rect" : [ 964.5, 770.060242, 130.0, 17.0 ],
 													"text" : "print -------------------"
 												}
 
@@ -119258,7 +118936,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 616.0, 175.0, 86.0, 17.0 ],
+													"patching_rect" : [ 618.0, 221.0, 86.0, 17.0 ],
 													"text" : "s +message-gate"
 												}
 
@@ -119750,7 +119428,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "bang" ],
-													"patching_rect" : [ 977.0, 208.0, 30.0, 17.0 ],
+													"patching_rect" : [ 1043.460449, 174.0, 30.0, 17.0 ],
 													"text" : "t b b"
 												}
 
@@ -119764,7 +119442,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 824.0, 286.0, 113.0, 15.0 ],
+													"patching_rect" : [ 811.0, 317.0, 113.0, 15.0 ],
 													"text" : "no-font-loaded-dummy"
 												}
 
@@ -119778,7 +119456,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 977.0, 184.0, 57.0, 17.0 ],
+													"patching_rect" : [ 1043.460449, 150.0, 57.0, 17.0 ],
 													"text" : "r +no-load"
 												}
 
@@ -119834,7 +119512,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "bang" ],
-													"patching_rect" : [ 440.0, 387.0, 45.0, 17.0 ],
+													"patching_rect" : [ 515.74939, 473.5, 45.0, 17.0 ],
 													"text" : "onebang"
 												}
 
@@ -120082,7 +119760,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 541.74939, 481.0, 44.0, 17.0 ],
+													"patching_rect" : [ 541.74939, 527.0, 44.0, 17.0 ],
 													"text" : "del 700"
 												}
 
@@ -120096,8 +119774,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 541.74939, 509.0, 195.0, 15.0 ],
-													"text" : "\"preset-english organ_102.sf2\""
+													"patching_rect" : [ 541.74939, 563.0, 195.0, 15.0 ],
+													"text" : "preset-english‡organ_102.sf2"
 												}
 
 											}
@@ -123234,46 +122912,7 @@
 														"description" : "",
 														"digest" : "",
 														"tags" : "",
-														"visible" : 1,
 														"boxes" : [ 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-36",
-																	"maxclass" : "message",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 23.0, 365.0, 32.5, 18.0 ],
-																	"text" : "3"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-34",
-																	"maxclass" : "button",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "bang" ],
-																	"patching_rect" : [ 58.0, 433.0, 20.0, 20.0 ]
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-32",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 44.0, 549.0, 70.0, 20.0 ],
-																	"text" : "print prssttt"
-																}
-
-															}
-, 															{
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 9.0,
@@ -124112,15 +123751,6 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-32", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-21", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
 																	"destination" : [ "obj-10", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
@@ -124296,24 +123926,6 @@
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-3", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-6", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-34", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-6", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-36", 0 ]
 																}
 
 															}
@@ -125432,7 +125044,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 409.288666, 695.060242, 27.0, 17.0 ],
+													"patching_rect" : [ 305.0, 590.986511, 27.0, 17.0 ],
 													"text" : "i"
 												}
 
@@ -125446,7 +125058,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 409.288666, 723.060242, 42.0, 17.0 ],
+													"patching_rect" : [ 305.0, 639.850098, 42.0, 17.0 ],
 													"text" : "pack i i"
 												}
 
@@ -125674,7 +125286,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 372.0, 156.0, 279.0, 15.0 ],
-																	"text" : "error sprintf: patchcord inlet out of range: deleting patchcord"
+																	"text" : "error pictctrl: can't find file meter17-u-maske.jpg"
 																}
 
 															}
@@ -125966,7 +125578,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 357.501221, 647.850098, 82.0, 17.0 ],
+													"patching_rect" : [ 786.5, 714.850098, 82.0, 17.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
@@ -126514,8 +126126,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 146.0, 173.0, 98.0, 15.0 ],
-																	"text" : "stille!"
+																	"patching_rect" : [ 146.0, 173.0, 98.0, 15.0 ]
 																}
 
 															}
@@ -126891,7 +126502,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 532.0, 238.0, 58.0, 17.0 ],
+													"patching_rect" : [ 515.74939, 215.0, 58.0, 17.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
@@ -127043,6 +126654,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-103", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-137", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-103", 0 ]
 												}
 
 											}
@@ -127372,6 +126992,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-136", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-86", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -127399,10 +127028,28 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-136", 0 ],
+													"destination" : [ "obj-133", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-143", 0 ]
+													"source" : [ "obj-142", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-151", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-142", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-86", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-142", 1 ]
 												}
 
 											}
@@ -127421,6 +127068,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-143", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-151", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-143", 0 ]
 												}
 
 											}
@@ -127507,6 +127163,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-142", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-150", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-86", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -127516,10 +127181,64 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-136", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-151", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-156", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-152", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-95", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-153", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-151", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-156", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-119", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-16", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-153", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-168", 3 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-153", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-168", 0 ]
 												}
 
 											}
@@ -128056,6 +127775,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-138", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-65", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-64", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -128371,6 +128099,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-144", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-86", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-32", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -128407,7 +128144,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-95", 0 ],
+													"destination" : [ "obj-168", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-88", 0 ]
@@ -128501,6 +128238,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-134", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-96", 0 ]
 												}
 
 											}
@@ -128697,7 +128443,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
+									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
@@ -128805,6 +128551,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -128818,6 +128573,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-3", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-43", 0 ]
 								}
 
 							}
@@ -132953,10 +132717,689 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "samplerpanel--.pct",
+				"name" : "groven_for_bpatch.maxpat",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gul_alle.pct",
 				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scale-#-b-convert",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "klaviatur.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grovenboxes++manNY.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grovenboxes++adjNY.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grovenboxes++tmp2NY.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "show",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tX+",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LB",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/usikre",
+				"patcherrelativepath" : "./usikre",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "groven-adjust",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "groven_gold_coll+.txt",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Necessities to put inside sampler-app foler (originals)",
+				"patcherrelativepath" : "./Necessities to put inside sampler-app foler (originals)",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "key-bang",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Externals",
+				"patcherrelativepath" : "./Externals",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-delete3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ubutton-ctrl.pat",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Externals",
+				"patcherrelativepath" : "./Externals",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-cancel3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-export3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-restore3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-load3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dhk-split",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-save3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-ok3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "knappermaske.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O F2.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O G.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O E.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O C2.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O D.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O A.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O H.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O Des.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O B.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O Fiss.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O As.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O Es.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O F3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O G3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O Py.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O C3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O St.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "O Z.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "k-close.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f0.miniseq2.pat",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f0.makenote.pat",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "f0.flush.pat",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "qwerty-encrypt-NI-no",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Necessities to put inside sampler-app foler (originals)",
+				"patcherrelativepath" : "./Necessities to put inside sampler-app foler (originals)",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bestkeys.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "autotune3l.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "manualtuning.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "equaltuning.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "blackkey5.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "whitkey5.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reset!!.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GrovenTune-logo3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "setnow.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "help?.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reset!.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "help??.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "+b",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Abstractions",
+				"patcherrelativepath" : "./Abstractions",
+				"type" : "maxb",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-1.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-2.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-37-38-39.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-40.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-3.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-4.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-5.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-6.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-7.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-8.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-9.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-10.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-11.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-12.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-13.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-14.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-15.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-16.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-17.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-18.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-19.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-20.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-21.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-22.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-23.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-24.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-25.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-26.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-27.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-28.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-29.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-30.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-31.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-32.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-33.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-34.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-35.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pbox-36.pct",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "samplerpanel-mindre-fyll.jpg",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct specifically for Groven+Sampler",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct specifically for Groven+Sampler",
+				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
@@ -132964,13 +133407,6 @@
 				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"type" : "PICT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "groven_gold_coll+.txt",
-				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Necessarities to put inside sampler-app foler (originals)",
-				"patcherrelativepath" : "./Necessarities to put inside sampler-app foler (originals)",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -133023,10 +133459,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "meter17.pct",
-				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
-				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
-				"type" : "PICT",
+				"name" : "meter17-u-maske.jpg",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct specifically for Groven+Sampler",
+				"patcherrelativepath" : "./Graphics/Quickdraw-pct specifically for Groven+Sampler",
+				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
@@ -133041,13 +133477,6 @@
 				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"type" : "PICT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "key-bang",
-				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Externals",
-				"patcherrelativepath" : "./Externals",
-				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
@@ -133122,13 +133551,6 @@
 			}
 , 			{
 				"name" : "h-pitbx.pct",
-				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
-				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
-				"type" : "PICT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "k-close.pct",
 				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"type" : "PICT",
@@ -133238,6 +133660,26 @@
 				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
 				"type" : "PICT",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "Lswap.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mygrov-dhk.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "keyfindKS-dhk.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "keyfindA-dhk.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rs.floatbox.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "fluidsynth~.mxo",
