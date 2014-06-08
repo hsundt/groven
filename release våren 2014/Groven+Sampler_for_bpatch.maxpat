@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 394.0, 52.0, 883.0, 509.0 ],
+		"rect" : [ 383.0, 44.0, 883.0, 509.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -13331,7 +13331,6 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 991.299988, 480.0, 32.5, 18.0 ],
-																	"presentation_rect" : [ 991.599976, 482.0, 0.0, 0.0 ],
 																	"text" : "8"
 																}
 
@@ -13346,7 +13345,6 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 902.5, 480.0, 32.5, 18.0 ],
-																	"presentation_rect" : [ 902.799988, 482.0, 0.0, 0.0 ],
 																	"text" : "6"
 																}
 
@@ -13361,7 +13359,6 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 946.900024, 480.0, 32.5, 18.0 ],
-																	"presentation_rect" : [ 947.200012, 482.0, 0.0, 0.0 ],
 																	"text" : "7"
 																}
 
@@ -18182,15 +18179,29 @@
 										"tags" : "",
 										"boxes" : [ 											{
 												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-103",
-													"maxclass" : "newobj",
+													"handoff" : "",
+													"hilite" : 0,
+													"id" : "obj-1",
+													"maxclass" : "ubutton",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "int", "front" ],
-													"patching_rect" : [ 403.0, 813.0, 51.0, 20.0 ],
-													"text" : "t 1 front"
+													"numoutlets" : 4,
+													"outlettype" : [ "bang", "bang", "", "int" ],
+													"patching_rect" : [ 44.0, 229.0, 314.0, 177.0 ],
+													"varname" : "'ch123mask2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
+													"bordercolor" : [ 0.815686, 0.815686, 0.768627, 1.0 ],
+													"id" : "obj-2",
+													"maxclass" : "panel",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 43.0, 228.0, 316.0, 179.0 ],
+													"rounded" : 0,
+													"varname" : "'ch1+2+3mask"
 												}
 
 											}
@@ -18219,6 +18230,20 @@
 													"patching_rect" : [ 47.0, 192.0, 315.0, 35.0 ],
 													"rounded" : 0,
 													"varname" : "'ch4mask"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-103",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "int", "front" ],
+													"patching_rect" : [ 403.0, 813.0, 51.0, 20.0 ],
+													"text" : "t 1 front"
 												}
 
 											}
@@ -18313,7 +18338,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-7",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "Fireface UCX (23639342) Port 1", ",", "Fireface UCX (23639342) Port 2" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -18404,7 +18429,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-12",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "Fireface UCX (23639342) Port 1", ",", "Fireface UCX (23639342) Port 2" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -18535,7 +18560,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-19",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "Fireface UCX (23639342) Port 1", ",", "Fireface UCX (23639342) Port 2" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -18625,7 +18650,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-24",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "Fireface UCX (23639342) Port 1", ",", "Fireface UCX (23639342) Port 2" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -19261,7 +19286,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-64",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "Fireface UCX (23639342) Port 1", ",", "Fireface UCX (23639342) Port 2", ",", "none" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "none" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -19341,7 +19366,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-69",
-													"items" : [ "to Max 1", ",", "to Max 2", ",", "Fireface UCX (23639342) Port 1", ",", "Fireface UCX (23639342) Port 2" ],
+													"items" : [ "to Max 1", ",", "to Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -19367,7 +19392,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-70",
-													"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire", ",", "Live" ],
+													"items" : [ "None", ",", "Core Audio", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire", ",", "Live" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -19459,7 +19484,6 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 888.599976, 430.0, 32.5, 18.0 ],
-																	"presentation_rect" : [ 870.150024, 539.0, 0.0, 0.0 ],
 																	"text" : "5"
 																}
 
@@ -19474,7 +19498,6 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 799.799988, 430.0, 32.5, 18.0 ],
-																	"presentation_rect" : [ 785.0, 479.0, 0.0, 0.0 ],
 																	"text" : "3"
 																}
 
@@ -19489,7 +19512,6 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 844.200012, 430.0, 32.5, 18.0 ],
-																	"presentation_rect" : [ 829.400024, 501.0, 0.0, 0.0 ],
 																	"text" : "4"
 																}
 
@@ -19504,7 +19526,6 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 711.0, 430.0, 32.5, 18.0 ],
-																	"presentation_rect" : [ 712.400024, 430.0, 0.0, 0.0 ],
 																	"text" : "1"
 																}
 
@@ -27278,34 +27299,6 @@
 													}
 ,
 													"text" : "p"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
-													"bordercolor" : [ 0.815686, 0.815686, 0.768627, 1.0 ],
-													"id" : "obj-2",
-													"maxclass" : "panel",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 43.0, 228.0, 316.0, 179.0 ],
-													"rounded" : 0,
-													"varname" : "'ch1+2+3mask"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"handoff" : "",
-													"hilite" : 0,
-													"id" : "obj-1",
-													"maxclass" : "ubutton",
-													"numinlets" : 1,
-													"numoutlets" : 4,
-													"outlettype" : [ "bang", "bang", "", "int" ],
-													"patching_rect" : [ 44.0, 229.0, 314.0, 177.0 ],
-													"varname" : "'ch123mask2"
 												}
 
 											}
@@ -76373,7 +76366,7 @@
 					"framecolor" : [ 0.368627, 0.517647, 0.0, 1.0 ],
 					"hltcolor" : [ 0.698039, 0.854902, 0.501961, 1.0 ],
 					"id" : "obj-70",
-					"items" : [ "load folder...", ",", "(- or: load recent folder:)", ",", "dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven fra gamle diskar/cpPan~ objectX/GrovenSynth_inkl3/soundfonts-2/", ",", "dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven fra gamle diskar/Groven+Sampler-beta1_pk/Instrumenter/", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)" ],
+					"items" : [ "load folder...", ",", "(- or: load recent folder:)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -76400,7 +76393,7 @@
 					"framecolor" : [ 0.368627, 0.517647, 0.0, 1.0 ],
 					"hltcolor" : [ 0.698039, 0.854902, 0.501961, 1.0 ],
 					"id" : "obj-71",
-					"items" : [ "load font...", ",", "(- or: load recent font:)", ",", "english organ_102.sf2", ",", "VintageDreamsWaves-v2.sf2", ",", "Gort's_MiniPiano.SF2", ",", "langsin.sf2", ",", "english organ_102.sf2", ",", "langsin.sf2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "Gort's_MiniPiano.SF2" ],
+					"items" : [ "load font...", ",", "(- or: load recent font:)", ",", "corg_w110.sf2", ",", "jeuxdorgues21.SF2", ",", "corg_w110.sf2", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -76427,7 +76420,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 					"id" : "obj-72",
-					"items" : [ "Accord1.SF2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "FluidR3 GM.SF2", ",", "German8.sf2", ",", "langsin.sf2", ",", "Rhodes_73.SF2", ",", "saz.sf2", ",", "Steinway Grand Piano 1.2.SF2" ],
+					"items" : "corg_w110.sf2",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -76498,7 +76491,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.117647, 1.0 ],
 					"id" : "obj-75",
-					"items" : [ "Accord1.SF2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "FluidR3 GM.SF2", ",", "German8.sf2", ",", "langsin.sf2", ",", "Rhodes_73.SF2", ",", "saz.sf2", ",", "Steinway Grand Piano 1.2.SF2" ],
+					"items" : "corg_w110.sf2",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -76528,7 +76521,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 					"id" : "obj-76",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92567,7 +92560,7 @@
 , 			{
 				"box" : 				{
 					"arrowframe" : 0,
-					"bgcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
+					"bgcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 					"bgcolor2" : [ 0.87451, 1.0, 0.615686, 1.0 ],
 					"discolor" : [ 0.439216, 0.439216, 0.439216, 1.0 ],
 					"fontname" : "Arial",
@@ -92575,7 +92568,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-130",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92584,7 +92577,7 @@
 					"patching_rect" : [ 694.0, 262.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
 					"rounded" : 0,
-					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
+					"textcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
 					"varname" : "'s16"
@@ -92594,7 +92587,7 @@
 , 			{
 				"box" : 				{
 					"arrowframe" : 0,
-					"bgcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"bgcolor2" : [ 0.87451, 1.0, 0.615686, 1.0 ],
 					"discolor" : [ 0.439216, 0.439216, 0.439216, 1.0 ],
 					"fontname" : "Arial",
@@ -92602,7 +92595,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-131",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92611,7 +92604,7 @@
 					"patching_rect" : [ 694.0, 237.0, 166.0, 20.0 ],
 					"pattrmode" : 1,
 					"rounded" : 0,
-					"textcolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
+					"textcolor" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"textcolor2" : [ 0.262745, 0.392157, 0.129412, 1.0 ],
 					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ],
 					"varname" : "'s15"
@@ -92629,7 +92622,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 					"id" : "obj-132",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92656,7 +92649,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-133",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92683,7 +92676,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-134",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92710,7 +92703,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-135",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92737,7 +92730,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-136",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92764,7 +92757,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-137",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92791,7 +92784,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-138",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92818,7 +92811,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-139",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92845,7 +92838,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-140",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92872,7 +92865,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-141",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92899,7 +92892,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-142",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92926,7 +92919,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-143",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92953,7 +92946,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-144",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -92980,7 +92973,7 @@
 					"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 					"hltcolor" : [ 1.0, 1.0, 0.666667, 1.0 ],
 					"id" : "obj-145",
-					"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+					"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -93035,26 +93028,6 @@
 					"tracking" : 1,
 					"trackvertical" : 1,
 					"varname" : "'damp"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"frames" : 2,
-					"id" : "obj-148",
-					"maxclass" : "pictctrl",
-					"mode" : 1,
-					"multiplier" : 1,
-					"name" : "synthlogo-.pct",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 63.0, 632.0, 0.0, 0.0 ],
-					"snap" : 1,
-					"trackhorizontal" : 1,
-					"tracking" : 1,
-					"trackvertical" : 1
 				}
 
 			}
@@ -93139,6 +93112,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -93233,7 +93207,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 655.0, 106.0, 239.0, 18.0 ],
-									"text" : "load \"english organ_102.sf2\""
+									"text" : "load corg_w110.sf2"
 								}
 
 							}
@@ -95177,7 +95151,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 33.0, 61.0, 1590.0, 980.0 ],
+										"rect" : [ 41.0, 90.0, 1590.0, 980.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -95524,13 +95498,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-132",
-													"linecount" : 2,
+													"linecount" : 8,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 1123.0, 790.0, 101.0, 31.0 ],
-													"text" : "\"english organ_102.sf2\""
+													"patching_rect" : [ 1123.0, 790.0, 101.0, 112.0 ],
+													"text" : "corg_w110.sf2"
 												}
 
 											}
@@ -95667,7 +95641,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 963.485229, 62.700653, 59.0, 17.0 ],
+													"patching_rect" : [ 963.485229, 62.700653, 59.0, 47.0 ],
 													"text" : "r +appname"
 												}
 
@@ -96694,7 +96668,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 100.0, 219.0, 461.0, 18.0 ],
-																	"text" : "english‡organ_102.sf2"
+																	"text" : "corg_w110.sf2"
 																}
 
 															}
@@ -97376,8 +97350,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 452.0, 477.0, 219.0, 15.0 ],
-																	"text" : "langsin.sf2"
+																	"patching_rect" : [ 452.0, 477.0, 219.0, 15.0 ]
 																}
 
 															}
@@ -97839,7 +97812,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1068.0, 387.0, 258.0, 18.0 ],
-													"text" : "\"english organ_102.sf2\""
+													"text" : "corg_w110.sf2"
 												}
 
 											}
@@ -98980,7 +98953,7 @@
 													"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 													"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 													"id" : "obj-65",
-													"items" : [ "Accord1.SF2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "FluidR3 GM.SF2", ",", "German8.sf2", ",", "langsin.sf2", ",", "Rhodes_73.SF2", ",", "saz.sf2", ",", "Steinway Grand Piano 1.2.SF2" ],
+													"items" : "<empty>",
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -100341,7 +100314,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 317.0, 601.0, 163.0, 15.0 ],
-																	"text" : "\"english organ_102.sf2\""
+																	"text" : "corg_w110.sf2"
 																}
 
 															}
@@ -101854,7 +101827,223 @@
 														"description" : "",
 														"digest" : "",
 														"tags" : "",
+														"visible" : 1,
 														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-48",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 6,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 12.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Arial",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 15.0, 15.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"visible" : 1,
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Arial",
+																					"fontsize" : 12.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-5",
+																					"linecount" : 4,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 297.0, 279.0, 150.0, 60.0 ],
+																					"text" : "ide: sjekk om fonten er i menyen, slett if so (men må bygge riktig, ikkje berre lage tomrom…)"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Arial",
+																					"fontsize" : 12.0,
+																					"id" : "obj-3",
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 343.0, 81.0, 192.0, 18.0 ],
+																					"text" : "delete symbol jeuxdorgues21.SF2"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"align" : 1,
+																					"arrow" : 0,
+																					"bgcolor" : [ 0.698039, 0.854902, 0.501961, 1.0 ],
+																					"bgcolor2" : [ 0.745098, 0.964706, 0.52549, 1.0 ],
+																					"discolor" : [ 0.439216, 0.439216, 0.439216, 1.0 ],
+																					"fontname" : "Arial",
+																					"fontsize" : 9.0,
+																					"framecolor" : [ 0.368627, 0.517647, 0.0, 1.0 ],
+																					"hltcolor" : [ 0.698039, 0.854902, 0.501961, 1.0 ],
+																					"id" : "obj-71",
+																					"items" : [ "corg_w110.sf2", ",", "jeuxdorgues21.SF2", ",", "corg_w110.sf2", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)", ",", "(none)" ],
+																					"maxclass" : "umenu",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "" ],
+																					"parameter_enable" : 0,
+																					"patching_rect" : [ 343.0, 152.0, 63.0, 17.0 ],
+																					"pattrmode" : 1,
+																					"rounded" : 0,
+																					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																					"textcolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
+																					"togcolor" : [ 0.552941, 0.552941, 0.552941, 1.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 226.0, 368.0, 25.0, 25.0 ],
+																					"presentation_rect" : [ 226.0, 373.0, 0.0, 0.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Arial",
+																					"fontsize" : 12.0,
+																					"id" : "obj-23",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 2,
+																					"outlettype" : [ "", "int" ],
+																					"patching_rect" : [ 79.0, 120.0, 55.0, 20.0 ],
+																					"text" : "strippath"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Arial",
+																					"fontsize" : 12.0,
+																					"id" : "obj-24",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 79.0, 152.0, 94.0, 20.0 ],
+																					"text" : "prepend symbol"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-46",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-47",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 50.0, 368.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-24", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-23", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-71", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-3", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-23", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-46", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-47", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-46", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 34.0, 243.5, 145.0, 20.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Arial",
+																		"default_fontsize" : 12.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Arial",
+																		"fontsize" : 12.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p replace_if_same_name"
+																}
+
+															}
+, 															{
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
@@ -101863,7 +102052,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 59.0, 146.0, 100.0, 20.0 ],
+																	"patching_rect" : [ 49.0, 134.0, 100.0, 20.0 ],
 																	"text" : "r +menu-loadfont"
 																}
 
@@ -102261,7 +102450,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 65.0, 170.0, 63.0, 20.0 ],
+																	"patching_rect" : [ 55.0, 158.0, 63.0, 20.0 ],
 																	"text" : "r +no-load"
 																}
 
@@ -102571,7 +102760,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "bang", "" ],
-																	"patching_rect" : [ 223.0, 109.0, 32.0, 20.0 ],
+																	"patching_rect" : [ 239.0, 109.0, 32.0, 20.0 ],
 																	"text" : "t b s"
 																}
 
@@ -103064,6 +103253,15 @@
 															}
 , 															{
 																"patchline" : 																{
+																	"destination" : [ "obj-22", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-48", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
 																	"destination" : [ "obj-6", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
@@ -103073,7 +103271,7 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-22", 0 ],
+																	"destination" : [ "obj-48", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-6", 0 ]
@@ -104983,13 +105181,11 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-38",
-																	"linecount" : 6,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 373.0, 607.0, 142.0, 85.0 ],
-																	"text" : "\"dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven fra gamle diskar/cpPan~ objectX/GrovenSynth_inkl3/soundfonts-2/\""
+																	"patching_rect" : [ 373.0, 607.0, 142.0, 85.0 ]
 																}
 
 															}
@@ -106071,12 +106267,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-93",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 106.0, 233.0, 126.0, 18.0 ],
-													"text" : "Gort's_MiniPiano.SF2"
+													"patching_rect" : [ 87.0, 205.0, 342.0, 31.0 ],
+													"text" : "corg_w110.sf2"
 												}
 
 											}
@@ -109210,7 +109407,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 694.0, 473.0, 140.0, 15.0 ],
-													"text" : "\"Op Diapn 16\""
+													"text" : "\"Englsh HornNT\""
 												}
 
 											}
@@ -109708,7 +109905,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-16",
-																	"items" : [ "Op Diapn 16", ",", "Op Diapn 8", ",", "St Diapn 8", ",", "Dulciana 8", ",", "Octave 4", ",", "St Diapn 4", ",", "Nazard 2.2/3", ",", "Suproct 2", ",", "Mixture II", ",", "Trumpet 16", ",", "Trumpet 8", ",", "Clarion 4", ",", "Dulciana 16", ",", "Geigen 8", ",", "St Flute 8", ",", "Salicional 8", ",", "Celeste8", ",", "Gemshn 4", ",", "St Flute 4", ",", "Piccolo 2", ",", "Squialtera II", ",", "Ctra Fgto 16", ",", "Cornop 8", ",", "OboeS 8", ",", "Salicional 16", ",", "Diapson 8", ",", "Flute 8", ",", "Unda Maris8", ",", "Principal 4", ",", "Flute  4", ",", "Fifteenth 2", ",", "Vox Hum8", ",", "Cornet V", ",", "Strings 8", ",", "Op Flute 8", ",", "Op Flute 4", ",", "Tuba 8", ",", "Orch Oboe 8", ",", "Clarinet 8", ",", "Krummet 8", ",", "Sub-bass 32", ",", "Op Diap 16", ",", "Bourdon 16", ",", "Octave 8", ",", "Flute8", ",", "Flute 4", ",", "Mixture", ",", "Ctra Trbone 32", ",", "Trbone 16", ",", "Trbone 8", ",", "St Diapn+Dulc", ",", "St Diapn 8+4", ",", "St Diap 8+Naz", ",", "Diapn8+4", ",", "Diapn8+2", ",", "Diapn8+4+2", ",", "Diapn16+8+4+2", ",", "Diapn8+4+Mixt", ",", "Diapn16+8+4+Mixt", ",", "Diapn8+Tpt8", ",", "Diapn8+4+Tpt8", ",", "Diapn8+4+Mx+Tpt", ",", "Diapn16+8+4+Mx+Tpt", ",", "Full Great", ",", "Sal Celeste 8", ",", "St Flute 8+4", ",", "St Fl 8+2", ",", "St Fl 8+4+2", ",", "St  Fl 8+Ggn8", ",", "St Fl 8+Gems4", ",", "Ggn8+Gms4+P2+Sesq", ",", "Dulc16+Ggn8+Gems4", ",", "Dulc 16+Ggen 8+Gems+", ",", "St Flute + Oboe 8", ",", "Ggen8+Gems4+Corno", ",", "Full Swell", ",", "Fl+Unda Maris 8", ",", "Fl 8+4", ",", "Diap8+4", ",", "Diap 8+4+2", ",", "Sal16+Diap8+4+2", ",", "Flute 8+Vox8", ",", "Flute4+Vox8", ",", "Orch Flute 8+4", ",", "Bourdon 16 + 8", ",", "Bourdon 16+8+4", ",", "Diapn 16+Oct8", ",", "Diapn 16+Oct8+Mixt", ",", "Sbs32+Dpn16+Oct8+Mix", ",", "Diapn 16+Oct8+Tromb", ",", "Full Pedal" ],
+																	"items" : [ "Englsh HornNT", ",", "Trumpet", ",", "Tuba", ",", "Tromba", ",", "Diapason", ",", "Horn Diapason", ",", "Quintadena", ",", "Dulciana", ",", "Tibia", ",", "Tibia II", ",", "Cello", ",", "Cello Celeste", ",", "Viola", ",", "Viola Celeste", ",", "Viol d'Orch", ",", "Viol d'OrchCel", ",", "Clarinet", ",", "Orch Oboe", ",", "Kinura", ",", "Saxophone", ",", "Oboe Horn", ",", "Vox Humana", ",", "Concert Flute", ",", "Stopped Flute", ",", "Englsh Horn NT", ",", "Trumpet NT", ",", "Tuba NT", ",", "Tromba NT", ",", "Diapason NT", ",", "Horn Diapason NT", ",", "Quintadena NT", ",", "Dulciana NT", ",", "Tibial I NT", ",", "Tibia II NT", ",", "Cello NT", ",", "Cello Celeste NT", ",", "Viola NT", ",", "Viola Celeste NT", ",", "Viol d'OrchNT", ",", "Viol d'OrchCel NT", ",", "Clarinet NT", ",", "Orch Oboe NT", ",", "Kinura NT", ",", "Saxophone NT", ",", "Oboe Horn NT", ",", "Vox Humana NT", ",", "Concert Flute NT", ",", "Stopped Flute NT", ",", "Glockenspiel", ",", "Orch Bells", ",", "Xylophone", ",", "Xylophone Re-it", ",", "Chrysoglott", ",", "Vibraphone", ",", "Harp", ",", "Marimba", ",", "Percussions", ",", "Silence" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -113064,7 +113261,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 58.0, 234.0, 170.0, 15.0 ],
-													"text" : "select \"english organ_102\""
+													"text" : "select corg_w110"
 												}
 
 											}
@@ -122764,6 +122961,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -123198,7 +123396,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 545.716614, 451.456848, 477.953491, 18.0 ],
-													"text" : "read ./Groven+Sampler.app/Contents/preset-english‡organ_102.sf2"
+													"text" : "read ./Groven+Sampler.app/Contents/preset-corg_w110.sf2"
 												}
 
 											}
@@ -123283,8 +123481,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 526.779297, 693.060242, 342.0, 31.0 ],
-													"text" : "write ./Groven+Sampler.app/Contents/preset-english‡organ_102.sf2"
+													"patching_rect" : [ 526.779297, 693.060242, 326.0, 31.0 ],
+													"text" : "write ./Groven+Sampler.app/Contents/preset-corg_w110.sf2"
 												}
 
 											}
@@ -124341,7 +124539,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 541.74939, 563.0, 195.0, 18.0 ],
-													"text" : "preset-english‡organ_102.sf2"
+													"text" : "preset-corg_w110.sf2"
 												}
 
 											}
@@ -124369,7 +124567,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 825.0, 89.0, 160.0, 18.0 ],
-													"text" : "\"english organ_102.sf2\""
+													"text" : "corg_w110.sf2"
 												}
 
 											}
@@ -129900,13 +130098,12 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-8",
-																	"linecount" : 2,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 372.0, 156.0, 279.0, 15.0 ],
-																	"text" : "error select: patchcord outlet out of range: deleting patchcord"
+																	"text" : "error coll: error reading"
 																}
 
 															}
@@ -130423,20 +130620,6 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "bang" ],
 																	"patching_rect" : [ 239.0, 665.0, 20.0, 20.0 ]
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-54",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 239.0, 699.0, 43.0, 20.0 ],
-																	"text" : "sprintf"
 																}
 
 															}
@@ -131164,7 +131347,7 @@
 																	"destination" : [ "obj-34", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"source" : [ "obj-54", 0 ]
+																	"source" : [ "", 0 ]
 																}
 
 															}
@@ -131179,7 +131362,7 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-54", 0 ],
+																	"destination" : [ "", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-58", 0 ]
@@ -137752,6 +137935,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "qwerty-encrypt-NI-no",
+				"bootpath" : "/Applications/Max 6.1/Groven+Sampler.app/Contents/Qwerty-musical_keyboard",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Groven+Sampler.app/Contents/Qwerty-musical_keyboard",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bestkeysB-big.jpg",
 				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics",
 				"patcherrelativepath" : "./Graphics",
@@ -137760,8 +137950,8 @@
 			}
 , 			{
 				"name" : "bestkeysH-big.jpg",
-				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics",
-				"patcherrelativepath" : "./Graphics",
+				"bootpath" : "/Applications/Max 6.1/Groven+Sampler.app/Contents/Graphics",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Groven+Sampler.app/Contents/Graphics",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
@@ -138117,8 +138307,8 @@
 			}
 , 			{
 				"name" : "bestkeysH-sml.jpg",
-				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics",
-				"patcherrelativepath" : "./Graphics",
+				"bootpath" : "/Applications/Max 6.1/Groven+Sampler.app/Contents/Graphics",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Groven+Sampler.app/Contents/Graphics",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
@@ -138229,8 +138419,8 @@
 			}
 , 			{
 				"name" : "+h-adjust.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Groven+Sampler.app/Contents/Helpfiles_Groven+Sampler",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Groven+Sampler.app/Contents/Helpfiles_Groven+Sampler",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Necessities to put inside sampler-app foler (originals)/Helpfiles_Groven+Sampler",
+				"patcherrelativepath" : "./Necessities to put inside sampler-app foler (originals)/Helpfiles_Groven+Sampler",
 				"type" : "JSON",
 				"implicit" : 1
 			}
