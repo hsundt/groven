@@ -1,0 +1,1 @@
+refpitch, 0;refcolor, 1;notewait?ch4+s, 2;qmin, 10;qmax, 20;audio-output, "CoreAudio Built-in Output";gtonoff, 0;
