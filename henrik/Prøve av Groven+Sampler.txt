@@ -1,0 +1,620 @@
+Sampling process 12374 for 3 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling Groven+Sampler (pid 12374) every 1 millisecond
+Process:         Groven+Sampler [12374]
+Path:            /Users/Code/Notam/Groven+Sampler_14jun04.app/Contents/MacOS/Groven+Sampler
+Load Address:    0x1000
+Identifier:      com.cycling74.MaxRuntime
+Version:         6.1.6 [307fb20] (6.1.6)
+Code Type:       X86 (Native)
+Parent Process:  launchd [144]
+
+Date/Time:       2014-06-13 13:52:13.554 +0200
+OS Version:      Mac OS X 10.8.3 (12D78)
+Report Version:  7
+
+Call graph:
+    2171 Thread_667716   DispatchQueue_1: com.apple.main-thread  (serial)
+    + 2171 start  (in Groven+Sampler) + 40  [0x2f88]
+    +   2171 _start  (in Groven+Sampler) + 208  [0x3059]
+    +     2171 juce::JUCEApplication::main(int, char const**)  (in Groven+Sampler) + 73  [0x2ea83d]
+    +       2171 juce::JUCEApplication::main(juce::StringArray const&)  (in Groven+Sampler) + 68  [0x2ea71a]
+    +         2171 juce::MessageManager::runDispatchLoop()  (in Groven+Sampler) + 731  [0x46b883]
+    +           2171 -[NSApplication run]  (in AppKit) + 855  [0x92c3963c]
+    +             2171 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:]  (in AppKit) + 119  [0x92c431dc]
+    +               2171 _DPSNextEvent  (in AppKit) + 724  [0x92c439aa]
+    +                 2171 BlockUntilNextEventMatchingListInMode  (in HIToolbox) + 88  [0x97790b44]
+    +                   2166 ReceiveNextEventCommon  (in HIToolbox) + 374  [0x97790cc9]
+    +                   ! 2166 RunCurrentEventLoopInMode  (in HIToolbox) + 242  [0x97790f5a]
+    +                   !   2166 CFRunLoopRunInMode  (in CoreFoundation) + 123  [0x9611be9b]
+    +                   !     2151 CFRunLoopRunSpecific  (in CoreFoundation) + 378  [0x9611c02a]
+    +                   !     : 2072 __CFRunLoopRun  (in CoreFoundation) + 1247  [0x9611c96f]
+    +                   !     : | 2072 __CFRunLoopServiceMachPort  (in CoreFoundation) + 185  [0x96116f89]
+    +                   !     : |   2072 mach_msg  (in libsystem_kernel.dylib) + 68  [0x95b0dcb0]
+    +                   !     : |     2072 mach_msg_trap  (in libsystem_kernel.dylib) + 10  [0x95b0e7d2]
+    +                   !     : 27 __CFRunLoopRun  (in CoreFoundation) + 934  [0x9611c836]
+    +                   !     : | 23 __CFRunLoopDoSources0  (in CoreFoundation) + 233  [0x960f6a89]
+    +                   !     : | + 23 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__  (in CoreFoundation) + 15  [0x960f705f]
+    +                   !     : | +   16 juce::AppDelegateRedirector::runLoopCallback()  (in Groven+Sampler) + 116  [0x481362]
+    +                   !     : | +   ! 15 juce::MessageManager::deliverMessage(juce::Message*)  (in Groven+Sampler) + 137  [0x35aea5]
+    +                   !     : | +   ! : 15 non-virtual thunk to juce::InternalTimerThread::handleMessage(juce::Message const&)  (in Groven+Sampler) + 20  [0x35c434]
+    +                   !     : | +   ! :   9 juce::InternalTimerThread::callTimers()  (in Groven+Sampler) + 112  [0x35c678]
+    +                   !     : | +   ! :   | 9 ???  (in <unknown binary>)  [0x23acc30]
+    +                   !     : | +   ! :   |   9 juce::InternalTimerThread::addTimer(juce::Timer*)  (in Groven+Sampler) + 81  [0x35c5f9]
+    +                   !     : | +   ! :   |     9 juce::Thread::notify() const  (in Groven+Sampler) + 20  [0x48fea4]
+    +                   !     : | +   ! :   |       9 juce::WaitableEvent::signal() const  (in Groven+Sampler) + 19  [0x4749a7]
+    +                   !     : | +   ! :   |         9 ???  (in <unknown binary>)  [0x23acd40]
+    +                   !     : | +   ! :   |           9 juce::WaitableEventImpl::signal()  (in Groven+Sampler) + 34  [0x48247a]
+    +                   !     : | +   ! :   |             9 pthread_cond_broadcast  (in libsystem_c.dylib) + 706  [0x9003da61]
+    +                   !     : | +   ! :   |               9 __psynch_cvbroad  (in libsystem_kernel.dylib) + 10  [0x95b1088e]
+    +                   !     : | +   ! :   6 juce::InternalTimerThread::callTimers()  (in Groven+Sampler) + 133  [0x35c68d]
+    +                   !     : | +   ! :     3 max_tick  (in Groven+Sampler) + 135  [0x10686]
+    +                   !     : | +   ! :     + 3 sched_poll  (in Groven+Sampler) + 33  [0x2a43d]
+    +                   !     : | +   ! :     +   2 sched_takepoll  (in Groven+Sampler) + 156  [0x2a28c]
+    +                   !     : | +   ! :     +   ! 2 sysmidi_usingdriver  (in Groven+Sampler) + 3,18  [0x547b4,0x547c3]
+    +                   !     : | +   ! :     +   1 sched_takepoll  (in Groven+Sampler) + 388  [0x2a374]
+    +                   !     : | +   ! :     +     1 critical_enter  (in Groven+Sampler) + 48  [0x63a88]
+    +                   !     : | +   ! :     2 max_tick  (in Groven+Sampler) + 91  [0x1065a]
+    +                   !     : | +   ! :     + 1 sched_dequeue  (in Groven+Sampler) + 79  [0x29f69]
+    +                   !     : | +   ! :     + ! 1 CmdPeriodDown  (in Groven+Sampler) + 11  [0xaa0b]
+    +                   !     : | +   ! :     + !   1 cocoa_utils_cmdperioddown  (in Groven+Sampler) + 11  [0x26cfda]
+    +                   !     : | +   ! :     + !     1 juce::Process::isForegroundProcess()  (in Groven+Sampler) + 38  [0x468ea6]
+    +                   !     : | +   ! :     + !       1 objc_msgSend  (in libobjc.A.dylib) + 29  [0x91462a8d]
+    +                   !     : | +   ! :     + 1 sched_dequeue  (in Groven+Sampler) + 25  [0x29f33]
+    +                   !     : | +   ! :     1 max_tick  (in Groven+Sampler) + 75  [0x1064a]
+    +                   !     : | +   ! 1 juce::MessageManager::deliverMessage(juce::Message*)  (in Groven+Sampler) + 151  [0x35aeb3]
+    +                   !     : | +   !   1 operator delete(void*)  (in libstdc++.6.dylib) + 1  [0x9a71b192]
+    +                   !     : | +   5 juce::AppDelegateRedirector::runLoopCallback()  (in Groven+Sampler) + 135  [0x481375]
+    +                   !     : | +   ! 5 -[NSAutoreleasePool release]  (in Foundation) + 125  [0x968bc116]
+    +                   !     : | +   !   5 _CFAutoreleasePoolPop  (in CoreFoundation) + 51  [0x96117a73]
+    +                   !     : | +   !     5 (anonymous namespace)::AutoreleasePoolPage::pop(void*)  (in libobjc.A.dylib) + 610,617  [0x914654ba,0x914654c1]
+    +                   !     : | +   1 juce::AppDelegateRedirector::runLoopCallback()  (in Groven+Sampler) + 45  [0x48131b]
+    +                   !     : | +   ! 1 juce::OwnedArray<juce::Message, juce::CriticalSection>::removeAndReturn(int)  (in Groven+Sampler) + 103  [0x4812db]
+    +                   !     : | +   !   1 juce::OwnedArray<juce::Message, juce::CriticalSection>::minimiseStorageOverheads()  (in Groven+Sampler) + 38  [0x48126a]
+    +                   !     : | +   !     1 juce::ArrayAllocationBase<juce::Message*, juce::CriticalSection>::setAllocatedSize(int)  (in Groven+Sampler) + 59  [0x478d47]
+    +                   !     : | +   !       1 free  (in libsystem_c.dylib) + 70  [0x90053c9d]
+    +                   !     : | +   !         1 szone_size  (in libsystem_c.dylib) + 270  [0x900558bc]
+    +                   !     : | +   1 juce::AppDelegateRedirector::runLoopCallback()  (in Groven+Sampler) + 94  [0x48134c]
+    +                   !     : | +     1 -[NSAutoreleasePool init]  (in Foundation) + 11  [0x968b561e]
+    +                   !     : | +       1 _CFAutoreleasePoolPush  (in CoreFoundation) + 10  [0x961170aa]
+    +                   !     : | +         1 objc_collectingEnabled  (in libobjc.A.dylib) + 13  [0x91463207]
+    +                   !     : | 4 __CFRunLoopDoSources0  (in CoreFoundation) + 110  [0x960f6a0e]
+    +                   !     : |   4 CFSetApplyFunction  (in CoreFoundation) + 170  [0x960f6d6a]
+    +                   !     : |     3 CFBasicHashApply  (in CoreFoundation) + 129  [0x960f6e01]
+    +                   !     : |     ! 3 __CFSetApplyFunction_block_invoke_0  (in CoreFoundation) + 25  [0x961f2479]
+    +                   !     : |     !   3 __CFRunLoopCollectSources0  (in CoreFoundation) + 22,38  [0x960f6f56,0x960f6f66]
+    +                   !     : |     1 CFBasicHashApply  (in CoreFoundation) + 81  [0x960f6dd1]
+    +                   !     : |       1 CFBasicHashGetBucket  (in CoreFoundation) + 263  [0x960f6f17]
+    +                   !     : 15 __CFRunLoopRun  (in CoreFoundation) + 1321  [0x9611c9b9]
+    +                   !     : | 15 mach_port_extract_member  (in libsystem_kernel.dylib) + 31  [0x95b0fafa]
+    +                   !     : |   15 _kernelrpc_mach_port_extract_member_trap  (in libsystem_kernel.dylib) + 10  [0x95b0e796]
+    +                   !     : 11 __CFRunLoopRun  (in CoreFoundation) + 1380  [0x9611c9f4]
+    +                   !     : | 7 __CFRunLoopDoObservers  (in CoreFoundation) + 81  [0x96142671]
+    +                   !     : | + 5 CFArrayGetCount  (in CoreFoundation) + 86  [0x960f4786]
+    +                   !     : | + ! 5 objc_msgSend  (in libobjc.A.dylib) + 29,4,...  [0x91462a8d,0x91462a74,...]
+    +                   !     : | + 2 CFArrayGetCount  (in CoreFoundation) + 64,39  [0x960f4770,0x960f4757]
+    +                   !     : | 4 __CFRunLoopDoObservers  (in CoreFoundation) + 1,243,...  [0x96142621,0x96142713,...]
+    +                   !     : 6 __CFRunLoopRun  (in CoreFoundation) + 2399  [0x9611cdef]
+    +                   !     : | 3 __CFRunLoopModeIsEmpty  (in CoreFoundation) + 79  [0x960f5d8f]
+    +                   !     : | + 2 _CFGetTSD  (in CoreFoundation) + 83  [0x960e8273]
+    +                   !     : | + ! 2 pthread_getspecific  (in libsystem_c.dylib) + 12  [0x90023ca4]
+    +                   !     : | + 1 _CFGetTSD  (in CoreFoundation) + 195  [0x960e82e3]
+    +                   !     : | 2 __CFRunLoopModeIsEmpty  (in CoreFoundation) + 160  [0x960f5de0]
+    +                   !     : | + 2 CFSetContainsValue  (in CoreFoundation) + 102  [0x960f5f66]
+    +                   !     : | +   1 CFBasicHashGetCountOfKey  (in CoreFoundation) + 1336  [0x960f64b8]
+    +                   !     : | +   ! 1 __CFSetStandardHashKey  (in CoreFoundation) + 36  [0x960f6994]
+    +                   !     : | +   !   1 CFHash  (in CoreFoundation) + 1  [0x960f0a51]
+    +                   !     : | +   1 CFBasicHashGetCountOfKey  (in CoreFoundation) + 1292  [0x960f648c]
+    +                   !     : | 1 __CFRunLoopModeIsEmpty  (in CoreFoundation) + 139  [0x960f5dcb]
+    +                   !     : 5 __CFRunLoopRun  (in CoreFoundation) + 1261  [0x9611c97d]
+    +                   !     : | 4 pthread_mutex_lock  (in libsystem_c.dylib) + 270  [0x9003f056]
+    +                   !     : | + 4 pthread_threadid_np  (in libsystem_c.dylib) + 49,0  [0x9003a07a,0x9003a049]
+    +                   !     : | 1 pthread_mutex_lock  (in libsystem_c.dylib) + 248  [0x9003f040]
+    +                   !     : 4 __CFRunLoopRun  (in CoreFoundation) + 1842  [0x9611cbc2]
+    +                   !     : | 3 __CFRunLoopDoTimer  (in CoreFoundation) + 1751  [0x961381c7]
+    +                   !     : | + 2 __CFRepositionTimerInMode  (in CoreFoundation) + 294  [0x96133d06]
+    +                   !     : | + ! 2 mk_timer_arm  (in libsystem_kernel.dylib) + 10  [0x95b0e90a]
+    +                   !     : | + 1 __CFRepositionTimerInMode  (in CoreFoundation) + 113  [0x96133c51]
+    +                   !     : | +   1 CFArrayRemoveValueAtIndex  (in CoreFoundation) + 132  [0x960fc524]
+    +                   !     : | +     1 _CFArrayReplaceValues  (in CoreFoundation) + 393  [0x960f39e9]
+    +                   !     : | +       1 __CFArrayReleaseValues  (in CoreFoundation) + 9  [0x960f4959]
+    +                   !     : | 1 __CFRunLoopDoTimer  (in CoreFoundation) + 636  [0x96137d6c]
+    +                   !     : |   1 mk_timer_arm  (in libsystem_kernel.dylib) + 10  [0x95b0e90a]
+    +                   !     : 3 __CFRunLoopRun  (in CoreFoundation) + 1121  [0x9611c8f1]
+    +                   !     : | 3 mach_port_insert_member  (in libsystem_kernel.dylib) + 31  [0x95b0fac9]
+    +                   !     : |   3 _kernelrpc_mach_port_insert_member_trap  (in libsystem_kernel.dylib) + 10  [0x95b0e78a]
+    +                   !     : 2 __CFRunLoopRun  (in CoreFoundation) + 1071  [0x9611c8bf]
+    +                   !     : | 2 __CFRunLoopDoObservers  (in CoreFoundation) + 381  [0x9614279d]
+    +                   !     : |   2 __CFRUNLOOP_IS_CALLING_OUT_TO_AN_OBSERVER_CALLBACK_FUNCTION__  (in CoreFoundation) + 30  [0x9614285e]
+    +                   !     : |     2 FlushAllBuffers(__CFRunLoopObserver*, unsigned long, void*)  (in HIToolbox) + 245  [0x97797dc1]
+    +                   !     : |       2 FlushWindowObject(WindowData*, void**, unsigned char)  (in HIToolbox) + 997  [0x9778f319]
+    +                   !     : |         2 FlushPlatformWindow  (in HIToolbox) + 21  [0x9778c8c5]
+    +                   !     : |           2 QDIsPortBufferedWrapper  (in HIToolbox) + 17  [0x97a052e0]
+    +                   !     : |             2 QDIsPortBuffered  (in QD) + 16  [0x93773bfe]
+    +                   !     : |               2 IsValidPort  (in QD) + 33  [0x9374ab38]
+    +                   !     : |                 2 LockPortList  (in QD) + 55  [0x9375e4b8]
+    +                   !     : |                   2 OSAtomicCompareAndSwap32Barrier$VARIANT$mp  (in libsystem_c.dylib) + 12  [0x90025f50]
+    +                   !     : 2 __CFRunLoopRun  (in CoreFoundation) + 1275  [0x9611c98b]
+    +                   !     : | 2 pthread_mutex_lock  (in libsystem_c.dylib) + 20  [0x9003ef5c]
+    +                   !     : 2 __CFRunLoopRun  (in CoreFoundation) + 1683  [0x9611cb23]
+    +                   !     : | 2 CFArrayCreateMutable  (in CoreFoundation) + 198  [0x960f1516]
+    +                   !     : |   2 -[__NSPlaceholderArray initWithCapacity:]  (in CoreFoundation) + 134  [0x9612bd46]
+    +                   !     : |     1 +[__NSArrayM __new:::::]  (in CoreFoundation) + 20  [0x9620eaa4]
+    +                   !     : |     + 1 objc_collectingEnabled  (in libobjc.A.dylib) + 5  [0x914631ff]
+    +                   !     : |     +   1 objc_collectingEnabled  (in libobjc.A.dylib) + 5  [0x914631ff]
+    +                   !     : |     1 objc_msgSend  (in libobjc.A.dylib) + 26  [0x91462a8a]
+    +                   !     : 1 __CFRunLoopRun  (in CoreFoundation) + 291  [0x9611c5b3]
+    +                   !     : | 1 malloc  (in libsystem_c.dylib) + 53  [0x90053fe7]
+    +                   !     : |   1 malloc_zone_malloc  (in libsystem_c.dylib) + 75  [0x900535ab]
+    +                   !     : |     1 szone_malloc  (in libsystem_c.dylib) + 24  [0x90055a9e]
+    +                   !     : |       1 szone_malloc_should_clear  (in libsystem_c.dylib) + 880  [0x9006011a]
+    +                   !     : |         1 tiny_malloc_from_free_list  (in libsystem_c.dylib) + 1  [0x9005f87a]
+    +                   !     : 1 __CFRunLoopRun  (in CoreFoundation) + 1037  [0x9611c89d]
+    +                   !     :   1 __CFRunLoopServiceMachPort  (in CoreFoundation) + 185  [0x96116f89]
+    +                   !     :     1 mach_msg  (in libsystem_kernel.dylib) + 68  [0x95b0dcb0]
+    +                   !     :       1 mach_msg_trap  (in libsystem_kernel.dylib) + 10  [0x95b0e7d2]
+    +                   !     9 CFRunLoopRunSpecific  (in CoreFoundation) + 355  [0x9611c013]
+    +                   !     : 9 __CFRunLoopDoObservers  (in CoreFoundation) + 381  [0x9614279d]
+    +                   !     :   9 __CFRUNLOOP_IS_CALLING_OUT_TO_AN_OBSERVER_CALLBACK_FUNCTION__  (in CoreFoundation) + 30  [0x9614285e]
+    +                   !     :     3 FlushAllBuffers(__CFRunLoopObserver*, unsigned long, void*)  (in HIToolbox) + 245  [0x97797dc1]
+    +                   !     :     | 1 FlushWindowObject(WindowData*, void**, unsigned char)  (in HIToolbox) + 443  [0x9778f0ef]
+    +                   !     :     | + 1 HIView::GetNeedsDisplay()  (in HIToolbox) + 21  [0x9778eb69]
+    +                   !     :     | 1 FlushWindowObject(WindowData*, void**, unsigned char)  (in HIToolbox) + 898  [0x9778f2b6]
+    +                   !     :     | + 1 HIObject::GetEncodedRef() const  (in HIToolbox) + 1  [0x9776dfbd]
+    +                   !     :     | 1 FlushWindowObject(WindowData*, void**, unsigned char)  (in HIToolbox) + 945  [0x9778f2e5]
+    +                   !     :     |   1 GetWindowProperty  (in HIToolbox) + 48  [0x9778f759]
+    +                   !     :     |     1 GetWindowData(OpaqueWindowPtr*)  (in HIToolbox) + 23  [0x9777e4b5]
+    +                   !     :     3 FlushAllBuffers(__CFRunLoopObserver*, unsigned long, void*)  (in HIToolbox) + 0  [0x97797ccc]
+    +                   !     :     1 FlushAllBuffers(__CFRunLoopObserver*, unsigned long, void*)  (in HIToolbox) + 20  [0x97797ce0]
+    +                   !     :     | 1 IsSafeToCallApplication  (in HIToolbox) + 0  [0x97797f47]
+    +                   !     :     1 FlushAllBuffers(__CFRunLoopObserver*, unsigned long, void*)  (in HIToolbox) + 65  [0x97797d0d]
+    +                   !     :     | 1 GetCurrentEventTime  (in HIToolbox) + 52  [0x97797ffc]
+    +                   !     :     |   1 MachTimeConversionRate  (in HIToolbox) + 37  [0x9779803e]
+    +                   !     :     |     1 _spin_lock$VARIANT$mp  (in libsystem_c.dylib) + 13  [0x900263bd]
+    +                   !     :     1 FlushAllBuffers(__CFRunLoopObserver*, unsigned long, void*)  (in HIToolbox) + 215  [0x97797da3]
+    +                   !     :       1 GetCurrentWindowContext()  (in HIToolbox) + 17  [0x9777a8a9]
+    +                   !     3 CFRunLoopRunSpecific  (in CoreFoundation) + 378  [0x9611c02a]
+    +                   !     2 CFRunLoopRunSpecific  (in CoreFoundation) + 244  [0x9611bfa4]
+    +                   !     : 2 CFAllocatorAllocate  (in CoreFoundation) + 343  [0x960e8707]
+    +                   !     :   2 __CFAllocatorSystemAllocate  (in CoreFoundation) + 24  [0x960e8738]
+    +                   !     :     2 malloc_zone_malloc  (in libsystem_c.dylib) + 75  [0x900535ab]
+    +                   !     :       2 szone_malloc  (in libsystem_c.dylib) + 24  [0x90055a9e]
+    +                   !     :         2 szone_malloc_should_clear  (in libsystem_c.dylib) + 1,64  [0x9005fdab,0x9005fdea]
+    +                   !     1 CFRunLoopRunSpecific  (in CoreFoundation) + 141  [0x9611bf3d]
+    +                   !       1 __CFRunLoopModeIsEmpty  (in CoreFoundation) + 160  [0x960f5de0]
+    +                   !         1 CFSetContainsValue  (in CoreFoundation) + 102  [0x960f5f66]
+    +                   !           1 CFBasicHashGetCountOfKey  (in CoreFoundation) + 1336  [0x960f64b8]
+    +                   !             1 __CFSetStandardHashKey  (in CoreFoundation) + 28  [0x960f698c]
+    +                   3 ReceiveNextEventCommon  (in HIToolbox) + 391  [0x97790cda]
+    +                   ! 2 GetCurrentEventQueue  (in HIToolbox) + 20  [0x97790da9]
+    +                   ! : 2 MPCurrentTaskID  (in CarbonCore) + 0,1  [0x95dff0eb,0x95dff0ec]
+    +                   ! 1 GetCurrentEventQueue  (in HIToolbox) + 158  [0x97790e33]
+    +                   !   1 GetMainEventQueue  (in HIToolbox) + 26  [0x9777a99b]
+    +                   !     1 _EventThreadLock  (in HIToolbox) + 56  [0x97767739]
+    +                   !       1 pthread_mutex_lock  (in libsystem_c.dylib) + 20  [0x9003ef5c]
+    +                   2 ReceiveNextEventCommon  (in HIToolbox) + 476  [0x97790d2f]
+    +                     1 DYLD-STUB$$mach_absolute_time  (in HIToolbox) + 0  [0x97a5acca]
+    +                     1 GetCurrentEventTime  (in HIToolbox) + 52  [0x97797ffc]
+    +                       1 MachTimeConversionRate  (in HIToolbox) + 37  [0x9779803e]
+    +                         1 _spin_lock$VARIANT$mp  (in libsystem_c.dylib) + 13  [0x900263bd]
+    2171 Thread_667743   DispatchQueue_2: com.apple.libdispatch-manager  (serial)
+    + 2171 _dispatch_mgr_thread  (in libdispatch.dylib) + 53  [0x93b507a9]
+    +   2171 _dispatch_mgr_invoke  (in libdispatch.dylib) + 993  [0x93b50c71]
+    +     2171 kevent  (in libsystem_kernel.dylib) + 10  [0x95b119ae]
+    2171 Thread_667777
+    + 2171 thread_start  (in libsystem_c.dylib) + 34  [0x90023d4e]
+    +   2171 _pthread_start  (in libsystem_c.dylib) + 344  [0x900395b7]
+    +     2143 TimerThread  (in CarbonCore) + 324  [0x95e881a3]
+    +     ! 2143 TSWaitOnSemaphoreRelative  (in CarbonCore) + 24  [0x95ea240d]
+    +     !   2135 TSWaitOnSemaphoreCommon  (in CarbonCore) + 272  [0x95ea2184]
+    +     !   : 2133 TSWaitOnConditionTimedRelative  (in CarbonCore) + 177  [0x95ea26ad]
+    +     !   : | 2133 pthread_cond_timedwait_relative_np  (in libsystem_c.dylib) + 47  [0x9003e572]
+    +     !   : |   2116 _pthread_cond_wait  (in libsystem_c.dylib) + 938  [0x9003e2e9]
+    +     !   : |   + 2116 __psynch_cvwait  (in libsystem_kernel.dylib) + 10,24,...  [0x95b108e2,0x95b108f0,...]
+    +     !   : |   5 _pthread_cond_wait  (in libsystem_c.dylib) + 1025  [0x9003e340]
+    +     !   : |   + 3 pthread_mutex_lock  (in libsystem_c.dylib) + 270  [0x9003f056]
+    +     !   : |   + ! 3 pthread_threadid_np  (in libsystem_c.dylib) + 49  [0x9003a07a]
+    +     !   : |   + 1 DYLD-STUB$$pthread_threadid_np  (in libsystem_c.dylib) + 0  [0x900d3f82]
+    +     !   : |   + 1 pthread_mutex_lock  (in libsystem_c.dylib) + 689  [0x9003f1f9]
+    +     !   : |   5 cerror_nocancel  (in libsystem_kernel.dylib) + 52  [0x95b124b3]
+    +     !   : |   + 3 cthread_set_errno_self  (in libsystem_c.dylib) + 1  [0x900414e4]
+    +     !   : |   + 2 cthread_set_errno_self  (in libsystem_c.dylib) + 20  [0x900414f7]
+    +     !   : |   +   2 __error  (in libsystem_c.dylib) + 34  [0x90061961]
+    +     !   : |   3 _pthread_cond_wait  (in libsystem_c.dylib) + 1033,951,...  [0x9003e348,0x9003e2f6,...]
+    +     !   : |   2 _pthread_cond_wait  (in libsystem_c.dylib) + 1014  [0x9003e335]
+    +     !   : |   + 1 OSAtomicCompareAndSwap64Barrier$VARIANT$mp  (in libsystem_c.dylib) + 1  [0x90025f81]
+    +     !   : |   + 1 cond_dropwait  (in libsystem_c.dylib) + 15  [0x9003e3d8]
+    +     !   : |   2 cerror_nocancel  (in libsystem_kernel.dylib) + 5  [0x95b12484]
+    +     !   : 2 TSWaitOnConditionTimedRelative  (in CarbonCore) + 121,179  [0x95ea2675,0x95ea26af]
+    +     !   5 TSWaitOnSemaphoreCommon  (in CarbonCore) + 767  [0x95ea2373]
+    +     !   : 3 TSUnlockMutex  (in CarbonCore) + 231  [0x95dfa260]
+    +     !   : | 3 pthread_mutex_unlock  (in libsystem_c.dylib) + 292  [0x9003f584]
+    +     !   : |   2 __mtx_droplock  (in libsystem_c.dylib) + 416,196  [0x9003ebb9,0x9003eadd]
+    +     !   : |   1 OSAtomicCompareAndSwap64Barrier$VARIANT$mp  (in libsystem_c.dylib) + 26  [0x90025f9a]
+    +     !   : 2 TSUnlockMutex  (in CarbonCore) + 1  [0x95dfa17a]
+    +     !   2 TSWaitOnSemaphoreCommon  (in CarbonCore) + 429,272  [0x95ea2221,0x95ea2184]
+    +     !   1 TSWaitOnSemaphoreCommon  (in CarbonCore) + 198  [0x95ea213a]
+    +     !     1 pthread_self  (in libsystem_c.dylib) + 7  [0x90023cf7]
+    +     21 TimerThread  (in CarbonCore) + 129  [0x95e880e0]
+    +     ! 9 mactimer_isr  (in Groven+Sampler) + 20  [0x66327]
+    +     ! : 7 mactimer_gettime  (in Groven+Sampler) + 150  [0x6644c]
+    +     ! : | 5 AudioConvertHostTimeToNanos  (in CoreAudio) + 57,0,...  [0x91602212,0x916021d9,...]
+    +     ! : | 2 AudioConvertHostTimeToNanos  (in CoreAudio) + 72  [0x91602221]
+    +     ! : |   2 _spin_lock$VARIANT$mp  (in libsystem_c.dylib) + 4  [0x900263b4]
+    +     ! : 2 mactimer_gettime  (in Groven+Sampler) + 25,170  [0x663cf,0x66460]
+    +     ! 9 mactimer_isr  (in Groven+Sampler) + 155  [0x663ae]
+    +     ! : 8 PrimeTimeTask  (in CarbonCore) + 17  [0x95e87ab6]
+    +     ! : | 8 _PrimeTimeTask  (in CarbonCore) + 488  [0x95e87ca5]
+    +     ! : |   5 TSSignalSemaphore  (in CarbonCore) + 200  [0x95ea1f07]
+    +     ! : |   + 4 TSSignalCondition  (in CarbonCore) + 1,14,...  [0x95dedf7a,0x95dedf87,...]
+    +     ! : |   + 1 pthread_cond_signal  (in libsystem_c.dylib) + 0  [0x9003df21]
+    +     ! : |   2 TSSignalSemaphore  (in CarbonCore) + 505,513  [0x95ea2038,0x95ea2040]
+    +     ! : |   1 TSSignalSemaphore  (in CarbonCore) + 137  [0x95ea1ec8]
+    +     ! : |     1 TSLockMutex  (in CarbonCore) + 1105  [0x95dfa171]
+    +     ! : 1 PrimeTimeTask  (in CarbonCore) + 0  [0x95e87aa5]
+    +     ! 3 mactimer_isr  (in Groven+Sampler) + 1,29,...  [0x66314,0x66330,...]
+    +     3 TimerThread  (in CarbonCore) + 182  [0x95e88115]
+    +     ! 2 UpTime  (in CarbonCore) + 0  [0x95dfafeb]
+    +     ! 1 mach_absolute_time_direct  (in libsystem_c.dylib) + 68  [0x90025db4]
+    +     2 TimerThread  (in CarbonCore) + 340  [0x95e881b3]
+    +     ! 1 TSLockMutex  (in CarbonCore) + 230  [0x95df9e06]
+    +     ! : 1 pthread_mutex_lock  (in libsystem_c.dylib) + 245  [0x9003f03d]
+    +     ! 1 TSLockMutex  (in CarbonCore) + 974  [0x95dfa0ee]
+    +     1 TimerThread  (in CarbonCore) + 275  [0x95e88172]
+    +     ! 1 ExpirationTimeRemaining  (in CarbonCore) + 102  [0x95e88054]
+    +     !   1 AbsoluteDeltaToDuration  (in CarbonCore) + 60  [0x95e7689a]
+    +     !     1 AbsoluteToDuration  (in CarbonCore) + 4  [0x95e768d6]
+    +     1 TimerThread  (in CarbonCore) + 82  [0x95e880b1]
+    2171 Thread_667783
+    + 2171 thread_start  (in libsystem_c.dylib) + 34  [0x90023d4e]
+    +   2171 _pthread_start  (in libsystem_c.dylib) + 344  [0x900395b7]
+    +     2171 juce::threadEntryProc(void*)  (in Groven+Sampler) + 70  [0x4728fc]
+    +       2171 juce::Thread::threadEntryPoint()  (in Groven+Sampler) + 130  [0x48fd88]
+    +         1079 juce::InternalTimerThread::run()  (in Groven+Sampler) + 163  [0x35c37f]
+    +         ! 1079 juce::Thread::wait(int) const  (in Groven+Sampler) + 27  [0x48fec5]
+    +         !   1079 juce::WaitableEvent::wait(int) const  (in Groven+Sampler) + 26  [0x4749c6]
+    +         !     1076 ???  (in <unknown binary>)  [0x23acd40]
+    +         !     : 1076 juce::WaitableEventImpl::wait(int)  (in Groven+Sampler) + 168  [0x48253a]
+    +         !     :   1076 pthread_cond_timedwait$UNIX2003  (in libsystem_c.dylib) + 70  [0x900c40e0]
+    +         !     :     1064 _pthread_cond_wait  (in libsystem_c.dylib) + 833  [0x9003e280]
+    +         !     :     | 1064 __psynch_cvwait  (in libsystem_kernel.dylib) + 10,12  [0x95b108e2,0x95b108e4]
+    +         !     :     5 cerror_nocancel  (in libsystem_kernel.dylib) + 52  [0x95b124b3]
+    +         !     :     | 5 cthread_set_errno_self  (in libsystem_c.dylib) + 98  [0x90041545]
+    +         !     :     3 _pthread_cond_wait  (in libsystem_c.dylib) + 1025  [0x9003e340]
+    +         !     :     | 2 pthread_mutex_lock  (in libsystem_c.dylib) + 270  [0x9003f056]
+    +         !     :     | + 2 pthread_threadid_np  (in libsystem_c.dylib) + 49  [0x9003a07a]
+    +         !     :     | 1 pthread_mutex_lock  (in libsystem_c.dylib) + 688  [0x9003f1f8]
+    +         !     :     2 cerror_nocancel  (in libsystem_kernel.dylib) + 56,5  [0x95b124b7,0x95b12484]
+    +         !     :     1 _pthread_cond_wait  (in libsystem_c.dylib) + 1014  [0x9003e335]
+    +         !     :     | 1 DYLD-STUB$$OSAtomicCompareAndSwap64Barrier  (in libsystem_c.dylib) + 0  [0x900d3cfa]
+    +         !     :     1 _pthread_cond_wait  (in libsystem_c.dylib) + 65  [0x9003df80]
+    +         !     3 ???  (in <unknown binary>)  [0x23acd5c]
+    +         !       3 juce::WaitableEventImpl::wait(int)  (in Groven+Sampler) + 199  [0x482559]
+    +         !         2 pthread_mutex_unlock  (in libsystem_c.dylib) + 292  [0x9003f584]
+    +         !         | 2 __mtx_droplock  (in libsystem_c.dylib) + 249,46  [0x9003eb12,0x9003ea47]
+    +         !         1 pthread_mutex_unlock  (in libsystem_c.dylib) + 0  [0x9003f460]
+    +         899 juce::InternalTimerThread::run()  (in Groven+Sampler) + 58  [0x35c316]
+    +         ! 899 juce::Thread::wait(int) const  (in Groven+Sampler) + 27  [0x48fec5]
+    +         !   899 juce::WaitableEvent::wait(int) const  (in Groven+Sampler) + 26  [0x4749c6]
+    +         !     894 ???  (in <unknown binary>)  [0x23acd40]
+    +         !     : 893 juce::WaitableEventImpl::wait(int)  (in Groven+Sampler) + 168  [0x48253a]
+    +         !     : | 893 pthread_cond_timedwait$UNIX2003  (in libsystem_c.dylib) + 70  [0x900c40e0]
+    +         !     : |   885 _pthread_cond_wait  (in libsystem_c.dylib) + 833  [0x9003e280]
+    +         !     : |   + 885 __psynch_cvwait  (in libsystem_kernel.dylib) + 10,12  [0x95b108e2,0x95b108e4]
+    +         !     : |   5 _pthread_cond_wait  (in libsystem_c.dylib) + 1025  [0x9003e340]
+    +         !     : |   + 5 pthread_mutex_lock  (in libsystem_c.dylib) + 270  [0x9003f056]
+    +         !     : |   +   5 pthread_threadid_np  (in libsystem_c.dylib) + 49  [0x9003a07a]
+    +         !     : |   2 cerror_nocancel  (in libsystem_kernel.dylib) + 52  [0x95b124b3]
+    +         !     : |   + 2 cthread_set_errno_self  (in libsystem_c.dylib) + 98  [0x90041545]
+    +         !     : |   1 _pthread_cond_wait  (in libsystem_c.dylib) + 255  [0x9003e03e]
+    +         !     : 1 juce::WaitableEventImpl::wait(int)  (in Groven+Sampler) + 191  [0x482551]
+    +         !     5 ???  (in <unknown binary>)  [0x23acd5c]
+    +         !       4 juce::WaitableEventImpl::wait(int)  (in Groven+Sampler) + 199  [0x482559]
+    +         !       | 3 pthread_mutex_unlock  (in libsystem_c.dylib) + 0  [0x9003f460]
+    +         !       | 1 pthread_mutex_unlock  (in libsystem_c.dylib) + 292  [0x9003f584]
+    +         !       |   1 __mtx_droplock  (in libsystem_c.dylib) + 474  [0x9003ebf3]
+    +         !       1 juce::WaitableEventImpl::wait(int)  (in Groven+Sampler) + 23  [0x4824a9]
+    +         !         1 DYLD-STUB$$OSAtomicCompareAndSwap64Barrier  (in libsystem_c.dylib) + 0  [0x900d3cfa]
+    +         135 juce::InternalTimerThread::run()  (in Groven+Sampler) + 213  [0x35c3b1]
+    +         ! 135 juce::Thread::wait(int) const  (in Groven+Sampler) + 27  [0x48fec5]
+    +         !   135 juce::WaitableEvent::wait(int) const  (in Groven+Sampler) + 26  [0x4749c6]
+    +         !     135 ???  (in <unknown binary>)  [0x23acd40]
+    +         !       135 juce::WaitableEventImpl::wait(int)  (in Groven+Sampler) + 168  [0x48253a]
+    +         !         135 pthread_cond_timedwait$UNIX2003  (in libsystem_c.dylib) + 70  [0x900c40e0]
+    +         !           135 _pthread_cond_wait  (in libsystem_c.dylib) + 833  [0x9003e280]
+    +         !             135 __psynch_cvwait  (in libsystem_kernel.dylib) + 10  [0x95b108e2]
+    +         18 juce::InternalTimerThread::run()  (in Groven+Sampler) + 111  [0x35c34b]
+    +         ! 13 operator new(unsigned long)  (in libstdc++.6.dylib) + 35  [0x9a71b29a]
+    +         ! : 10 malloc  (in libsystem_c.dylib) + 53  [0x90053fe7]
+    +         ! : | 10 malloc_zone_malloc  (in libsystem_c.dylib) + 75  [0x900535ab]
+    +         ! : |   10 szone_malloc  (in libsystem_c.dylib) + 24  [0x90055a9e]
+    +         ! : |     6 szone_malloc_should_clear  (in libsystem_c.dylib) + 1,868,...  [0x9005fdab,0x9006010e,...]
+    +         ! : |     3 szone_malloc_should_clear  (in libsystem_c.dylib) + 880  [0x9006011a]
+    +         ! : |     + 3 tiny_malloc_from_free_list  (in libsystem_c.dylib) + 44,0  [0x9005f8a5,0x9005f879]
+    +         ! : |     1 szone_malloc_should_clear  (in libsystem_c.dylib) + 110  [0x9005fe18]
+    +         ! : |       1 cpu_number  (in libsystem_c.dylib) + 1  [0x90023921]
+    +         ! : 3 malloc  (in libsystem_c.dylib) + 23,1  [0x90053fc9,0x90053fb3]
+    +         ! 5 operator new(unsigned long)  (in libstdc++.6.dylib) + 0,1,...  [0x9a71b277,0x9a71b278,...]
+    +         12 juce::InternalTimerThread::run()  (in Groven+Sampler) + 38  [0x35c302]
+    +         ! 9 juce::Time::getMillisecondCounter()  (in Groven+Sampler) + 18  [0x35586a]
+    +         ! : 7 ???  (in <unknown binary>)  [0x23acd40]
+    +         ! : | 4 juce::juce_millisecondsSinceStartup()  (in Groven+Sampler) + 18  [0x475509]
+    +         ! : | + 4 mach_absolute_time_direct  (in libsystem_c.dylib) + 11,0,...  [0x90025d7b,0x90025d70,...]
+    +         ! : | 3 juce::juce_millisecondsSinceStartup()  (in Groven+Sampler) + 38,58  [0x47551d,0x475531]
+    +         ! : 2 juce::juce_millisecondsSinceStartup()  (in Groven+Sampler) + 1  [0x4754f8]
+    +         ! 3 juce::Time::getMillisecondCounter()  (in Groven+Sampler) + 1,38  [0x355859,0x35587e]
+    +         11 juce::InternalTimerThread::run()  (in Groven+Sampler) + 136  [0x35c364]
+    +         ! 9 ???  (in <unknown binary>)  [0x23a3340]
+    +         ! : 9 juce::MessageListener::postMessage(juce::Message*) const  (in Groven+Sampler) + 54  [0x35a928]
+    +         ! :   8 juce::MessageManager::postMessageToQueue(juce::Message*)  (in Groven+Sampler) + 27  [0x35b01f]
+    +         ! :   | 4 juce::juce_postMessageToSystemQueue(juce::Message*)  (in Groven+Sampler) + 62  [0x47488d]
+    +         ! :   | + 3 CFRunLoopWakeUp  (in CoreFoundation) + 198  [0x961347a6]
+    +         ! :   | + ! 3 mach_msg  (in libsystem_kernel.dylib) + 68  [0x95b0dcb0]
+    +         ! :   | + !   3 mach_msg_trap  (in libsystem_kernel.dylib) + 10  [0x95b0e7d2]
+    +         ! :   | + 1 CFRunLoopWakeUp  (in CoreFoundation) + 1  [0x961346e1]
+    +         ! :   | 2 juce::juce_postMessageToSystemQueue(juce::Message*)  (in Groven+Sampler) + 40  [0x474877]
+    +         ! :   | + 2 juce::OwnedArray<juce::Message, juce::CriticalSection>::add(juce::Message const*)  (in Groven+Sampler) + 34  [0x48243c]
+    +         ! :   | +   2 juce::ArrayAllocationBase<juce::Message*, juce::CriticalSection>::ensureAllocatedSize(int)  (in Groven+Sampler) + 45  [0x478d85]
+    +         ! :   | +     1 juce::ArrayAllocationBase<juce::Message*, juce::CriticalSection>::setAllocatedSize(int)  (in Groven+Sampler) + 46  [0x478d3a]
+    +         ! :   | +     ! 1 juce::HeapBlock<juce::Message*>::realloc(unsigned long, unsigned long)  (in Groven+Sampler) + 31  [0x478cf5]
+    +         ! :   | +     !   1 malloc  (in libsystem_c.dylib) + 53  [0x90053fe7]
+    +         ! :   | +     !     1 malloc_zone_malloc  (in libsystem_c.dylib) + 75  [0x900535ab]
+    +         ! :   | +     !       1 szone_malloc  (in libsystem_c.dylib) + 24  [0x90055a9e]
+    +         ! :   | +     !         1 szone_malloc_should_clear  (in libsystem_c.dylib) + 3  [0x9005fdad]
+    +         ! :   | +     1 juce::ArrayAllocationBase<juce::Message*, juce::CriticalSection>::setAllocatedSize(int)  (in Groven+Sampler) + 0  [0x478d0c]
+    +         ! :   | 2 juce::juce_postMessageToSystemQueue(juce::Message*)  (in Groven+Sampler) + 51  [0x474882]
+    +         ! :   |   1 CFRunLoopSourceSignal  (in CoreFoundation) + 53  [0x960f5ad5]
+    +         ! :   |   ! 1 pthread_mutex_lock  (in libsystem_c.dylib) + 0  [0x9003ef48]
+    +         ! :   |   1 CFRunLoopSourceSignal  (in CoreFoundation) + 1  [0x960f5aa1]
+    +         ! :   1 juce::MessageManager::postMessageToQueue(juce::Message*)  (in Groven+Sampler) + 14  [0x35b012]
+    +         ! 2 juce::MessageListener::postMessage(juce::Message*) const  (in Groven+Sampler) + 0  [0x35a8f2]
+    +         8 juce::InternalTimerThread::run()  (in Groven+Sampler) + 174  [0x35c38a]
+    +         ! 8 juce::Time::getMillisecondCounter()  (in Groven+Sampler) + 18  [0x35586a]
+    +         !   6 ???  (in <unknown binary>)  [0x23acd40]
+    +         !   : 5 juce::juce_millisecondsSinceStartup()  (in Groven+Sampler) + 18  [0x475509]
+    +         !   : | 5 mach_absolute_time_direct  (in libsystem_c.dylib) + 0,15,...  [0x90025d70,0x90025d7f,...]
+    +         !   : 1 juce::juce_millisecondsSinceStartup()  (in Groven+Sampler) + 38  [0x47551d]
+    +         !   2 juce::juce_millisecondsSinceStartup()  (in Groven+Sampler) + 1  [0x4754f8]
+    +         5 juce::InternalTimerThread::run()  (in Groven+Sampler) + 220,216,...  [0x35c3b8,0x35c3b4,...]
+    +         4 juce::InternalTimerThread::run()  (in Groven+Sampler) + 80  [0x35c32c]
+    +           2 juce::InternalTimerThread::getTimeUntilFirstTimer(int) const  (in Groven+Sampler) + 28  [0x35c0b0]
+    +           : 2 juce::InternalTimerThread::instance  (in Groven+Sampler) + 16  [0x75a530]
+    +           :   2 juce::CriticalSection::enter() const  (in Groven+Sampler) + 17  [0x4744cf]
+    +           :     2 pthread_mutex_lock  (in libsystem_c.dylib) + 319,670  [0x9003f087,0x9003f1e6]
+    +           2 juce::InternalTimerThread::getTimeUntilFirstTimer(int) const  (in Groven+Sampler) + 44  [0x35c0c0]
+    2171 Thread_692660
+      2171 start_wqthread  (in libsystem_c.dylib) + 30  [0x90023d2a]
+        2171 _pthread_wqthread  (in libsystem_c.dylib) + 448  [0x9003be79]
+          2171 _pthread_workq_return  (in libsystem_c.dylib) + 45  [0x9003c0ac]
+            2171 __workq_kernreturn  (in libsystem_kernel.dylib) + 10  [0x95b110ee]
+
+Total number in stack (recursive counted multiple, when >=5):
+        8       pthread_mutex_lock  (in libsystem_c.dylib) + 0  [0x9003ef48]
+        6       ???  (in <unknown binary>)  [0x23acd40]
+
+Sort by top of stack, same collapsed (when >= 5):
+        __psynch_cvwait  (in libsystem_kernel.dylib)        4200
+        __workq_kernreturn  (in libsystem_kernel.dylib)        2171
+        kevent  (in libsystem_kernel.dylib)        2171
+        mach_msg_trap  (in libsystem_kernel.dylib)        2076
+        _kernelrpc_mach_port_extract_member_trap  (in libsystem_kernel.dylib)        15
+        pthread_threadid_np  (in libsystem_c.dylib)        14
+        cthread_set_errno_self  (in libsystem_c.dylib)        10
+        mach_absolute_time_direct  (in libsystem_c.dylib)        10
+        pthread_mutex_lock  (in libsystem_c.dylib)        10
+        __psynch_cvbroad  (in libsystem_kernel.dylib)        9
+        szone_malloc_should_clear  (in libsystem_c.dylib)        9
+        juce::juce_millisecondsSinceStartup()  (in Groven+Sampler)        8
+        objc_msgSend  (in libobjc.A.dylib)        7
+        (anonymous namespace)::AutoreleasePoolPage::pop(void*)  (in libobjc.A.dylib)        5
+        AudioConvertHostTimeToNanos  (in CoreAudio)        5
+        __mtx_droplock  (in libsystem_c.dylib)        5
+        _pthread_cond_wait  (in libsystem_c.dylib)        5
+        juce::InternalTimerThread::run()  (in Groven+Sampler)        5
+        operator new(unsigned long)  (in libstdc++.6.dylib)        5
+
+Binary Images:
+    0x1000 -   0x5e2ff3 +com.cycling74.MaxRuntime (6.1.6 [307fb20] - 6.1.6) <44AFCB6E-8472-36E4-92C3-D1263D112100> /Users/Code/Notam/Groven+Sampler_14jun04.app/Contents/MacOS/Groven+Sampler
+  0xc13000 -   0xd32ffb  com.apple.WebKit (8536 - 8536.28.10) <C181C3FB-91E3-38AB-A709-6B61935B3AD8> /System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+  0xde3000 -   0xe2bffb  com.apple.audio.midi.CoreMIDI (1.9 - 78) <7AAE4076-36FA-37C1-9EAE-344F1C8F14D9> /System/Library/Frameworks/CoreMIDI.framework/Versions/A/CoreMIDI
+  0xe50000 -   0xe7dff3  com.apple.audio.CoreAudioKit (1.6.4 - 1.6.4) <5F0E55AF-BDA6-36B3-86F2-8A84A8F5D089> /System/Library/Frameworks/CoreAudioKit.framework/Versions/A/CoreAudioKit
+  0xe90000 -  0x1b23ffb  com.apple.WebCore (8536 - 8536.28.10) <AA738A8C-808D-302A-B58D-404C58075C45> /System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/WebCore
+ 0x22a8000 -  0x22beffc  libexpat.1.dylib (7.2.0 - compatibility 7.0.0) <D4F1FD2B-F75A-322C-843E-113EF5F8EEAF> /usr/lib/libexpat.1.dylib
+ 0x2539000 -  0x2546ff3  com.apple.Librarian (1.1 - 1) <68F8F983-5F16-3BA5-BDA7-1A5451CC02BB> /System/Library/PrivateFrameworks/Librarian.framework/Versions/A/Librarian
+ 0x25f4000 -  0x25f9fff  com.apple.audio.AppleHDAHALPlugIn (2.3.7 - 2.3.7fc4) <081467DA-1F55-3C0C-8081-062A985F36B7> /System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/AppleHDAHALPlugIn.bundle/Contents/MacOS/AppleHDAHALPlugIn
+ 0x2778000 -  0x27b4ff9 +com.cycling74.MaxAPI (1.0 - 1.0) <0E6151BD-580A-3A4F-B084-7143A57237F3> /Users/Code/Notam/Groven+Sampler_14jun04.app/Contents/Frameworks/MaxAPI.framework/MaxAPI
+ 0x27f4000 -  0x27f4fff +com.cycling74.fseventwatcher (6.1.6 [307fb20] - 6.1.6) <6CD89FBF-8C1F-3C64-9491-D0D70A3509B0> /Users/Code/Notam/Groven+Sampler_14jun04.app/Contents/support/extensions/fseventwatcher.mxo/Contents/MacOS/fseventwatcher
+ 0x6793000 -  0x679bffd  libcldcpuengine.dylib (2.2.16 - compatibility 1.0.0) <0BE2D018-66CC-3F69-B8F1-7A81EEEE09F4> /System/Library/Frameworks/OpenCL.framework/Libraries/libcldcpuengine.dylib
+ 0x67a2000 -  0x67a2ff5 +cl_kernels (??? - ???) <EFEF7FA4-834C-49D1-8253-D39D75333F1B> cl_kernels
+ 0x6f41000 -  0x6f75fff +com.grame.JackRouter (JackRouter - 0.9.1) <5A42B56C-982C-371B-178A-32FF5C5D40F2> /Library/Audio/Plug-Ins/HAL/JackRouter.plugin/Contents/MacOS/JackRouter
+ 0x6fa6000 -  0x6fcefff +libjack.dylib (??? - ???) <3A108EBE-5CF9-7D52-EB0E-ED608F6EAE34> /usr/local/lib/libjack.dylib
+ 0x8377000 -  0x83aeff0 +com.cycling74.MaxAudioAPI (??? - 1.0) <9EBEEE65-A310-31A2-92E2-07A9598A1037> /Users/Code/Notam/Groven+Sampler_14jun04.app/Contents/Frameworks/MaxAudioAPI.framework/MaxAudioAPI
+ 0x8635000 -  0x86c7fff  unorm8_bgra.dylib (2.2.16 - compatibility 1.0.0) <1298D118-0B14-3F3D-B2CA-348A1C67183E> /System/Library/Frameworks/OpenCL.framework/Libraries/ImageFormats/unorm8_bgra.dylib
+0x8fe3d000 - 0x8fe6fe57  dyld (210.2 - ???) <23516BE4-29BE-350C-91C9-F36E7999F0F1> /usr/lib/dyld
+0x90007000 - 0x90008fff  libsystem_sandbox.dylib (??? - ???) <61A79095-1978-3AAA-B0E0-658BC8E5F045> /usr/lib/system/libsystem_sandbox.dylib
+0x90023000 - 0x900e0feb  libsystem_c.dylib (825.26.0 - compatibility 1.0.0) <6E35A83F-1A5B-3AF9-8C6D-D7B57B25FB63> /usr/lib/system/libsystem_c.dylib
+0x900e1000 - 0x90114ff5  libssl.0.9.8.dylib (47.0.0 - compatibility 0.9.8) <3224FBB3-3074-3022-AD9A-187703680C03> /usr/lib/libssl.0.9.8.dylib
+0x90155000 - 0x90177fff  libc++abi.dylib (26.0.0 - compatibility 1.0.0) <3AAA8D55-F5F6-362B-BA3C-CCAF0D3C8E27> /usr/lib/libc++abi.dylib
+0x90178000 - 0x90179fff  libremovefile.dylib (23.2.0 - compatibility 1.0.0) <9813B2DB-2374-3AA2-99B6-AA2E9897B249> /usr/lib/system/libremovefile.dylib
+0x9017a000 - 0x901e2fe7  libvDSP.dylib (380.6.0 - compatibility 1.0.0) <55780308-4DCA-3B10-9703-EAFC3E13A3FA> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
+0x901e3000 - 0x90231ffb  libFontRegistry.dylib (??? - ???) <3B8350C2-4D8F-38C4-A22E-2F855D7E83D1> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib
+0x90232000 - 0x90277ff7  com.apple.NavigationServices (3.7 - 200) <F6531764-6E43-3AF3-ACDD-8A5551EF016A> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/NavigationServices.framework/Versions/A/NavigationServices
+0x90278000 - 0x9034efff  com.apple.DiscRecording (7.0 - 7000.2.4) <C14E99B9-DEFA-3812-89E5-464653B729F4> /System/Library/Frameworks/DiscRecording.framework/Versions/A/DiscRecording
+0x90352000 - 0x90355ff7  libcompiler_rt.dylib (30.0.0 - compatibility 1.0.0) <CE5DBDB4-0124-3E2B-9105-989DF98DD108> /usr/lib/system/libcompiler_rt.dylib
+0x90356000 - 0x9035dfff  liblaunch.dylib (442.26.2 - compatibility 1.0.0) <310C99F8-0811-314D-9BB9-D0ED6DFA024B> /usr/lib/system/liblaunch.dylib
+0x9035e000 - 0x90399fef  libGLImage.dylib (??? - ???) <6C0B2148-032A-3911-AB21-2E07606E3D9A> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib
+0x9039a000 - 0x90431ff7  com.apple.ink.framework (10.8.2 - 150) <D90FF7BC-6B90-39F1-AC52-670269947C58> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework/Versions/A/Ink
+0x90432000 - 0x90432ffd  com.apple.audio.units.AudioUnit (1.8 - 1.8) <D35BA73D-1E56-3A1D-9F9F-971F3BF8C136> /System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit
+0x90433000 - 0x90433fff  com.apple.ApplicationServices (45 - 45) <677C4ACC-9D12-366F-8A87-B898AC806DD9> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+0x90434000 - 0x90459ffb  com.apple.framework.familycontrols (4.1 - 410) <B1755756-BEA2-3205-ADAA-68FCC32E60BD> /System/Library/PrivateFrameworks/FamilyControls.framework/Versions/A/FamilyControls
+0x9045a000 - 0x904c0fff  com.apple.print.framework.PrintCore (8.3 - 387.2) <0F7665F5-33F0-3661-9BE2-7DD2890E304B> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+0x904c1000 - 0x9067dffd  libicucore.A.dylib (49.1.0 - compatibility 1.0.0) <59A23F06-16AD-35F8-BA58-D17305232402> /usr/lib/libicucore.A.dylib
+0x9067e000 - 0x908faff7  com.apple.QuickTime (7.7.1 - 2599.24) <5B1CA228-A6B3-39DF-A5CC-F981E59DAD1D> /System/Library/Frameworks/QuickTime.framework/Versions/A/QuickTime
+0x908fb000 - 0x908feff7  com.apple.TCC (1.0 - 1) <437D76CD-6437-3B55-BE2C-A53508858256> /System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+0x908ff000 - 0x90905ffc  libCGXCoreImage.A.dylib (600.0.0 - compatibility 64.0.0) <70A73377-8145-3488-A046-1DB05C6B9D01> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCGXCoreImage.A.dylib
+0x90908000 - 0x909b7ff7  com.apple.CoreText (260.0 - ???) <873ADCD9-D361-3753-A220-CDD289196AD8> /System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+0x90c5f000 - 0x90db7ffb  com.apple.audio.toolbox.AudioToolbox (1.8 - 1.8) <0D36953C-9897-3E9B-8C70-847E90B203A2> /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+0x90db8000 - 0x90df8fff  com.apple.MediaKit (14 - 687) <8735A76E-7766-33F5-B3D2-86630070A1BA> /System/Library/PrivateFrameworks/MediaKit.framework/Versions/A/MediaKit
+0x90e9b000 - 0x90ebffff  libJPEG.dylib (??? - ???) <CD42C17E-6B13-35BE-B585-9AE69CEA534F> /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib
+0x90ec0000 - 0x90ecdff7  com.apple.HelpData (2.1.4 - 85) <1E180AEF-53FF-3D8B-9513-7FCA1B25A4AB> /System/Library/PrivateFrameworks/HelpData.framework/Versions/A/HelpData
+0x90ece000 - 0x90ed7ff9  com.apple.CommonAuth (3.0 - 2.0) <34C4768C-EF8D-3DBA-AFB7-09148C8672DB> /System/Library/PrivateFrameworks/CommonAuth.framework/Versions/A/CommonAuth
+0x90ed8000 - 0x91013ff7  libBLAS.dylib (??? - ???) <FF74A147-05E1-37C4-BC10-7DEB57FE5326> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+0x91014000 - 0x91022ff7  libz.1.dylib (1.2.5 - compatibility 1.0.0) <245F1B61-2276-3BBB-9891-99934116D833> /usr/lib/libz.1.dylib
+0x91023000 - 0x912e3ff3  com.apple.security (7.0 - 55179.11) <165A3105-9ADF-329B-93FC-3C8EFAEDDD13> /System/Library/Frameworks/Security.framework/Versions/A/Security
+0x912e4000 - 0x912e4fff  libsystem_blocks.dylib (59.0.0 - compatibility 1.0.0) <3A743C5D-CFA5-37D8-80A8-B6795A9DB04F> /usr/lib/system/libsystem_blocks.dylib
+0x912e5000 - 0x91303ff3  com.apple.openscripting (1.3.6 - ???) <F3422C02-5ACB-343A-987B-A2D58EA2F5A8> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework/Versions/A/OpenScripting
+0x91304000 - 0x91337ffb  com.apple.GSS (3.0 - 2.0) <9566A96D-C296-3ABD-A12A-E274C81C0B25> /System/Library/Frameworks/GSS.framework/Versions/A/GSS
+0x91338000 - 0x9135dff7  com.apple.CoreVideo (1.8 - 99.4) <A26DE896-32E0-3D5E-BA89-02AD23FA96B3> /System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+0x9135e000 - 0x91367ffd  com.apple.audio.SoundManager (4.0 - 4.0) <ABC5FE40-B222-36EB-9905-5C8C4BFD8C87> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/CarbonSound
+0x9145d000 - 0x9156a057  libobjc.A.dylib (228.0.0 - compatibility 1.0.0) <FA455371-7395-3D58-A89B-D1520612D1BC> /usr/lib/libobjc.A.dylib
+0x9156b000 - 0x91584fff  com.apple.Kerberos (2.0 - 1) <9BDE8F4D-DBC3-34D1-852C-898D3655A611> /System/Library/Frameworks/Kerberos.framework/Versions/A/Kerberos
+0x915bb000 - 0x91619ff7  com.apple.audio.CoreAudio (4.1.1 - 4.1.1) <953DD669-8C6E-387D-AB3F-D8C8965347DF> /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+0x9161a000 - 0x9161cfff  libdyld.dylib (210.2.3 - compatibility 1.0.0) <05D6FF2A-F09B-309D-95F7-7AF10259C707> /usr/lib/system/libdyld.dylib
+0x9161d000 - 0x9164dff3  libtidy.A.dylib (??? - ???) <F2F4E000-E305-3089-91E6-3DB0ED07E74A> /usr/lib/libtidy.A.dylib
+0x9164e000 - 0x9169cff3  com.apple.SystemConfiguration (1.12.2 - 1.12.2) <6E858B9F-337A-314E-88B7-24A274ACE568> /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+0x9169d000 - 0x916f7ffb  com.apple.AE (645.6 - 645.6) <44556FF7-A869-399A-AEBB-F4E9263D9152> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+0x916f8000 - 0x916fcfff  com.apple.OpenDirectory (10.8 - 151.10) <A1858D81-086F-3BF5-87E3-9B70409FFDF6> /System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+0x91706000 - 0x917daff3  com.apple.backup.framework (1.4.2 - 1.4.2) <0473EB45-E9BF-3C10-B235-A6E2B960A88F> /System/Library/PrivateFrameworks/Backup.framework/Versions/A/Backup
+0x917db000 - 0x91899ff3  com.apple.ColorSync (4.8.0 - 4.8.0) <EFEDCB37-4F20-3CEC-A185-5D2976E11BAC> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+0x9189a000 - 0x91c2dff3  com.apple.MediaToolbox (1.0 - 926.87) <F3623474-03AD-3A7F-8BD1-46A44A12E74E> /System/Library/Frameworks/MediaToolbox.framework/Versions/A/MediaToolbox
+0x91c2e000 - 0x91c3cfff  com.apple.opengl (1.8.7 - 1.8.7) <0631EC1D-833B-39D2-A907-A9F7617E5504> /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+0x91c3d000 - 0x91c3efff  libDiagnosticMessagesClient.dylib (??? - ???) <39B3D25A-148A-3936-B800-0D393A00E64F> /usr/lib/libDiagnosticMessagesClient.dylib
+0x91c3f000 - 0x91c49fff  libCSync.A.dylib (600.0.0 - compatibility 64.0.0) <71A7B331-C8A2-322C-AFB0-062EE9C3B848> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCSync.A.dylib
+0x91c4a000 - 0x91c4dffc  libpam.2.dylib (3.0.0 - compatibility 3.0.0) <FCF74195-A99E-3B07-8E49-688D4A6F1E18> /usr/lib/libpam.2.dylib
+0x92410000 - 0x92423ff9  com.apple.MultitouchSupport.framework (235.29 - 235.29) <451701B6-03CE-3F26-9FF0-92D8DA1467EE> /System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport
+0x92424000 - 0x92448fff  com.apple.PerformanceAnalysis (1.16 - 16) <18DE0F9F-1264-394D-AC56-6B2A1771DFBE> /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis
+0x92449000 - 0x9244dffc  libGIF.dylib (??? - ???) <2F1DE1C6-4779-35A6-8ED5-BBF8ADD5962A> /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib
+0x9244e000 - 0x9244efff  com.apple.vecLib (3.8 - vecLib 3.8) <83160DD1-5614-3E34-80EB-97041016EF1F> /System/Library/Frameworks/vecLib.framework/Versions/A/vecLib
+0x9244f000 - 0x9244ffff  com.apple.Accelerate.vecLib (3.8 - vecLib 3.8) <908B8D40-3FB5-3047-B482-3DF95025ECFC> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
+0x92450000 - 0x92457fff  libsystem_dnssd.dylib (??? - ???) <49A44FB3-559D-3C7E-AA40-23F5A8E612AC> /usr/lib/system/libsystem_dnssd.dylib
+0x92458000 - 0x92499ff7  com.apple.framework.CoreWiFi (1.2.2 - 122.12) <D9479FFE-2D79-373C-9F73-E746664ACD5C> /System/Library/Frameworks/CoreWiFi.framework/Versions/A/CoreWiFi
+0x9249a000 - 0x928dcff3  com.apple.CoreGraphics (1.600.0 - ???) <BC041647-FB5A-3D07-A253-F3D34E25BF6C> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+0x928dd000 - 0x928deffd  com.apple.TrustEvaluationAgent (2.0 - 23) <E42347C0-2D3C-36A4-9200-757FFA61B388> /System/Library/PrivateFrameworks/TrustEvaluationAgent.framework/Versions/A/TrustEvaluationAgent
+0x928df000 - 0x929c8ff7  libxml2.2.dylib (10.8.0 - compatibility 10.0.0) <015A4FA6-5BB9-3F95-AFB8-B9281E22685B> /usr/lib/libxml2.2.dylib
+0x929c9000 - 0x92a45ff3  com.apple.Metadata (10.7.0 - 707.5) <F2BC2AB4-A87A-3D37-A496-AC21EF3E1244> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+0x92a46000 - 0x92a88ffb  com.apple.RemoteViewServices (2.0 - 80.6) <AE962502-4539-3893-A2EB-9D384652AEAC> /System/Library/PrivateFrameworks/RemoteViewServices.framework/Versions/A/RemoteViewServices
+0x92ae0000 - 0x9369cff7  com.apple.AppKit (6.8 - 1187.37) <6FBB3467-04F9-395F-8EA8-C84347C5BE43> /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+0x9369d000 - 0x936c9ff7  libsystem_info.dylib (??? - ???) <AA5611DB-A944-3072-B6BE-ACAB08689547> /usr/lib/system/libsystem_info.dylib
+0x936ca000 - 0x93724fff  com.apple.Symbolication (1.3 - 93) <684ECF0D-D416-3DF8-8B5B-3902953853A8> /System/Library/PrivateFrameworks/Symbolication.framework/Versions/A/Symbolication
+0x93725000 - 0x93745ffd  com.apple.ChunkingLibrary (2.0 - 133.3) <FA45EAE8-BB10-3AEE-9FDC-C0C3A533FF48> /System/Library/PrivateFrameworks/ChunkingLibrary.framework/Versions/A/ChunkingLibrary
+0x93746000 - 0x937e6ff7  com.apple.QD (3.42 - ???) <1B8307C6-AFA8-312E-BA5B-679070EF2CA1> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+0x937e7000 - 0x937e9ffd  libCVMSPluginSupport.dylib (??? - ???) <C8FC6227-5209-3138-89CD-03CAD11F3EC3> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCVMSPluginSupport.dylib
+0x937ea000 - 0x93832ff5  com.apple.opencl (2.2.18 - 2.2.18) <004A1DE4-49C6-3938-8B54-CD1DC23BDBE5> /System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL
+0x93833000 - 0x93a8cff8  com.apple.JavaScriptCore (8536 - 8536.28.10) <B02A662A-7DE6-3C9D-AB08-AA746D48FF2B> /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore
+0x93a8d000 - 0x93ad1ff7  libGLU.dylib (??? - ???) <0CC1A4D8-C095-3F2B-B55C-FDEBEA0E9CFE> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+0x93adc000 - 0x93ae8ffa  com.apple.CrashReporterSupport (10.8.3 - 417) <A4A45B14-8992-3739-82BC-3C5E5C2686F9> /System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+0x93ae9000 - 0x93b4bfff  libc++.1.dylib (65.1.0 - compatibility 1.0.0) <C0CFF9FF-5D52-3EAE-B921-6AE1DA00A135> /usr/lib/libc++.1.dylib
+0x93b4c000 - 0x93b5eff7  libdispatch.dylib (228.23.0 - compatibility 1.0.0) <86EF7D45-2D97-3465-A449-95038AE5DABA> /usr/lib/system/libdispatch.dylib
+0x93c6c000 - 0x93caefff  libcurl.4.dylib (7.0.0 - compatibility 7.0.0) <8CC566A0-0B25-37E8-A6EC-30074C3CDB8C> /usr/lib/libcurl.4.dylib
+0x93cb2000 - 0x93de5ff3  com.apple.MediaControlSender (1.7 - 170.20) <7B1AC317-AFDB-394F-8026-9561930E696B> /System/Library/PrivateFrameworks/MediaControlSender.framework/Versions/A/MediaControlSender
+0x93de6000 - 0x93dedffe  com.apple.agl (3.2.1 - AGL-3.2.1) <8E0411D3-19F7-30E1-92A2-337F7F0EBCDA> /System/Library/Frameworks/AGL.framework/Versions/A/AGL
+0x94b27000 - 0x94b29fff  com.apple.securityhi (4.0 - 55002) <62E3AE75-61CB-341E-B2A0-CFC985A2BF7F> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework/Versions/A/SecurityHI
+0x94bc8000 - 0x94bdafff  libbsm.0.dylib (??? - ???) <DADD385E-FE53-3458-94FB-E316A6345108> /usr/lib/libbsm.0.dylib
+0x94bdb000 - 0x94bdcfff  libquarantine.dylib (52.0.0 - compatibility 1.0.0) <D526310F-DC77-37EA-8F5F-83928EFA3262> /usr/lib/system/libquarantine.dylib
+0x94e4b000 - 0x94e78ffe  libsystem_m.dylib (??? - ???) <9975D9C3-3B71-38E3-AA21-C5C5F9D9C431> /usr/lib/system/libsystem_m.dylib
+0x94e79000 - 0x94ea3ff9  com.apple.framework.Apple80211 (8.3.2 - 832.18.1) <69AD5C5E-14A2-3E2B-AE28-2C7A7E4F5D0A> /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Apple80211
+0x94ea4000 - 0x94ef3ff6  libTIFF.dylib (??? - ???) <229EBA67-A2D3-30B7-8177-3CA5503360EC> /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib
+0x94ef4000 - 0x94f44ff7  com.apple.CoreMediaIO (307.0 - 4155) <49D36F54-D414-3745-8194-69FC3B632ED3> /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/CoreMediaIO
+0x94f45000 - 0x952fdffa  libLAPACK.dylib (??? - ???) <9A6E5EAD-F2F2-3D5C-B655-2B536DB477F2> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
+0x955ea000 - 0x95613ff7  libRIP.A.dylib (600.0.0 - compatibility 64.0.0) <FE496AFC-420A-3712-BC79-FC8C63ADB73D> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libRIP.A.dylib
+0x9598d000 - 0x95a02ff7  com.apple.ApplicationServices.ATS (332 - ???) <95206704-F9C9-33C4-AF25-FE9890E160B2> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+0x95a8f000 - 0x95a92ff9  libCGXType.A.dylib (600.0.0 - compatibility 64.0.0) <981B13D6-4E8B-3468-92D3-FE436B48C0DA> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCGXType.A.dylib
+0x95a93000 - 0x95afbff7  com.apple.framework.IOKit (2.0.1 - ???) <F9A70D23-1108-3616-9DE3-6C5730CA7AB2> /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+0x95afc000 - 0x95b16ffc  libsystem_kernel.dylib (2050.22.13 - compatibility 1.0.0) <70C520E8-0394-3DFB-823B-FE8C251C169A> /usr/lib/system/libsystem_kernel.dylib
+0x95b17000 - 0x95b4dffb  com.apple.DebugSymbols (98 - 98) <9A9ADA0A-E487-3C8F-9998-286EE04C235A> /System/Library/PrivateFrameworks/DebugSymbols.framework/Versions/A/DebugSymbols
+0x95b4e000 - 0x95be9fff  com.apple.CoreSymbolication (3.0 - 117) <F705A8CD-A04A-3A84-970A-7B04BC05DA97> /System/Library/PrivateFrameworks/CoreSymbolication.framework/Versions/A/CoreSymbolication
+0x95bea000 - 0x95becffb  libRadiance.dylib (??? - ???) <EAF7C74F-2A71-3A07-82E1-4FADEAFCF201> /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib
+0x95bed000 - 0x95c16fff  libxslt.1.dylib (3.26.0 - compatibility 3.0.0) <0DE17DAA-66FF-3195-AADB-347BEB5E2EFA> /usr/lib/libxslt.1.dylib
+0x95c17000 - 0x95c61ff7  com.apple.framework.CoreWLAN (3.0.2 - 302.12) <1D7CB11D-C28C-3A25-865A-4AD6EE40D493> /System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN
+0x95c62000 - 0x95ddaff5  com.apple.QuartzCore (1.8 - 304.2) <FB737C74-C460-32A3-9107-D2112BAE6EBC> /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+0x95ddf000 - 0x960e4ff7  com.apple.CoreServices.CarbonCore (1037.5 - 1037.5) <356AE2DF-ABB0-319C-8B5B-2F33D693889F> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+0x960e5000 - 0x962cdffb  com.apple.CoreFoundation (6.8 - 744.18) <68AFEE40-0078-347E-9DEE-32CFE0062A10> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+0x962ce000 - 0x962ebfff  libCRFSuite.dylib (??? - ???) <C9D72D0C-871A-39A2-8AFB-682D11AE7D0D> /usr/lib/libCRFSuite.dylib
+0x96409000 - 0x96464fff  com.apple.htmlrendering (77 - 1.1.4) <5C0C669F-AE07-3983-B38F-EB829B5CE609> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HTMLRendering.framework/Versions/A/HTMLRendering
+0x96465000 - 0x96473ff3  libsystem_network.dylib (??? - ???) <7FBF5A15-97BA-3721-943E-E77F0C40DBE1> /usr/lib/system/libsystem_network.dylib
+0x96474000 - 0x96491ff7  libresolv.9.dylib (??? - ???) <B9742A2A-DF15-3F6E-8FCE-778A58214B3A> /usr/lib/libresolv.9.dylib
+0x96492000 - 0x964e9ff3  com.apple.HIServices (1.20 - ???) <561A770B-8523-3D09-A763-11F872779A4C> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+0x964ed000 - 0x96597fff  com.apple.LaunchServices (539.7 - 539.7) <AF33EBD3-BC0B-30B5-B7DA-5CCCF12D7EDD> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+0x965f0000 - 0x96632ff7  libcups.2.dylib (2.10.0 - compatibility 2.0.0) <C7A4A315-FA15-354B-8BC9-BE824C4EFF6D> /usr/lib/libcups.2.dylib
+0x966ec000 - 0x966ecfff  com.apple.Cocoa (6.7 - 19) <354094F0-F36B-36F9-BF5F-FD60590FBEB9> /System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+0x966ed000 - 0x96744ff7  com.apple.ScalableUserInterface (1.0 - 1) <2B5E454B-BC49-3E85-B54D-1950397C448C> /System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/ScalableUserInterface.framework/Versions/A/ScalableUserInterface
+0x96745000 - 0x96852ff3  com.apple.ImageIO.framework (3.2.0 - 849) <B34C2380-51F6-38B1-BB6C-C2E5185D90EF> /System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+0x96853000 - 0x96853fff  com.apple.Accelerate (1.8 - Accelerate 1.8) <4EC0548E-3A3F-310D-A366-47B51D5B6398> /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+0x96856000 - 0x96b74ff3  com.apple.Foundation (6.8 - 945.16) <C4D95341-B4FF-30AC-815A-A23C019C57A3> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+0x96b75000 - 0x96b81ff7  com.apple.NetAuth (4.0 - 4.0) <4983C4B8-9D95-3C4D-897E-07743326487E> /System/Library/PrivateFrameworks/NetAuth.framework/Versions/A/NetAuth
+0x96b82000 - 0x96c8dff7  libJP2.dylib (??? - ???) <B2D0E844-C390-376C-91D9-F3501B5C7A83> /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJP2.dylib
+0x9750c000 - 0x9750cfff  com.apple.CoreServices (57 - 57) <956C6C6D-A5DD-314F-9C57-4A61D41F30CE> /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+0x9750d000 - 0x97511fff  com.apple.CommonPanels (1.2.5 - 94) <6B3E7E53-7708-3DA2-8C50-59C2B4735DE1> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework/Versions/A/CommonPanels
+0x97512000 - 0x97520fff  libxar.1.dylib (??? - ???) <343E4A3B-1D04-34A3-94C2-8C7C9A8F736B> /usr/lib/libxar.1.dylib
+0x97521000 - 0x97738fff  com.apple.CoreData (106.1 - 407.7) <17FD06D6-AD7C-345A-8FA4-1F0FBFF4DAE1> /System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+0x97739000 - 0x97b1cfff  com.apple.HIToolbox (2.0 - ???) <ECC3F04F-C4B7-35BF-B10E-183B749DAB92> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+0x97b1d000 - 0x97b1efff  liblangid.dylib (??? - ???) <E13CC8C5-5034-320A-A210-41A2BDE4F846> /usr/lib/liblangid.dylib
+0x97b1f000 - 0x97b1ffff  libSystem.B.dylib (169.3.0 - compatibility 1.0.0) <81C58EAB-0E76-3EAB-BDFD-C5A6FE95536F> /usr/lib/libSystem.B.dylib
+0x97b20000 - 0x97b20fff  libkeymgr.dylib (25.0.0 - compatibility 1.0.0) <D5E93F7F-9315-3AD6-92C7-941F7B54C490> /usr/lib/system/libkeymgr.dylib
+0x97b28000 - 0x97bc0fff  com.apple.CoreServices.OSServices (557.6 - 557.6) <E1600639-3EEC-3DF8-BD40-747BB2117988> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+0x97bc1000 - 0x97bcbfff  libsystem_notify.dylib (98.5.0 - compatibility 1.0.0) <7EEE9475-18F8-3099-B0ED-23A3E528ABE0> /usr/lib/system/libsystem_notify.dylib
+0x97bcc000 - 0x97c0eff7  libauto.dylib (??? - ???) <B2B5B639-6778-352A-828D-FD8B64A3E8B3> /usr/lib/libauto.dylib
+0x97c0f000 - 0x97c7effb  com.apple.Heimdal (3.0 - 2.0) <964D9952-B0F2-34F6-8265-1823C0D5EAB8> /System/Library/PrivateFrameworks/Heimdal.framework/Versions/A/Heimdal
+0x97c7f000 - 0x97cf9ff7  com.apple.securityfoundation (6.0 - 55115.4) <A959B2F5-9D9D-3C93-A62A-7399594CF238> /System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+0x97d04000 - 0x97d19fff  com.apple.speech.synthesis.framework (4.1.12 - 4.1.12) <DE68CEB5-4959-3652-83B8-D2B00D3B932D> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+0x97d1a000 - 0x98116feb  com.apple.VideoToolbox (1.0 - 926.87) <D6460276-E1CF-317D-B32F-80EAE916168C> /System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox
+0x98117000 - 0x98123ffe  libkxld.dylib (??? - ???) <ED37AAAA-B1C0-3ADF-A897-3D580A845843> /usr/lib/system/libkxld.dylib
+0x98126000 - 0x9812cfff  libGFXShared.dylib (??? - ???) <4268BFAF-4529-3B40-A8B9-66F176AC20CF> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib
+0x9812d000 - 0x982b6ff7  com.apple.vImage (6.0 - 6.0) <1D1F67FE-4F75-3689-BEF6-4A46C8039E70> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
+0x982b7000 - 0x982f6ff7  com.apple.bom (12.0 - 192) <0637E52C-D151-37B3-904F-8656B2FD44DD> /System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom
+0x982f7000 - 0x98301fff  com.apple.speech.recognition.framework (4.1.5 - 4.1.5) <B855E8B4-2EE3-3BFF-8547-98A0F084F9AF> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition
+0x98302000 - 0x98333fff  com.apple.DictionaryServices (1.2 - 184.4) <0D5BE86F-F40A-3E39-8569-19FCA5EDF9D3> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+0x98334000 - 0x9833dfff  com.apple.CommerceCore (1.0 - 26.1) <8C28115C-6EC1-316D-9237-F4FBCBB778C5> /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Frameworks/CommerceCore.framework/Versions/A/CommerceCore
+0x9833e000 - 0x9845affb  com.apple.desktopservices (1.7.3 - 1.7.3) <7157C51D-C695-3C9E-B532-F551E7E55B56> /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv
+0x9845b000 - 0x98488ffb  com.apple.CoreServicesInternal (154.2 - 154.2) <DCCF604B-1DB8-3F09-8122-545E2E7F466D> /System/Library/PrivateFrameworks/CoreServicesInternal.framework/Versions/A/CoreServicesInternal
+0x98489000 - 0x984a8ff3  com.apple.Ubiquity (1.2 - 243.15) <E10A2937-D671-3D14-AF8D-BA25E601F458> /System/Library/PrivateFrameworks/Ubiquity.framework/Versions/A/Ubiquity
+0x984a9000 - 0x9852eff7  com.apple.SearchKit (1.4.0 - 1.4.0) <454E950F-291C-3E95-8F35-05CA0AD6B327> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+0x9852f000 - 0x98538fff  com.apple.DiskArbitration (2.5.2 - 2.5.2) <89822A83-B450-3363-8E9C-9B80CB4450B1> /System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+0x9857f000 - 0x98677ff9  libsqlite3.dylib (9.6.0 - compatibility 9.0.0) <AD7C5914-35F0-37A3-9238-A29D2E26C755> /usr/lib/libsqlite3.dylib
+0x98678000 - 0x9867bffc  libCoreVMClient.dylib (??? - ???) <35B63A60-DF0A-3FB3-ABB8-164B246A43CC> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCoreVMClient.dylib
+0x9867c000 - 0x9868bfff  libGL.dylib (??? - ???) <818E3E6B-9B00-3117-8157-9E95CB59A47B> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+0x9868c000 - 0x98699ff7  com.apple.AppleFSCompression (49 - 1.0) <166AA1F8-E50A-3533-A3B5-8737C5118CC3> /System/Library/PrivateFrameworks/AppleFSCompression.framework/Versions/A/AppleFSCompression
+0x9869a000 - 0x9869bffd  libunc.dylib (25.0.0 - compatibility 1.0.0) <58599CBF-E262-3CEA-AFE1-35560E0177DC> /usr/lib/system/libunc.dylib
+0x9869c000 - 0x98700fff  com.apple.datadetectorscore (4.1 - 269.2) <B4D53047-C613-32F8-9E08-0154EA81B487> /System/Library/PrivateFrameworks/DataDetectorsCore.framework/Versions/A/DataDetectorsCore
+0x98701000 - 0x9898dffb  com.apple.RawCamera.bundle (4.03 - 676) <AD6F72FA-FCA4-37E5-9B4D-6E538BDF70CB> /System/Library/CoreServices/RawCamera.bundle/Contents/MacOS/RawCamera
+0x9898e000 - 0x989c5ffa  com.apple.LDAPFramework (2.4.28 - 194.5) <B7BAC5B9-ABA9-3799-B8B5-D2DED9383C24> /System/Library/Frameworks/LDAP.framework/Versions/A/LDAP
+0x989c6000 - 0x989caff7  libmacho.dylib (829.0.0 - compatibility 1.0.0) <5280A013-4F74-3F74-BE0C-7F612C49F1DC> /usr/lib/system/libmacho.dylib
+0x989cb000 - 0x989e1fff  com.apple.CFOpenDirectory (10.8 - 151.10) <56C3F276-BD1F-3031-8CF9-8F4F481A534E> /System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory
+0x989e2000 - 0x989eafff  libcopyfile.dylib (89.0.0 - compatibility 1.0.0) <4963541B-0254-371B-B29A-B6806888949B> /usr/lib/system/libcopyfile.dylib
+0x989eb000 - 0x989efffe  libcache.dylib (57.0.0 - compatibility 1.0.0) <834FDCA7-FE3B-33CC-A12A-E11E202477EC> /usr/lib/system/libcache.dylib
+0x989f0000 - 0x989fbfff  libcommonCrypto.dylib (50000.0.0 - compatibility 1.0.0) <8EE30FA5-AA8D-3FA6-AB0F-05DA8B0425D9> /usr/lib/system/libcommonCrypto.dylib
+0x989fc000 - 0x98a03ff3  com.apple.NetFS (5.0 - 4.0) <1F7041F2-4E97-368C-8F5D-24153D81BBDB> /System/Library/Frameworks/NetFS.framework/Versions/A/NetFS
+0x98a91000 - 0x98a9dff8  libbz2.1.0.dylib (1.0.5 - compatibility 1.0.0) <7031A4C0-784A-3EAA-93DF-EA1F26CC9264> /usr/lib/libbz2.1.0.dylib
+0x98aad000 - 0x98bfbfff  com.apple.CFNetwork (596.3.3 - 596.3.3) <EC7EF37B-B00E-374D-9E8F-E4E22D741059> /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+0x98bfc000 - 0x98bfcfff  com.apple.Carbon (154 - 155) <604ADD9D-5835-3294-842E-3A4AEBCCB548> /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+0x98bfd000 - 0x98d5affb  com.apple.QTKit (7.7.1 - 2599.24) <39CC892D-2874-33FE-BE30-87FE07D875BD> /System/Library/Frameworks/QTKit.framework/Versions/A/QTKit
+0x98d5b000 - 0x98e58ff7  com.apple.DiskImagesFramework (10.8.3 - 345) <26D0C7F8-E87E-3511-8388-8EE616A39D6D> /System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/DiskImages
+0x98e59000 - 0x98f71ff7  com.apple.coreavchd (5.6.0 - 5600.4.16) <F024C78B-4FAA-38F1-A182-AD0A0A596CBE> /System/Library/PrivateFrameworks/CoreAVCHD.framework/Versions/A/CoreAVCHD
+0x98f72000 - 0x98f89fff  com.apple.GenerationalStorage (1.1 - 132.3) <DD0AA3DB-376D-37F3-AC5B-17AC9B9E0A63> /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/GenerationalStorage
+0x98fc7000 - 0x98fe3fff  libPng.dylib (??? - ???) <BF2CB6F5-A2F1-35A4-93F7-ACA6D7F02084> /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib
+0x98fe4000 - 0x99287ff3  com.apple.CoreImage (8.2.4 - 1.0.1) <BA4EE8D7-FE72-3CC3-801F-B69D8A8B426F> /System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework/Versions/A/CoreImage
+0x99288000 - 0x99298ff2  com.apple.LangAnalysis (1.7.0 - 1.7.0) <875363E7-6D02-3229-A9DD-E5A5568A7D61> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+0x99299000 - 0x992b6fff  libxpc.dylib (140.42.0 - compatibility 1.0.0) <1E419D55-C5C1-33FF-B52E-6C7FFBEA5E1F> /usr/lib/system/libxpc.dylib
+0x992b7000 - 0x992beffb  libunwind.dylib (35.1.0 - compatibility 1.0.0) <E1E8D8B3-3C78-3AB1-B398-C180DC6DCF05> /usr/lib/system/libunwind.dylib
+0x992bf000 - 0x996dcfff  FaceCoreLight (2.4.1 - compatibility 1.0.0) <571DE3F8-CA8A-3E71-9AF4-F06FFE721CE6> /System/Library/PrivateFrameworks/FaceCoreLight.framework/Versions/A/FaceCoreLight
+0x99795000 - 0x997f0ff7  com.apple.AppleVAFramework (5.0.19 - 5.0.19) <3C43A555-0A22-3D7C-A3FB-CFADDDA43E9B> /System/Library/PrivateFrameworks/AppleVA.framework/Versions/A/AppleVA
+0x997f1000 - 0x998e2ffc  libiconv.2.dylib (7.0.0 - compatibility 7.0.0) <B096A9B7-83A6-31B3-8D2F-87D91910BF4C> /usr/lib/libiconv.2.dylib
+0x9993e000 - 0x999d0ffb  libvMisc.dylib (380.6.0 - compatibility 1.0.0) <6DA3A03F-20BE-300D-A664-B50A7B4E4B1A> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
+0x99a1d000 - 0x99a34ff4  com.apple.CoreMediaAuthoring (2.1 - 914) <37C0A2C7-73B3-39BC-8DE1-4A6B75F115FC> /System/Library/PrivateFrameworks/CoreMediaAuthoring.framework/Versions/A/CoreMediaAuthoring
+0x99a35000 - 0x99a35ffd  libOpenScriptingUtil.dylib (??? - ???) <87895E27-88E2-3249-8D0E-B17E76FB00C1> /usr/lib/libOpenScriptingUtil.dylib
+0x99a3a000 - 0x99a4aff7  libsasl2.2.dylib (3.15.0 - compatibility 3.0.0) <D9080BA2-A365-351E-9FF2-7E0D4E8B1339> /usr/lib/libsasl2.2.dylib
+0x99a4b000 - 0x99afffff  com.apple.coreui (2.0 - 181.1) <C15ABF35-B7F5-34ED-A461-386DAF65D96B> /System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+0x99d31000 - 0x99d46fff  com.apple.ImageCapture (8.0 - 8.0) <B8BD421F-D5A9-3FB4-8E89-AD5CFC0D4030> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework/Versions/A/ImageCapture
+0x99d4c000 - 0x99d4dfff  libdnsinfo.dylib (453.19.0 - compatibility 1.0.0) <3B523729-84A8-3D0B-B58C-3FC185060E67> /usr/lib/system/libdnsinfo.dylib
+0x99d4e000 - 0x9a3daff3  com.apple.CoreAUC (6.16.13 - 6.16.13) <3DCF4456-AF8D-3E87-B00C-C56055AF9B8E> /System/Library/PrivateFrameworks/CoreAUC.framework/Versions/A/CoreAUC
+0x9a3db000 - 0x9a3defff  com.apple.help (1.3.2 - 42) <AD7EB1F0-A068-3A2C-9D59-38E59CEC0D96> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help
+0x9a3df000 - 0x9a42bfff  libcorecrypto.dylib (??? - ???) <20EBADBA-D6D6-36F0-AE80-168E9AF13DB6> /usr/lib/system/libcorecrypto.dylib
+0x9a42c000 - 0x9a50dfff  libcrypto.0.9.8.dylib (47.0.0 - compatibility 0.9.8) <D4EFFCFB-206D-3E3D-ADB5-CBAF04EB8838> /usr/lib/libcrypto.0.9.8.dylib
+0x9a519000 - 0x9a560ff3  com.apple.CoreMedia (1.0 - 926.87) <713B7213-D695-3162-9852-DBC114C26178> /System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+0x9a561000 - 0x9a56bffe  com.apple.bsd.ServiceManagement (2.0 - 2.0) <9732BA61-D6F6-3644-82DA-FF0D6FEEFC69> /System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+0x9a56c000 - 0x9a66aff7  libFontParser.dylib (??? - ???) <7D3EB3CC-527E-3A74-816A-59CAFD2260A4> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontParser.dylib
+0x9a69c000 - 0x9a6a0fff  com.apple.IOSurface (86.0.4 - 86.0.4) <6431ACB6-561B-314F-9A2A-FAC1578FCC86> /System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface
+0x9a6a1000 - 0x9a6a7fff  com.apple.print.framework.Print (8.0 - 258) <12AEAD24-6924-3923-9E4A-C5D21231E639> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Print
+0x9a6d7000 - 0x9a73bff3  libstdc++.6.dylib (56.0.0 - compatibility 7.0.0) <F8FA490A-8F3C-3645-ABF5-78926CE9C62C> /usr/lib/libstdc++.6.dylib
+0x9a73c000 - 0x9a767fff  com.apple.shortcut (2.2 - 2.2) <FA94F2BF-37E1-3F16-9085-7BCCB815BAE9> /System/Library/PrivateFrameworks/Shortcut.framework/Versions/A/Shortcut
+Sample analysis of process 12374 written to file /dev/stdout
