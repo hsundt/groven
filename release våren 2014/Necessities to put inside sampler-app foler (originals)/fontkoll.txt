@@ -1,0 +1,1 @@
+2, "FluidR3 GM.SF2";3, (none);4, (none);5, (none);6, (none);7, (none);8, (none);9, (none);10, (none);11, (none);0, "load font...";1, "(- or: load recent font:)";
