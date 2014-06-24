@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 379.0, 44.0, 460.0, 590.0 ],
+		"rect" : [ 462.0, 120.0, 751.0, 631.0 ],
 		"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -71,7 +71,22 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-4",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 25.0, 233.0, 388.0, 62.0 ],
+					"text" : "The delay is not necessary when using the Manual or Temperaments method since these do not use the tuning logic. As such you may select to have the latency occur only when the Adapative Just method is being used.  However, for consistency you may prefer to play with the same amount of delay in all tuning methods and should select to have it always on."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -84,7 +99,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-5",
+					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
@@ -96,7 +111,7 @@
 , 			{
 				"box" : 				{
 					"comment" : "thisp",
-					"id" : "obj-6",
+					"id" : "obj-7",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -109,7 +124,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"id" : "obj-7",
+					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -125,12 +140,12 @@
 					"fontname" : "Book Antiqua",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
-					"id" : "obj-8",
+					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 20.0, 271.0, 21.0 ],
-					"text" : "Breakpoint in Field circle-of-fifths"
+					"patching_rect" : [ 25.0, 21.0, 185.0, 21.0 ],
+					"text" : "Adaptive Just Latency Help:"
 				}
 
 			}
@@ -139,23 +154,38 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
-					"id" : "obj-9",
-					"linecount" : 15,
+					"id" : "obj-10",
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 41.0, 388.0, 174.0 ],
-					"text" : "In Just Intonation, there is no circle-of-fifths; it is a spiral-of-fifths which never completes a perfect octave. As such, when cycling through adjacent pitch fields in Adaptive Just, there is always a breakpoint, a comma, where the field jumps down by eleven  fifths instead of up by one and the tuning of the pitches will drop corresondinly by about 20 cents.  The default breakpoint is between D and A.  The D-A field is centered at Gold-D and Gold-A. The adjacent A-E field, however will jump down to Blue-A and Blue-E.  If you are playing a piece which requires switching back and forth between these two fields, it would not be desirable to have an audible breakpoint at this location.  To minimize this effect, the breakpoint can alternativelly be  set between A and E, E and B (H), or B (H) and F#. \n\nWhen the global reference tone is set to synchronize with the  field center, there will still be a visible breakpoint, but the effect of the comma displacement is less noticeable. The 20 cent gap between gold and blue colors is instead spread out incrementally over all of the pitches"
+					"patching_rect" : [ 25.0, 40.0, 388.0, 96.0 ],
+					"text" : "The Adaptive Just tuning logic can  tune notes played in a chord differently than those same notes played in a melody.  However, when using MIDI or other digital music inputs, there is really no such thing as simultaneous notes (i.e., chords).  The starting ending of all musical events are handled sequentially, one after another, even if it is only a fraction of a millisecond later. As such, in order for the Adaptive Just tuning logic to recognize a set of notes as being part of the same chord, there must be some amount delay; a window of time during which all notes are collected and processed as a group."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-11",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 25.0, 154.0, 388.0, 62.0 ],
+					"text" : "You may set the beginning and ending of this threshold window.  A good place to start is with a minimum of 10 milliseconds and a maximum of 20. A later start time and/or larger window will ensure that more notes will be grouped into the same chord.  The trade-off is that this will produce a larger delay between pressing a key and hearing the resulting sound (not unlike the effect of an organ in a large cathedral).  "
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-6", 0 ]
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

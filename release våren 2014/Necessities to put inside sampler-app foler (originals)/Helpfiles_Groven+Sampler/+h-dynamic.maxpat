@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 379.0, 44.0, 460.0, 590.0 ],
+		"rect" : [ 740.0, 125.0, 489.0, 635.0 ],
 		"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -33,6 +33,21 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-1",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 25.0, 118.0, 388.0, 51.0 ],
+					"text" : "Some external instruments may support pitch bending, allowing a sustained note to incrementally glide to the new tuning color when the Change Color setting is ON. The pitch bend begins immediately when the tuning logic command is received and will span the interval of the indicated bend time (in milliseconds)."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -46,7 +61,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
-					"id" : "obj-2",
+					"id" : "obj-3",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -60,7 +75,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
 					"border" : 1,
-					"id" : "obj-3",
+					"id" : "obj-4",
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -71,7 +86,7 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-4",
+					"id" : "obj-5",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -84,7 +99,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-5",
+					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
@@ -96,7 +111,7 @@
 , 			{
 				"box" : 				{
 					"comment" : "thisp",
-					"id" : "obj-6",
+					"id" : "obj-7",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -109,7 +124,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"id" : "obj-7",
+					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -125,12 +140,12 @@
 					"fontname" : "Book Antiqua",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
-					"id" : "obj-8",
+					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 20.0, 271.0, 21.0 ],
-					"text" : "Breakpoint in Field circle-of-fifths"
+					"patching_rect" : [ 25.0, 21.0, 214.0, 21.0 ],
+					"text" : "Change color after note-on Help:"
 				}
 
 			}
@@ -139,23 +154,23 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
-					"id" : "obj-9",
-					"linecount" : 15,
+					"id" : "obj-10",
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 41.0, 388.0, 174.0 ],
-					"text" : "In Just Intonation, there is no circle-of-fifths; it is a spiral-of-fifths which never completes a perfect octave. As such, when cycling through adjacent pitch fields in Adaptive Just, there is always a breakpoint, a comma, where the field jumps down by eleven  fifths instead of up by one and the tuning of the pitches will drop corresondinly by about 20 cents.  The default breakpoint is between D and A.  The D-A field is centered at Gold-D and Gold-A. The adjacent A-E field, however will jump down to Blue-A and Blue-E.  If you are playing a piece which requires switching back and forth between these two fields, it would not be desirable to have an audible breakpoint at this location.  To minimize this effect, the breakpoint can alternativelly be  set between A and E, E and B (H), or B (H) and F#. \n\nWhen the global reference tone is set to synchronize with the  field center, there will still be a visible breakpoint, but the effect of the comma displacement is less noticeable. The 20 cent gap between gold and blue colors is instead spread out incrementally over all of the pitches"
+					"patching_rect" : [ 25.0, 43.0, 388.0, 62.0 ],
+					"text" : "When the same note (e.g., 'A') is repeated in consecutive chords, the Adaptive Just logic may determine that the tuning color needs to change with the second chord.  If, however, the note is being sustained, it will not change color until it is released.This will be indicated by a blinking light in the pitch box of the forthcoming color  when the Change Color setting is on OFF."
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-6", 0 ]
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

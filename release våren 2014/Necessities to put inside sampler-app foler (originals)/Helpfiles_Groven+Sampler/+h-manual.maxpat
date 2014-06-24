@@ -29,15 +29,52 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Book Antiqua",
-					"fontsize" : 12.0,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"frgb" : 0.0,
-					"id" : "obj-20",
+					"id" : "obj-13",
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 114.0, 100.0, 21.0 ],
-					"text" : "Pitch Box:"
+					"patching_rect" : [ 0.0, 298.0, 390.0, 62.0 ],
+					"text" : "You may create your own scales by individually selecting colored pitches in the pitch box.  These may be saved and added to the menu for future use.  You can also create new scales by selecting RANDOM from the pull-down menu or by capturing the current Adpative Just tuning clicking the tilda button shown above (or the keyboard shortcut Ctrl-F)."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Book Antiqua",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 277.5, 127.0, 21.0 ],
+					"text" : "User-defined scales:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 200.0, 229.0, 175.0, 47.0 ],
+					"pic" : "hlp-pitchboxBottom.jpg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 254.0, 41.0, 127.0, 129.0 ],
+					"pic" : "hlp-manual.jpg"
 				}
 
 			}
@@ -70,17 +107,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "fpic",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 342.0, 256.0, 45.0, 40.0 ],
-					"pic" : "keyb-farge2lys.pct"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "thisp",
 					"id" : "obj-3",
 					"maxclass" : "inlet",
@@ -108,34 +134,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-5",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.0, 296.0, 90.0, 15.0 ],
-					"text" : "Select fixed scale"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-6",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 191.0, 211.0, 50.0, 15.0 ],
-					"text" : "p Tuning?"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Book Antiqua",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -154,27 +152,12 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-8",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 40.0, 393.0, 62.0 ],
-					"text" : "Manual scales are fixed (i.e., not adaptive) tunings which are selected from among the  blue, gold, and/or red shaded regions. When a pitch  button is highlighted, all MIDI-inputs for that pitch-class will be output to the corresponding tuned pitch. Fixed scales may consist of  a blended selection of pitches from all three colors  at the same time to produce a variety of specially tuned scales."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-9",
 					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 135.0, 393.0, 96.0 ],
-					"text" : "Using the pitch box, individual pitches are selected by clicking on a pitch button in the blue, gold, or red shaded regions. The pitch box is arranged in rows of perfect 5ths, and columns of just major thirds. Thus, Blue-E and Gold-B/H form a perfect 5th even though they are from different instruments. The last pitch in each row (far right) is also a perfect 5th above the first pitch in the next row. The three variants of a single pitch-class (e.g., Blue-C, Gold-C, and Red-C) are about 20 cents apart and only one variant can be used at a time. Detailed specifications for tuning the instruments is found in the p-output? help button."
+					"patching_rect" : [ 0.0, 41.0, 254.0, 96.0 ],
+					"text" : "Manual scales are fixed (i.e., not adaptive) tunings which are selected from among the  blue, gold, and/or red shaded regions. When a pitch  button is highlighted, all MIDI-inputs for that pitch-class will be output to the corresponding tuned pitch. Fixed scales may consist of  a blended selection of pitches from all three colors at the same time to produce a variety of specially tuned scales."
 				}
 
 			}
@@ -184,12 +167,12 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-10",
-					"linecount" : 4,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 258.0, 340.0, 51.0 ],
-					"text" : "To send all 12 pitches to the same instrument, you may click on the colored keyboard icons in the bottom row of the pitch-box. Additional preset scales are also available from the pull-down menu underneath the pitch-box."
+					"patching_rect" : [ 0.0, 170.0, 381.0, 96.0 ],
+					"text" : "The pull-down menu contains a selection of preset scales including standard major/minor scales in Just, Pythagorean and Overtone tunings as well as specific scales used in Norwegian folk music.  These scales may be transposed by selecting a new tonic.  (Tonics appearing in brackets [F#] are only available for use with the built-in Sampler.)\nYou may choose single-color scales \nby clicking on one of the colored keyboard \nbuttons in the bottom of the pitch box."
 				}
 
 			}
@@ -202,7 +185,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 239.0, 100.0, 21.0 ],
+					"patching_rect" : [ 0.0, 149.0, 100.0, 21.0 ],
 					"text" : "Preset scales:"
 				}
 
@@ -219,10 +202,17 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "keyb-farge2lys.pct",
-				"bootpath" : "/Users/Code/Notam/minisynth120107litt mod",
-				"patcherrelativepath" : "../minisynth120107litt mod",
-				"type" : "PICT",
+				"name" : "hlp-manual.jpg",
+				"bootpath" : "/Users/Code/Notam/groven-git-tower/release våren 2014/Necessities to put inside sampler-app foler (originals)/Helpfiles_Groven+Sampler",
+				"patcherrelativepath" : "",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hlp-pitchboxBottom.jpg",
+				"bootpath" : "/Users/Code/Notam/groven-git-tower/release våren 2014/Necessities to put inside sampler-app foler (originals)/Helpfiles_Groven+Sampler",
+				"patcherrelativepath" : "",
+				"type" : "JPEG",
 				"implicit" : 1
 			}
  ]
