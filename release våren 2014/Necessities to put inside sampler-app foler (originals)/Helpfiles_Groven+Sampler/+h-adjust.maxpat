@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 614.0, 113.0, 477.0, 543.0 ],
+		"rect" : [ 657.0, 109.0, 477.0, 543.0 ],
 		"bgcolor" : [ 0.996078, 1.0, 0.933333, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -33,8 +33,8 @@
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.0, 40.0, 124.0, 130.0 ],
-					"pic" : "adjust-pic.jpg"
+					"patching_rect" : [ 260.0, 40.0, 124.0, 130.0 ],
+					"pic" : "hlp-adjust.jpg"
 				}
 
 			}
@@ -101,8 +101,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 448.0, 130.0, 21.0 ],
-					"text" : "Keyfinder & Floating:"
+					"patching_rect" : [ 0.0, 422.0, 173.0, 21.0 ],
+					"text" : "Keyfinder & Floating Field:"
 				}
 
 			}
@@ -115,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 297.0, 100.0, 21.0 ],
+					"patching_rect" : [ 0.0, 294.0, 100.0, 21.0 ],
 					"text" : "Mode:"
 				}
 
@@ -129,7 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 173.0, 100.0, 21.0 ],
+					"patching_rect" : [ 0.0, 169.0, 100.0, 21.0 ],
 					"text" : "Field:"
 				}
 
@@ -173,7 +173,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 192.0, 390.0, 96.0 ],
+					"patching_rect" : [ 0.0, 188.0, 390.0, 96.0 ],
 					"text" : "To prevent drifting of the tonic, a pitch-field is selected before playing in accordance with the key or keys of the piece. Each pitch-field contains 22 tones in a sequence of 5ths. This means that two of the pitches remain fixed, while the other ten are variable. Field C-G, for example, contains 22 consecutive tones from Blue-D through Red-F, with Gold-C and Gold-G as fixed-tones. The keys best suited to this field include C and G major and minor, and others listed in the bottom corner of the window. Experiment with different pitch-fields to find the one best suited for each piece or change fields in the middle of a piece if desired."
 				}
 
@@ -188,8 +188,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 316.0, 409.0, 96.0 ],
-					"text" : "The standard mode utilizes 22 tones as described above. Two alternate field settings, Py and Z, are available, each of which uses an array of only 18 tones: 6 fixed and 6 variable. In a Py-field, the fixed pitches form a sequence of 5ths, starting with the same two fixed-tones used in the standard field. This produces more Pythagorean thirds in place of just thirds. In a Z-field, the fixed pitches include the standard fixed-tones plus the major thirds above and below both of these. Both of these fields have a more limited range of suitable keys and will have more distinct key coloration as the music modulates as not all of the triads will be tuned the same."
+					"patching_rect" : [ 0.0, 313.0, 390.0, 96.0 ],
+					"text" : "The Standard mode utilizes 22 tones as described above. Two alternate field settings, Py and Z, are available, each of which uses an array of only 18 tones: 6 fixed and 6 variable. In a Py-Line, the fixed pitches form a sequence of 5ths, starting with the same two fixed-tones used in the standard field. This produces more Pythagorean thirds in place of just thirds. In a Z-Stack, the fixed pitches include the standard fixed-tones plus the major thirds above and below both of these. Both of these fields have a more limited range of suitable keys and will have more distinct key coloration as the music modulates as not all of the triads will be tuned the same."
 				}
 
 			}
@@ -199,11 +199,12 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-11",
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 467.0, 375.0, 18.0 ],
-					"text" : "Describe Keyfinder and Floating fields"
+					"patching_rect" : [ 0.0, 441.0, 390.0, 74.0 ],
+					"text" : "Keyfinder is a tool which analyzes the incoming note stream and predicts the current tonality based on a statistical model. When Mode: Keyfinder is selected, the AdJust field will change automatically to match the current key.\nFloating Fields is a similar automatic field selection function. In this case, when the active pitches reach the left or right edge of the given pitch range, the field will automatically slide over to the adjacent field."
 				}
 
 			}
@@ -219,8 +220,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "adjust-pic.jpg",
-				"bootpath" : "/Users/Code/Notam/Help text files for setup and prefs windows",
+				"name" : "hlp-adjust.jpg",
+				"bootpath" : "/Users/Code/Notam/groven-git-tower/release våren 2014/Necessities to put inside sampler-app foler (originals)/Helpfiles_Groven+Sampler",
 				"patcherrelativepath" : "",
 				"type" : "JPEG",
 				"implicit" : 1
