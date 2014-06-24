@@ -1,1 +1,1 @@
-FluidR3‡GM.SF2, dhk 240 ssd//Applications/Max 6.1/Groven+Sampler.app/Contents/FluidR3 GM.SF2;
+GrovenTune‡sounds.sf2, ./Groven+Sampler.app/Contents/GrovenTune sounds.sf2;
