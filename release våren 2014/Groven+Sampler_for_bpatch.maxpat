@@ -18239,7 +18239,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-7",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "MIDISPORT 2x4 Port A", ",", "MIDISPORT 2x4 Port B", ",", "MIDISPORT 2x4 Port C", ",", "MIDISPORT 2x4 Port D" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -18330,7 +18330,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-12",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "MIDISPORT 2x4 Port A", ",", "MIDISPORT 2x4 Port B", ",", "MIDISPORT 2x4 Port C", ",", "MIDISPORT 2x4 Port D" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -18461,7 +18461,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-19",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "MIDISPORT 2x4 Port A", ",", "MIDISPORT 2x4 Port B", ",", "MIDISPORT 2x4 Port C", ",", "MIDISPORT 2x4 Port D" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -18551,7 +18551,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-24",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "MIDISPORT 2x4 Port A", ",", "MIDISPORT 2x4 Port B", ",", "MIDISPORT 2x4 Port C", ",", "MIDISPORT 2x4 Port D" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -19168,7 +19168,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-64",
-													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "MIDISPORT 2x4 Port A", ",", "MIDISPORT 2x4 Port B", ",", "MIDISPORT 2x4 Port C", ",", "MIDISPORT 2x4 Port D", ",", "none" ],
+													"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "none" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -19248,7 +19248,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-69",
-													"items" : [ "to Max 1", ",", "to Max 2", ",", "MIDISPORT 2x4 Port A", ",", "MIDISPORT 2x4 Port B" ],
+													"items" : [ "to Max 1", ",", "to Max 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -19274,7 +19274,7 @@
 													"framecolor" : [ 0.388235, 0.47451, 0.364706, 1.0 ],
 													"hltcolor" : [ 0.886275, 0.878431, 0.745098, 1.0 ],
 													"id" : "obj-70",
-													"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire", ",", "Live" ],
+													"items" : [ "None", ",", "Core Audio", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire", ",", "Live" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -44832,7 +44832,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 548.0, 242.0, 45.0, 45.0 ]
+									"patching_rect" : [ 550.0, 242.0, 45.0, 45.0 ]
 								}
 
 							}
@@ -44986,9 +44986,658 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"frgb" : 0.0,
+													"id" : "obj-66",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 664.5, 225.0, 44.0, 21.0 ],
+													"presentation_rect" : [ 663.5, 227.0, 0.0, 0.0 ],
+													"text" : "."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+													"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+													"bgovercolor" : [ 0.0, 1.0, 0.0, 0.0 ],
+													"border" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"id" : "obj-65",
+													"maxclass" : "textbutton",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 614.0, 224.0, 64.25, 22.0 ],
+													"presentation_rect" : [ 1367.5, 719.0, 0.0, 0.0 ],
+													"rounded" : 6.0,
+													"text" : "NOTAM",
+													"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+													"textoncolor" : [ 1.0, 0.0, 0.0, 0.67 ],
+													"textovercolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"frgb" : 0.0,
+													"id" : "obj-62",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 294.5, 176.0, 463.0, 21.0 ],
+													"presentation_rect" : [ 468.25, 933.0, 0.0, 0.0 ],
+													"text" : "is a Max/MSP integration of Fluid Synth by Peter Hanappe et al."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"frgb" : 0.0,
+													"id" : "obj-61",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 488.5, 159.0, 135.0, 21.0 ],
+													"presentation_rect" : [ 469.25, 892.0, 0.0, 0.0 ],
+													"text" : "by Norbert Schnell at"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"frgb" : 0.0,
+													"id" : "obj-60",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 294.5, 159.0, 129.0, 21.0 ],
+													"presentation_rect" : [ 470.25, 831.0, 0.0, 0.0 ],
+													"text" : "Sämpler is based on"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"frgb" : 0.0,
+													"id" : "obj-59",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 294.5, 140.0, 463.0, 21.0 ],
+													"presentation_rect" : [ 129.0, 932.0, 0.0, 0.0 ],
+													"text" : "GrovenMax is based on Eivind Groven's automatic just intonation system."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 14.0,
+													"frgb" : 0.0,
+													"id" : "obj-58",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 83.0, 803.0, 93.0, 22.0 ],
+													"presentation_rect" : [ 390.0, 872.0, 0.0, 0.0 ],
+													"text" : "(sämpler) for"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 14.0,
+													"frgb" : 0.0,
+													"id" : "obj-47",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 183.75, 847.0, 33.0, 22.0 ],
+													"presentation_rect" : [ 463.5, 878.0, 0.0, 0.0 ],
+													"text" : "and"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 14.0,
+													"frgb" : 0.0,
+													"id" : "obj-48",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 83.0, 825.0, 302.0, 22.0 ],
+													"presentation_rect" : [ 359.75, 856.0, 0.0, 0.0 ],
+													"text" : "design by Dag Henning Kalvøy. Supported by"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 14.0,
+													"frgb" : 0.0,
+													"id" : "obj-49",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 218.25, 803.0, 197.75, 22.0 ],
+													"presentation_rect" : [ 655.0, 834.0, 0.0, 0.0 ],
+													"text" : ". Additional programming and"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 14.0,
+													"frgb" : 0.0,
+													"id" : "obj-50",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 266.25, 781.0, 166.0, 22.0 ],
+													"presentation_rect" : [ 359.75, 834.0, 0.0, 0.0 ],
+													"text" : "and Dag Henning Kalvøy"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+													"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+													"bgovercolor" : [ 0.0, 1.0, 0.0, 0.0 ],
+													"border" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 14.0,
+													"id" : "obj-51",
+													"maxclass" : "textbutton",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 79.0, 781.0, 195.5, 22.0 ],
+													"presentation_rect" : [ 613.0, 812.0, 0.0, 0.0 ],
+													"rounded" : 6.0,
+													"text" : "Western Michigan University",
+													"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+													"textoncolor" : [ 1.0, 0.0, 0.0, 0.67 ],
+													"textovercolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+													"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+													"bgovercolor" : [ 0.0, 1.0, 0.0, 0.0 ],
+													"border" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 14.0,
+													"id" : "obj-52",
+													"maxclass" : "textbutton",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 83.0, 847.0, 103.75, 22.0 ],
+													"presentation_rect" : [ 359.75, 878.0, 0.0, 0.0 ],
+													"rounded" : 6.0,
+													"text" : "Norsk kulturråd",
+													"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+													"textoncolor" : [ 1.0, 0.0, 0.0, 0.67 ],
+													"textovercolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+													"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+													"bgovercolor" : [ 0.0, 1.0, 0.0, 0.0 ],
+													"border" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 14.0,
+													"id" : "obj-53",
+													"maxclass" : "textbutton",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 165.0, 803.0, 64.25, 22.0 ],
+													"presentation_rect" : [ 601.75, 834.0, 0.0, 0.0 ],
+													"rounded" : 6.0,
+													"text" : "NOTAM",
+													"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+													"textoncolor" : [ 1.0, 0.0, 0.0, 0.67 ],
+													"textovercolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+													"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+													"bgovercolor" : [ 0.0, 1.0, 0.0, 0.0 ],
+													"border" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 14.0,
+													"id" : "obj-54",
+													"maxclass" : "textbutton",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 211.75, 847.0, 110.5, 22.0 ],
+													"presentation_rect" : [ 494.5, 878.0, 0.0, 0.0 ],
+													"rounded" : 6.0,
+													"text" : "Grovenstiftelsen",
+													"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+													"textoncolor" : [ 1.0, 0.0, 0.0, 0.67 ],
+													"textovercolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 14.0,
+													"frgb" : 0.0,
+													"id" : "obj-55",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 83.0, 759.0, 268.0, 22.0 ],
+													"presentation_rect" : [ 359.75, 812.0, 0.0, 0.0 ],
+													"text" : "by David Løberg Code (GrovenTune) for"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"frgb" : 0.0,
+													"id" : "obj-41",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 388.0, 89.0, 31.0, 21.0 ],
+													"presentation_rect" : [ 1190.25, 815.0, 0.0, 0.0 ],
+													"text" : "and"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"frgb" : 0.0,
+													"id" : "obj-42",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 294.5, 69.0, 381.0, 21.0 ],
+													"presentation_rect" : [ 955.5, 815.0, 0.0, 0.0 ],
+													"text" : "programming and design by Dag Henning Kalvøy. Supported by"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"frgb" : 0.0,
+													"id" : "obj-39",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 565.75, 50.0, 84.75, 21.0 ],
+													"presentation_rect" : [ 1328.0, 775.0, 0.0, 0.0 ],
+													"text" : ". Additional"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"frgb" : 0.0,
+													"id" : "obj-40",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 294.5, 50.0, 232.0, 21.0 ],
+													"presentation_rect" : [ 954.5, 775.0, 0.0, 0.0 ],
+													"text" : "and Dag Henning Kalvøy (sämpler) for"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"frgb" : 0.0,
+													"id" : "obj-37",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 294.5, 224.0, 329.0, 21.0 ],
+													"presentation_rect" : [ 1174.0, 662.0, 0.0, 0.0 ],
+													"text" : "Check for updates and other Groven related software at"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"frgb" : 0.0,
+													"id" : "obj-38",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 646.25, 159.0, 98.0, 21.0 ],
+													"presentation_rect" : [ 881.75, 662.0, 0.0, 0.0 ],
+													"text" : ". fluidsynth~"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"frgb" : 0.0,
+													"id" : "obj-36",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 509.5, 89.0, 44.0, 21.0 ],
+													"presentation_rect" : [ 1179.75, 639.0, 0.0, 0.0 ],
+													"text" : "."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+													"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+													"bgovercolor" : [ 0.0, 1.0, 0.0, 0.0 ],
+													"border" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"id" : "obj-35",
+													"maxclass" : "textbutton",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 520.75, 30.0, 195.5, 22.0 ],
+													"presentation_rect" : [ 1112.0, 690.0, 0.0, 0.0 ],
+													"rounded" : 6.0,
+													"text" : "Western Michigan University",
+													"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+													"textoncolor" : [ 1.0, 0.0, 0.0, 0.67 ],
+													"textovercolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+													"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+													"bgovercolor" : [ 0.0, 1.0, 0.0, 0.0 ],
+													"border" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"id" : "obj-34",
+													"maxclass" : "textbutton",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 411.75, 159.0, 82.5, 21.0 ],
+													"presentation_rect" : [ 1126.0, 437.0, 0.0, 0.0 ],
+													"rounded" : 6.0,
+													"text" : "Fluidsynth~",
+													"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+													"textoncolor" : [ 1.0, 0.0, 0.0, 0.67 ],
+													"textovercolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+													"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+													"bgovercolor" : [ 0.0, 1.0, 0.0, 0.0 ],
+													"border" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"id" : "obj-33",
+													"maxclass" : "textbutton",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 613.75, 158.0, 39.5, 20.0 ],
+													"presentation_rect" : [ 1015.0, 418.0, 0.0, 0.0 ],
+													"rounded" : 6.0,
+													"text" : "Ircam",
+													"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+													"textoncolor" : [ 1.0, 0.0, 0.0, 0.67 ],
+													"textovercolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+													"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+													"bgovercolor" : [ 0.0, 1.0, 0.0, 0.0 ],
+													"border" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"id" : "obj-32",
+													"maxclass" : "textbutton",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 291.5, 88.0, 103.75, 22.0 ],
+													"presentation_rect" : [ 950.0, 368.0, 0.0, 0.0 ],
+													"rounded" : 6.0,
+													"text" : "Norsk kulturråd",
+													"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+													"textoncolor" : [ 1.0, 0.0, 0.0, 0.67 ],
+													"textovercolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+													"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+													"bgovercolor" : [ 0.0, 1.0, 0.0, 0.0 ],
+													"border" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"id" : "obj-31",
+													"maxclass" : "textbutton",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 514.5, 49.0, 64.25, 22.0 ],
+													"presentation_rect" : [ 951.0, 320.0, 0.0, 0.0 ],
+													"rounded" : 6.0,
+													"text" : "NOTAM",
+													"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+													"textoncolor" : [ 1.0, 0.0, 0.0, 0.67 ],
+													"textovercolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+													"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+													"bgovercolor" : [ 0.0, 1.0, 0.0, 0.0 ],
+													"border" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"id" : "obj-30",
+													"maxclass" : "textbutton",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 412.0, 88.0, 110.5, 22.0 ],
+													"presentation_rect" : [ 951.0, 275.0, 0.0, 0.0 ],
+													"rounded" : 6.0,
+													"text" : "Grovenstiftelsen",
+													"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
+													"textoncolor" : [ 1.0, 0.0, 0.0, 0.67 ],
+													"textovercolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-29",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1387.0, 202.5, 113.0, 18.0 ],
+													"presentation_rect" : [ 1387.0, 207.0, 0.0, 0.0 ],
+													"text" : "www.kulturradet.no"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-28",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1355.0, 166.0, 144.0, 18.0 ],
+													"presentation_rect" : [ 1350.0, 170.0, 0.0, 0.0 ],
+													"text" : "http://www.fluidsynth.org/"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-27",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1299.0, 126.0, 116.0, 18.0 ],
+													"presentation_rect" : [ 1299.0, 126.0, 0.0, 0.0 ],
+													"text" : "www.orgelhuset.org"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-26",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1157.0, 96.0, 190.0, 18.0 ],
+													"presentation_rect" : [ 1212.0, 95.0, 0.0, 0.0 ],
+													"text" : "www.wmich.edu/mus-theo/groven"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-25",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1076.0, 63.0, 179.0, 18.0 ],
+													"text" : "www.notam02.no/renstemming/"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-21",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1076.0, 261.0, 149.0, 20.0 ],
+													"text" : "prepend launchbrowser"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-23",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 1076.0, 287.0, 90.0, 20.0 ],
+													"text" : "forward max"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-13",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1365.0, 239.0, 79.0, 18.0 ],
+													"text" : "www.ircam.fr"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 1,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"frgb" : 0.0,
@@ -44996,37 +45645,23 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 1004.0, 478.0, 167.0, 20.0 ],
-													"text" : "version 1'2 - jan '06"
+													"patching_rect" : [ 448.25, 346.0, 175.0, 20.0 ],
+													"text" : "version 2.0 – june 2014"
 												}
 
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial",
+													"fontface" : 1,
+													"fontname" : "Lucida Grande Bold",
 													"fontsize" : 24.0,
 													"frgb" : 0.0,
 													"id" : "obj-2",
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 803.0, 469.0, 202.0, 33.0 ],
+													"patching_rect" : [ 954.75, 655.0, 229.0, 35.0 ],
 													"text" : "Groven+Sämpler"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 10.0,
-													"frgb" : 0.0,
-													"id" : "obj-3",
-													"linecount" : 3,
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 803.0, 519.0, 367.0, 40.0 ],
-													"text" : "by David Løberg Code (GrovenMax) for Western Michigan University, and Dag Henning Kalvøy (Sämpler) for NOTAM. With support from (sponsed by?) Norsk kulturråd and Grovenstiftelsen."
 												}
 
 											}
@@ -45035,13 +45670,27 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"frgb" : 0.0,
-													"id" : "obj-4",
-													"linecount" : 6,
+													"id" : "obj-3",
+													"linecount" : 3,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 803.0, 658.0, 241.0, 87.0 ],
-													"text" : "Western Michigan University: www._____;\rNOTAM: www.notam02.no;\rGrovenstiftelsen: www.__________;\rNorsk kulturråd: www.________;\rNew versions of Groven+Sämpler: www.notam02.no/____;\r"
+													"patching_rect" : [ 803.0, 519.0, 363.0, 47.0 ],
+													"text" : "by David Løberg Code (GrovenMax) for Western Michigan University, and Dag Henning Kalvøy (Sämpler) for NOTAM. With support from (sponsed by?) Norsk kulturråd and Grovenstiftelsen."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 13.0,
+													"frgb" : 0.0,
+													"id" : "obj-4",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 294.5, 31.0, 250.0, 21.0 ],
+													"text" : "by David Løberg Code (GrovenTune) for"
 												}
 
 											}
@@ -45063,14 +45712,14 @@
 , 											{
 												"box" : 												{
 													"fontname" : "Arial",
-													"fontsize" : 10.0,
+													"fontsize" : 12.0,
 													"frgb" : 0.0,
 													"id" : "obj-6",
 													"linecount" : 3,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 803.0, 571.0, 367.0, 40.0 ],
+													"patching_rect" : [ 803.0, 571.0, 417.0, 47.0 ],
 													"text" : "GrovenMax is based on Eivind Groven's automatic just intonation system. Sämpler is based on fluidsynth~ by Norbert Schnell at IRCAM. fluidsynth~ is a Max/MSP integration of Fluid Synth by Peter Hanappe et al."
 												}
 
@@ -45099,7 +45748,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "bang", "bang", "", "int" ],
-													"patching_rect" : [ 0.0, 1.0, 803.0, 398.0 ]
+													"patching_rect" : [ -2.0, -1.0, 803.0, 398.0 ]
 												}
 
 											}
@@ -45138,7 +45787,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ -1.0, 0.0, 837.0, 423.0 ],
-													"pic" : "3forks=piano-splash2.pct"
+													"pic" : "dhk 240 ssd:/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Splash 3fork almost empty.jpeg"
 												}
 
 											}
@@ -45149,6 +45798,132 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-13", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-23", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-21", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-25", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-26", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-27", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-28", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-29", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-27", 0 ],
+													"disabled" : 0,
+													"hidden" : 1,
+													"source" : [ "obj-30", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-25", 0 ],
+													"disabled" : 0,
+													"hidden" : 1,
+													"source" : [ "obj-31", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"disabled" : 0,
+													"hidden" : 1,
+													"source" : [ "obj-32", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-13", 0 ],
+													"disabled" : 0,
+													"hidden" : 1,
+													"source" : [ "obj-33", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-28", 0 ],
+													"disabled" : 0,
+													"hidden" : 1,
+													"source" : [ "obj-34", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-26", 0 ],
+													"disabled" : 0,
+													"hidden" : 1,
+													"source" : [ "obj-35", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-25", 0 ],
+													"disabled" : 0,
+													"hidden" : 1,
+													"source" : [ "obj-65", 0 ]
 												}
 
 											}
@@ -97429,7 +98204,8 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 452.0, 477.0, 219.0, 18.0 ]
+																	"patching_rect" : [ 452.0, 477.0, 219.0, 18.0 ],
+																	"text" : "GrovenTune‡sounds.sf2"
 																}
 
 															}
@@ -99034,7 +99810,7 @@
 													"framecolor" : [ 0.109804, 0.176471, 0.082353, 1.0 ],
 													"hltcolor" : [ 1.0, 0.901961, 0.098039, 1.0 ],
 													"id" : "obj-65",
-													"items" : "<empty>",
+													"items" : [ "Accord1.SF2", ",", "english organ_102.sf2", ",", "example.sf2", ",", "German8.sf2", ",", "langsin.sf2", ",", "Rhodes_73.SF2", ",", "saz.sf2", ",", "Steinway Grand Piano 1.2.SF2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -138870,6 +139646,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "folderkoll.txt",
+				"bootpath" : "/Applications/Max 6.1/Groven+Sampler.app/Contents",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Groven+Sampler.app/Contents",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "fontskoll.txt",
 				"bootpath" : "/Applications/Max 6.1/Groven+Sampler.app/Contents",
 				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Groven+Sampler.app/Contents",
@@ -139031,10 +139814,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "3forks=piano-splash2.pct",
-				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics/Quickdraw-pct (any alpha-ch won't work)",
-				"patcherrelativepath" : "./Graphics/Quickdraw-pct (any alpha-ch won't work)",
-				"type" : "PICT",
+				"name" : "Splash 3fork almost empty.jpeg",
+				"bootpath" : "/Users/dhk/Documents/NOTAM-ting/Groven GitHub/release våren 2014/Graphics",
+				"patcherrelativepath" : "./Graphics",
+				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
